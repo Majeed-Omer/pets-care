@@ -15,7 +15,7 @@
 
     <pre style="text-align:center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente repudiandae rem deleniti 
-            consequuntur odit vel facere assumenda quasi dolorem adipisci 
+vel facere assumenda quasi dolorem adipisci 
             accusantium totam odio praesentium ducimus libero, delectus est fugiat sunt.
         </pre>
 </body>    
