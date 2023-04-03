@@ -41,13 +41,13 @@ class AnimalController extends Controller
             'name'          =>  'required',
             'species'         =>  'required',
             'birth_date'         =>  'required',
-            'notes'         =>  'required',
-            'images'         =>  'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=1000,max_height=1000'
+            'notes'         =>  'required'
+            // 'images'         =>  'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=1000,max_height=1000'
         ]);
 
-        $file_name = time() . '.' . request()->images->getClientOriginalExtension();
+        // $file_name = time() . '.' . request()->images->getClientOriginalExtension();
 
-        request()->images->move(public_path('images'), $file_name);
+        // request()->images->move(public_path('images'), $file_name);
 
         $animal = new Animal;
 
@@ -55,7 +55,7 @@ class AnimalController extends Controller
         $animal->species = $request->species;
         $animal->birth_date = $request->birth_date;
         $animal->notes = $request->notes;
-        $animal->images = $file_name;
+        // $animal->images = $file_name;
 
         $animal->save();
 
@@ -97,18 +97,18 @@ class AnimalController extends Controller
             'name'      =>  'required',
             'species'     =>  'required',
             'birth_date'     =>  'required',
-            'notes'     =>  'required',
-            'images'     =>  'image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=1000,max_height=1000'
+            'notes'     =>  'required'
+            // 'images'     =>  'image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=1000,max_height=1000'
         ]);
 
-        $images = $request->hidden_images;
+        // $images = $request->hidden_images;
 
-        if($request->images != '')
-        {
-            $images = time() . '.' . request()->images->getClientOriginalExtension();
+        // if($request->images != '')
+        // {
+        //     $images = time() . '.' . request()->images->getClientOriginalExtension();
 
-            request()->images->move(public_path('images'), $images);
-        }
+        //     request()->images->move(public_path('images'), $images);
+        // }
 
         $animal = Animal::find($request->hidden_id);
 

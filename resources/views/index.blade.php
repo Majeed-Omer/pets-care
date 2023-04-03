@@ -42,12 +42,7 @@
 				<input type="date" name="birth_date" class="form-control" />
 				</div>
 			</div>
-			<div class="row mb-4">
-				<label class="col-sm-2 col-label-form">وێنە</label>
-				<div class="col-sm-10">
-					<input type="file" name="images" />
-				</div>
-			</div>
+			
 			<div class="row mb-3">
 				<label class="col-sm-2 col-label-form">زانیاری</label>
 				<div class="col-sm-10">
@@ -55,7 +50,7 @@
 				</div>
 			</div>
 			<div class="text-center">
-				<input type="submit" class="btn btn-primary" value="ناردن" />
+				<input type="submit" value="ناردن" />
 			</div>	
 		</form>
 	</div>
@@ -65,7 +60,7 @@
 			
 		</div>
 	</div>
-
+<br><br><br><br>
 	<div class="card-body">
 			
 			@if(count($data) > 0)
@@ -73,22 +68,21 @@
 				@foreach($data as $row)
 
 					
-					
-					<div class="row">
-  <div class="column">
-  <img src="{{ asset('images/' . $row->images) }}" width="75" />
-  </div>
-</div> 
+		<div>
+  <td>{{ $row->name }}</td>
+  <td>{{ $row->species }}</td>
+  <td>{{ $row->birth_date }}</td>	
+		</div>			
+  
 
 				@endforeach
 
 			@else
 				<tr>
-					<td colspan="5" class="text-center">No Data Found</td>
+					<td colspan="5" class="text-center">هیچ وێنەیەک نییە</td>
 				</tr>
 			@endif
 		{!! $data->links() !!}
 	</div>
-</div>
 
 @endsection

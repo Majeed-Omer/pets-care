@@ -139,30 +139,6 @@ input[type="submit"] {
 
   <br><br><br><br>
 
-	<!-- <div class="box">
-		<a class="button" href="#divOne">ئاژەڵەکەت زیادبکە</a>
-	</div>
-	<div class="overlay" id="divOne">
-		<div class="wrapper">
-			<h2>تکایە فۆڕمەکە پڕبکەکەوە</h2><a class="close" href="#">&times;</a>
-			<div class="content">
-				<div class="container">
-					<form>
-						<label>ناو</label>
-						<input placeholder="ناوەکەی.." type="text">
-						<label>جۆر</label>
-						<input placeholder="جۆر.." type="text">
-						<label>بەرواری لەدایکبوونی</label>
-						<input placeholder="لەدایکبووی.." type="date">
-						<label>زانیاری زیادە</label> 
-						<textarea iplaceholder="شتەک بنووسە.."></textarea>
-						<input type="submit" value="ناردن">
-					</form>
-				</div>
-			</div>
-		</div>
-	</div> -->
-<br>
 <!-- <div class="row">
   <div class="column">
     <img src="images/cat.jpg" alt="Snow" style="width:100%">
