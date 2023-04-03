@@ -20,11 +20,7 @@
   clear: both;
   display: table;
 }
-/* body {
-	font-family: 'Montserrat', sans-serif;
-	background: #e7e7e7;
-	height: 100vh;
-} */
+
 .box {
 	text-align: center;
 }
