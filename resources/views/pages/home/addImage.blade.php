@@ -1,14 +1,5 @@
 @extends('pages.home.home')
-
 @section('content')
-
-@if($message = Session::get('success'))
-
-<div class="alert alert-success">
-	{{ $message }}
-</div>
-
-@endif
 
 <div class="box">
 		<a class="button" href="#divOne">ئاژەڵەکەت زیادبکە</a>
@@ -64,19 +55,19 @@
 			
 		</div>
 	</div>
-<br><br><br><br>
+<br><br><br>
 	<div class="card-body">
 			
 			@if(count($data) > 0)
 
 				@foreach($data as $row)
-				      <div>
-					    <img src="{{ asset('images/' . $row->images) }}" width="100" height="100" style="margin-left: 5px"/>
-	                       {{ $row->name }}
-						   {{ $row->species }}
-                           {{ $row->birth_date }}
-                        </div>
-						 
+				<div  class="column">
+					<img class="imganimal" src="{{ asset('images/' . $row->images) }}" width="150" height="120"/>
+	                      <p class="panimal">{{ $row->name }}</p>
+						  <p>{{ $row->species }}</p>
+                          <p>{{ $row->birth_date }}</p>
+                </div>
+       
 				@endforeach
 
 			@else
@@ -85,6 +76,5 @@
 				</tr>
 			@endif
 		{!! $data->links() !!}
-	</div>
 
 @endsection
