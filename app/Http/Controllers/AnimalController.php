@@ -16,7 +16,7 @@ class AnimalController extends Controller
     {
         $data = Animal::latest()->paginate(5);
 
-        return view('index', compact('data'))->with('i', (request()->input('page', 1) - 1) * 5);
+        return view('pages.home.addImage', compact('data'))->with('i', (request()->input('page', 1) - 1) * 5);
     }
 
     /**
@@ -41,7 +41,7 @@ class AnimalController extends Controller
             'name'          =>  'required',
             'species'         =>  'required',
             'birth_date'         =>  'required',
-            'images'         =>  'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=1000,max_height=1000',
+            'images'         =>  'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=2000,max_height=2000',
             'notes'         =>  'required'
         ]);
 
@@ -59,7 +59,7 @@ class AnimalController extends Controller
 
         $animal->save();
 
-        return redirect()->route('animals.index')->with('success', 'Animal Added successfully.');
+        return redirect()->route('home.index')->with('success', 'Animal Added successfully.');
     }
 
     /**
@@ -70,7 +70,7 @@ class AnimalController extends Controller
      */
     public function show(Animal $animal)
     {
-        return view('show', compact('animal'));
+        return view('show', compact('home'));
     }
 
     /**
@@ -81,7 +81,7 @@ class AnimalController extends Controller
      */
     public function edit(Animal $animal)
     {
-        return view('edite', compact('animal'));
+        return view('edite', compact('home'));
     }
 
     /**
@@ -97,7 +97,7 @@ class AnimalController extends Controller
             'name'      =>  'required',
             'species'     =>  'required',
             'birth_date'     =>  'required',
-            'images'     =>  'image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=1000,max_height=1000',
+            'images'     =>  'image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=2000,max_height=2000',
             'notes'     =>  'required'
         ]);
 
@@ -124,7 +124,7 @@ class AnimalController extends Controller
 
         $animal->save();
 
-        return redirect()->route('animals.index')->with('success', 'Animal Data has been updated successfully');
+        return redirect()->route('home')->with('success', 'Animal Data has been updated successfully');
     }
 
     /**
@@ -137,6 +137,6 @@ class AnimalController extends Controller
     {
         $animal->delete();
 
-        return redirect()->route('animals.index')->with('success', 'Animal Data deleted successfully');
+        return redirect()->route('home')->with('success', 'Animal Data deleted successfully');
     }
 }

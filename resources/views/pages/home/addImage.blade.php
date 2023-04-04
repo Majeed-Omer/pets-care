@@ -20,9 +20,8 @@
 				<div class="container">
 					
 					<div class="card">
-	<div class="card-header">Add Animal</div>
 	<div class="card-body">
-		<form method="post" action="{{ route('animals.store') }}" enctype="multipart/form-data">
+		<form method="post" action="{{ route('home.store') }}" enctype="multipart/form-data">
 			@csrf
 			<div class="row mb-3">
 				<label class="col-sm-2 col-label-form">ناوی ئاژەڵ</label>
@@ -71,16 +70,13 @@
 			@if(count($data) > 0)
 
 				@foreach($data as $row)
-
-					
-		<div>
-  <td><img src="{{ asset('images/' . $row->images) }}" width="75" /></td>			
-  <td>{{ $row->name }}</td>
-  <td>{{ $row->species }}</td>
-  <td>{{ $row->birth_date }}</td>	
-		</div>			
-  
-
+				      <div>
+					    <img src="{{ asset('images/' . $row->images) }}" width="100" height="100" style="margin-left: 5px"/>
+	                       {{ $row->name }}
+						   {{ $row->species }}
+                           {{ $row->birth_date }}
+                        </div>
+						 
 				@endforeach
 
 			@else

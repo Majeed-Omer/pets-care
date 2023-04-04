@@ -2,7 +2,7 @@
     <header class="header">
     <div class="logo"><a href="#" class="aNav"><img src="images/logo.png" alt="Logo of pet care" width="80px" height="80px"></a></div>
       <ul class="main-nav">
-          <li><a class="aNav" href="/ماڵەوە">ماڵەوە</a></li>
+          <li><a class="aNav" href="/home">ماڵەوە</a></li>
           <li><a class="aNav" href="/نەخشە">نەخشە</a></li>
           <li><a class="aNav" href="/ڤێتەرنەکان">ڤێتەرنەکان</a></li>
           <li><a class="aNav" href="/دەربارەی-ئێمە">دەربارەی ئێمە</a></li>
