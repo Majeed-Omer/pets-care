@@ -1,4 +1,4 @@
-@extends('home')
+@extends('pages.home.home')
 
 @section('content')
 
@@ -42,7 +42,12 @@
 				<input type="date" name="birth_date" class="form-control" />
 				</div>
 			</div>
-			
+			<div class="row mb-4">
+				<label class="col-sm-2 col-label-form">وێنەی ئاژەڵەکە</label>
+				<div class="col-sm-10">
+					<input type="file" name="images" />
+				</div>
+			</div>
 			<div class="row mb-3">
 				<label class="col-sm-2 col-label-form">زانیاری</label>
 				<div class="col-sm-10">
@@ -69,6 +74,7 @@
 
 					
 		<div>
+  <td><img src="{{ asset('images/' . $row->images) }}" width="75" /></td>			
   <td>{{ $row->name }}</td>
   <td>{{ $row->species }}</td>
   <td>{{ $row->birth_date }}</td>	
