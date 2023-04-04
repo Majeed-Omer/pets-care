@@ -1,3 +1,4 @@
+
 <div class="form signup">
                 <span class="title">تۆمارکردن</span>
 
@@ -19,7 +20,7 @@
                     </div>
                     
                     <div class="input-field">
-                        <input id="password" class="password" placeholder="وشەی نهێنی بنووسە" name="password" required>
+                        <input id="password" name="password" class="password" placeholder="وشەی نهێنی بنووسە" required>
                         <i class="uil uil-lock icon"></i>
                         <i class="uil uil-eye-slash showHidePw"></i>
                         @if ($errors->has('password'))

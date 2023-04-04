@@ -6,6 +6,7 @@
           <li><a class="aNav" href="/نەخشە">نەخشە</a></li>
           <li><a class="aNav" href="/ڤێتەرنەکان">ڤێتەرنەکان</a></li>
           <li><a class="aNav" href="/دەربارەی-ئێمە">دەربارەی ئێمە</a></li>
+		  <li><a class="aNav" href="/login"><i class="fa-regular fa-circle-user" style="margin-right: 7px"></i>خۆت تۆماربکە</a></li>
       </ul>
 	</header>
     

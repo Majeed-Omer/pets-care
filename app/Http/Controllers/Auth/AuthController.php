@@ -20,16 +20,8 @@ class AuthController extends Controller
     {
         return view('auth.login');
     }  
-      
-    /**
-     * Write code on Method
-     *
-     * @return response()
-     */
-    public function registration()
-    {
-        return view('auth.registration');
-    }
+
+   
       
     /**
      * Write code on Method
@@ -99,15 +91,15 @@ class AuthController extends Controller
       ]);
     }
     
-    /**
-     * Write code on Method
-     *
-     * @return response()
-     */
-    public function logout() {
-        Session::flush();
-        Auth::logout();
+    // /**
+    //  * Write code on Method
+    //  *
+    //  * @return response()
+    //  */
+    // public function logout() {
+    //     Session::flush();
+    //     Auth::logout();
   
-        return Redirect('login');
-    }
+    //     return Redirect('login');
+    // }
 }

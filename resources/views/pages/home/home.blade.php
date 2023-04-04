@@ -118,7 +118,7 @@ input[type="submit"] {
 </head>
 <body>
 
- @include('slideShow')
+@include('pages.home.slideShow')
 <br>
 <h3 style="text-align: center; font-size:30px">بەرهەمەکان</h3>
 
@@ -133,9 +133,9 @@ input[type="submit"] {
 
   </div>
 <br><br><br>
-@include('bigImage')
+@include('pages.home.bigImage')
 <br>
-@include('caring')
+@include('pages.home.caring')
 
   <br><br><br><br>
 

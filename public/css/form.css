@@ -81,7 +81,7 @@ body{
     padding: 0 35px;
     border: none;
     outline: none;
-    font-size: 18px;
+    font-size: 16px;
     border-bottom: 2px solid #ccc;
     border-top: 2px solid transparent;
     transition: all 0.2s ease;
@@ -124,7 +124,7 @@ body{
 }
 .form .text{
     color: #333;
-    font-size: 16px;
+    font-size: 14px;
 }
 .form a.text{
     color: #4070f4;
@@ -139,7 +139,7 @@ body{
 .form .button input{
     border: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
     border-radius: 6px;

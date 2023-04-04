@@ -26,9 +26,7 @@
                         <input id="password" class="password" name="password" placeholder="وشەی نهێنی بنووسە" required>
                         <i class="uil uil-lock icon"></i>
                         <i class="uil uil-eye-slash showHidePw"></i>
-                        @if ($errors->has('password'))
-                                      <span class="text-danger">{{ $errors->first('password') }}</span>
-                        @endif
+                        
                     </div>
 
                     <div class="checkbox-text">

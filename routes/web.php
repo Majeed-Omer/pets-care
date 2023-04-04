@@ -17,7 +17,7 @@ use App\Http\Controllers\AnimalController;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('pages.home.home');
 });
 
 Route::get('/dbconn', function () {
@@ -25,29 +25,23 @@ Route::get('/dbconn', function () {
 });
 
 Route::get('/ئاژەڵە وونبووەکان', function () {
-    return view('missing_pets');
+    return view('pages.missing_pets');
 });
 Route::get('/ڤێتەرنەکان', function () {
-    return view('veterinary');
+    return view('pages.veterinary');
 });
 Route::get('/نەخشە', function () {
-    return view('locations');
+    return view('pages.locations');
 });
 
 Route::get('/دەربارەی-ئێمە', function () {
-    return view('about');
+    return view('pages.about');
 });
-
-Route::get('/ماڵەوە', function () {
-    return view('home');
-});
-
 
 Route::get('login', [AuthController::class, 'index'])->name('login');
 Route::post('post-login', [AuthController::class, 'postLogin'])->name('login.post'); 
-Route::get('registration', [AuthController::class, 'registration'])->name('register');
 Route::post('post-registration', [AuthController::class, 'postRegistration'])->name('register.post'); 
 Route::get('home', [AuthController::class, 'home']); 
-Route::get('logout', [AuthController::class, 'logout'])->name('logout');
+// Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::resource('animals', AnimalController::class);
