@@ -47,7 +47,7 @@ class AnimalController extends Controller
 
         $file_name = time() . '.' . request()->images->getClientOriginalExtension();
 
-        request()->images->move(public_path('{{ $C:\Users\HC\Desktop\images }}'), $file_name);
+        request()->images->move(public_path('images'), $file_name);
 
         $animal = new Animal;
 
