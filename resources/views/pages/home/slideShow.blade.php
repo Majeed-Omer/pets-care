@@ -3,15 +3,15 @@
 <div class="slideshow-container ">
 
 <div class="mySlides fade">
-  <img src="images/cat.jpg" width="100%" height="600px">
+  <img src="myImages/cat.jpg" width="100%" height="600px">
 </div>
 
 <div class="mySlides fade">
-  <img src="images/pets.jpg" width="100%"height="600px">
+  <img src="myImages/pets.jpg" width="100%"height="600px">
 </div>
 
 <div class="mySlides fade">
-  <img src="images/squirrel.jpg" width="100%"height="600px">
+  <img src="myImages/squirrel.jpg" width="100%"height="600px">
 </div>
 
 </div>

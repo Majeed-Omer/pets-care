@@ -20,7 +20,7 @@
 <!-- Photo Grid -->
 <div class="row"> 
   <div class="column">
-    <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+    <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
@@ -28,7 +28,21 @@
      </pre>
     </div>
     
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
+     <pre>
+      ناو: مەحمەد عمر
+      ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
+      ناونیشان: هەولێر      
+     </pre>
+    </div>
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
+     <pre>
+      ناو: مەحمەد عمر
+      ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
+      ناونیشان: هەولێر      
+     </pre>
+    </div>
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
@@ -42,21 +56,7 @@
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
-     <pre>
-      ناو: مەحمەد عمر
-      ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
-      ناونیشان: هەولێر      
-     </pre>
-    </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
-     <pre>
-      ناو: مەحمەد عمر
-      ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
-      ناونیشان: هەولێر      
-     </pre>
-    </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
@@ -66,42 +66,42 @@
      
   </div>
   <div class="column">
-  <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+  <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
@@ -111,42 +111,42 @@
   </div>  
   <div class="column">
   <div>
-    <img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+    <img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
     <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
@@ -156,42 +156,42 @@
      
   </div>
   <div class="column">
-  <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+  <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧

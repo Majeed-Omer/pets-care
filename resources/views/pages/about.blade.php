@@ -10,7 +10,7 @@
 <body>
     <h2 style="text-align:center; margin-top:30px ">دەربارەی ئێمە</h2>
      <div style="margin-left:400px;">
-    <img src="images/about.jpg" width="500" height="500">
+    <img src="myImages/about.jpg" width="500" height="500">
     </div>
 
     <pre style="text-align:center">

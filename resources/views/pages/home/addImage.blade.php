@@ -45,7 +45,7 @@
 				</div>
 			</div>
 			<div class="text-center">
-				<input type="submit" value="ناردن" />
+				<input class="buttonForm" type="submit" value="ناردن" />
 			</div>	
 		</form>
 	</div>
@@ -56,17 +56,22 @@
 		</div>
 	</div>
 <br><br><br>
-	<div class="card-body">
 			
 			@if(count($data) > 0)
 
 				@foreach($data as $row)
-				<div  class="column">
+				<div  class="columnImage">
 					<img class="imganimal" src="{{ asset('images/' . $row->images) }}" width="150" height="120"/>
-	                      <p class="panimal">{{ $row->name }}</p>
-						  <p>{{ $row->species }}</p>
-                          <p>{{ $row->birth_date }}</p>
-                </div>
+	                      <p>{{ $row->name }} :ناو</p>
+						  <p>{{ $row->species }} :جۆر</p>
+                          <p>{{ $row->birth_date }} :لەدایکبوونی</p>
+						  <div class="edit-Delete-button">
+						  <button class="button-Edit">چاککردن</button>
+				          <button class="button-Delete">سڕینەوە</button>
+						  
+							
+						  </div>
+                </div>					
        
 				@endforeach
 

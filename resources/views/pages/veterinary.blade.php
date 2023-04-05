@@ -53,7 +53,7 @@
     <div class="cover">
 
     <div class="containerPetStores">
-        <img src="images/pet_store.jpg" height="420px" width="350px" class="imgPetStores">
+        <img src="myImages/pet_store.jpg" height="420px" width="350px" class="imgPetStores">
       <div style="text-align: center; margin-bottom:200px">
         <h1>ڤێتەرنی سەردەم</h1>
 
@@ -76,7 +76,7 @@
     <div class="cover">
 
     <div class="containerPetStores">
-        <img src="images/pet_store.jpg" height="420px" width="350px" class="imgPetStores">
+        <img src="myImages/pet_store.jpg" height="420px" width="350px" class="imgPetStores">
       <div style="text-align: center; margin-bottom:200px">
       <h1>ڤێتەرنی سەردەم</h1>
 
@@ -99,7 +99,7 @@
     <div class="cover">
 
     <div class="containerPetStores">
-        <img src="images/pet_store.jpg" height="420px" width="350px" class="imgPetStores">
+        <img src="myImages/pet_store.jpg" height="420px" width="350px" class="imgPetStores">
       <div style="text-align: center; margin-bottom:200px">
       <h1>ڤێتەرنی سەردەم</h1>
 
