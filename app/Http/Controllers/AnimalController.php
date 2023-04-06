@@ -20,16 +20,6 @@ class AnimalController extends Controller
     }
 
     /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        return view('create');
-    }
-
-    /**
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -59,7 +49,7 @@ class AnimalController extends Controller
 
         $animal->save();
 
-        return redirect()->route('home.index')->with('success', 'Animal Added successfully.');
+        return redirect()->route('animal.index')->with('success', 'Animal Added successfully.');
     }
 
     /**
@@ -70,18 +60,7 @@ class AnimalController extends Controller
      */
     public function show(Animal $animal)
     {
-        return view('show', compact('home'));
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Animal  $animal
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Animal $animal)
-    {
-        return view('edite', compact('home'));
+        return view('show', compact('animal'));
     }
 
     /**
@@ -107,7 +86,7 @@ class AnimalController extends Controller
         {
             $images = time() . '.' . request()->images->getClientOriginalExtension();
 
-            request()->images->move(public_path('animals.index'), $images);
+            request()->images->move(public_path('images'), $images);
         }
 
         $animal = Animal::find($request->hidden_id);
@@ -118,13 +97,13 @@ class AnimalController extends Controller
 
         $animal->birth_date = $request->birth_date;
 
-        $animal->notes = $request->notes;
+       $animal->notes = $request->notes;
 
         $animal->images = $images;
 
         $animal->save();
 
-        return redirect()->route('home')->with('success', 'Animal Data has been updated successfully');
+        return redirect()->route('animal.index')->with('success', 'Animal Data has been updated successfully');
     }
 
     /**
@@ -137,6 +116,6 @@ class AnimalController extends Controller
     {
         $animal->delete();
 
-        return redirect()->route('home.index')->with('success', 'Animal Data deleted successfully');
+        return redirect()->route('animal.index')->with('success', 'Animal Data deleted successfully');
     }
 }

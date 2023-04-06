@@ -82,7 +82,7 @@
 	overflow: auto;
 }
 
-form label {
+.formADDEdit label {
 	text-transform: uppercase;
 	font-weight: 500;
 	letter-spacing: 3px;
@@ -130,6 +130,8 @@ line-height: 0.1;
 	color: #fff;
 	cursor: pointer;
 	background: green;
+	text-decoration: none;
+	padding: 3px 5px;
 }
 .button-Delete {
 	font-size: 1em;

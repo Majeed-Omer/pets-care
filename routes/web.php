@@ -44,4 +44,4 @@ Route::post('post-registration', [AuthController::class, 'postRegistration'])->n
 Route::get('home', [AuthController::class, 'home']); 
 // Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
-Route::resource('home', AnimalController::class);
+Route::resource('animal', AnimalController::class);
