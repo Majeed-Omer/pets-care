@@ -15,11 +15,13 @@
   <button class="btn" onclick="one()">1</button>
   <button class="btn active" onclick="two()">2</button>
   <button class="btn" onclick="four()">4</button>
+  <br><br><br>
+  @include('pages.missing-pets.add_Missing_pets')
 </div>
 
 <!-- Photo Grid -->
-<div class="row"> 
-  <div class="column">
+<div class="rowMissing"> 
+  <div class="columnMissing">
     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
@@ -49,7 +51,7 @@
       ناونیشان: هەولێر      
      </pre>
     </div>
-     <div><img src="images/cat.jpg" style="width:100%" class="imgSlideShow">
+     <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
       ژمارە:٠٧٠٥٠١٢٣٤٥٦٧
@@ -65,7 +67,7 @@
     </div>
      
   </div>
-  <div class="column">
+  <div class="columnMissing">
   <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر
@@ -109,7 +111,7 @@
      </pre>
     </div>
   </div>  
-  <div class="column">
+  <div class="columnMissing">
   <div>
     <img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
     <pre>
@@ -155,7 +157,7 @@
     </div>
      
   </div>
-  <div class="column">
+  <div class="columnMissing">
   <div><img src="myImages/cat.jpg" style="width:100%" class="imgSlideShow">
      <pre>
       ناو: مەحمەد عمر

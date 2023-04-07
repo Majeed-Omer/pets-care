@@ -24,8 +24,8 @@ Route::get('/dbconn', function () {
     return view('dbconn');
 });
 
-Route::get('/ئاژەڵە وونبووەکان', function () {
-    return view('pages.missing_pets');
+Route::get('/ئاژەڵە-ونبووەکان', function () {
+    return view('pages.missing-pets.missing_pets_page');
 });
 Route::get('/ڤێتەرنەکان', function () {
     return view('pages.veterinary');
