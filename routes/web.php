@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\AnimalController;
+use App\Http\Controllers\Stolen_missingController;
 
 
 /*
@@ -24,9 +25,6 @@ Route::get('/dbconn', function () {
     return view('dbconn');
 });
 
-Route::get('/ئاژەڵە-ونبووەکان', function () {
-    return view('pages.missing-pets.missing_pets_page');
-});
 Route::get('/ڤێتەرنەکان', function () {
     return view('pages.veterinary');
 });
@@ -45,3 +43,5 @@ Route::get('home', [AuthController::class, 'home']);
 // Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::resource('animal', AnimalController::class);
+Route::resource('stolen_missing', Stolen_missingController::class);
+

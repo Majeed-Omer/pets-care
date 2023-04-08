@@ -25,10 +25,8 @@
   </div>
 <br><br><br>
 @include('pages.home.bigImage')
-<br>
-@include('pages.home.caring')
 
-  <br><br><br><br>
+<br><br><br><br>
 
 @yield('content')
 <br><br><br><br><br>

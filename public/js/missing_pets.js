@@ -1,5 +1,5 @@
 // Get the elements with class="column"
-var elements = document.getElementsByClassName("column");
+var elements = document.getElementsByClassName("columnMissing");
 
 // Declare a loop variable
 var i;

@@ -1,14 +1,21 @@
 
 <div class="form signup">
-                <span class="title">تۆمارکردن</span>
+     <span class="title">تۆمارکردن</span>
 
-                <form action="{{ route('register.post') }}" method="POST">
-                @csrf
+         <form action="{{ route('register.post') }}" method="POST">
+           @csrf
                     <div class="input-field">
-                        <input type="text" id="name" placeholder="ناوت بنووسە" name="name" required autofocus>
+                        <input type="text" id="first_name" placeholder="ناوی یەکەمت بنووسە" name="first_name" required autofocus>
                         <i class="uil uil-user"></i>
-                        @if ($errors->has('name'))
-                            <span class="text-danger">{{ $errors->first('name') }}</span>
+                        @if ($errors->has('first_name'))
+                            <span class="text-danger">{{ $errors->first('first_name') }}</span>
+                        @endif
+                    </div>
+                    <div class="input-field">
+                        <input type="text" id="last_name" placeholder="ناوی دووەمت بنووسە" name="last_name" required autofocus>
+                        <i class="uil uil-user"></i>
+                        @if ($errors->has('last_name'))
+                            <span class="text-danger">{{ $errors->first('last_name') }}</span>
                         @endif
                     </div>
                     <div class="input-field">
@@ -25,6 +32,14 @@
                         <i class="uil uil-eye-slash showHidePw"></i>
                         @if ($errors->has('password'))
                                       <span class="text-danger">{{ $errors->first('password') }}</span>
+                        @endif
+                    </div>
+
+                    <div class="input-field">
+                        <input type="text" id="notes" placeholder="زانیاری زیادە" name="notes" required autofocus>
+                        <i class="uil uil-notes"></i>
+                        @if ($errors->has('notes'))
+                            <span class="text-danger">{{ $errors->first('notes') }}</span>
                         @endif
                     </div>
 

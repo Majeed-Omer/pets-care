@@ -15,12 +15,13 @@ return new class extends Migration
     {
         Schema::create('stolen_missing', function (Blueprint $table) {
             $table->id();
+            $table->string('reward');
             $table->string('email');
             $table->string('phone_number');
             $table->date('stolen_lost_date');
+            $table->enum('pet_case', ['stolen', 'missing']);
             $table->string('description');
             $table->string('picture');
-            $table->enum('pset_case', ['stolen', 'missing']);
             $table->timestamps();
         });
     }
