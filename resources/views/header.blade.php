@@ -4,13 +4,25 @@
       <ul class="main-nav">
           <li><a class="aNav" href="/home">ماڵەوە</a></li>
           <li><a class="aNav" href="/نەخشە">نەخشە</a></li>
-          <li><a class="aNav" href="/ڤێتەرنەکان">ڤێتەرنەکان</a></li>
+		  <li>
+		  <div class="dropdown">
+          <button class="dropbtn">شوێنەکان 
+           <i class="fa fa-caret-down"></i>
+            </button>
+           <div class="dropdown-content">
+            <a class="aNavContent" href="#">فرۆشگای ئاژەڵان</a>
+            <a class="aNavContent" href="/pet_clinic">ڤێتەرنەکان</a>
+            </div>
+           </div> 
+		  </li> 
           <li><a class="aNav" href="/دەربارەی-ئێمە">دەربارەی ئێمە</a></li>
 		  <li><a class="aNav" href="/login"><i class="fa-regular fa-circle-user" style="margin-right: 7px"></i>خۆت تۆماربکە</a></li>
       </ul>
 	</header>
     
     <style>
+
+
     /* header */
 @media (min-width: 769px) {
 	.header,

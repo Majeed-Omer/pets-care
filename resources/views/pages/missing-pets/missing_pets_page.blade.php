@@ -19,7 +19,6 @@
   @include('pages.missing-pets.add_Missing_pets')
 </div>
 
-<!-- <script src="js/missing_pets.js"></script> -->
 
 </body>
 </html>

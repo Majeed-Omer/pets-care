@@ -56,6 +56,7 @@
 		</div>
 	</div>
 <br><br><br>
+
 			
 			@if(count($data) > 0)
 
@@ -147,4 +148,6 @@
 			@endif
 		{!! $data->links() !!}
 
-@endsection
+		@endsection
+
+
