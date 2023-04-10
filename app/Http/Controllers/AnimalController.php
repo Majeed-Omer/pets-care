@@ -49,7 +49,7 @@ class AnimalController extends Controller
 
         $animal->save();
 
-        return redirect()->route('animal.index')->with('success', 'Animal Added successfully.');
+        return redirect()->route('index')->with('success', 'Animal Added successfully.');
     }
 
     /**
@@ -103,7 +103,7 @@ class AnimalController extends Controller
 
         $animal->save();
 
-        return redirect()->route('animal.index')->with('success', 'Animal Data has been updated successfully');
+        return redirect()->route('index')->with('success', 'Animal Data has been updated successfully');
     }
 
     /**
@@ -116,6 +116,6 @@ class AnimalController extends Controller
     {
         $animal->delete();
 
-        return redirect()->route('animal.index')->with('success', 'Animal Data deleted successfully');
+        return redirect()->route('index')->with('success', 'Animal Data deleted successfully');
     }
 }
