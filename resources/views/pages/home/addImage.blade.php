@@ -63,9 +63,12 @@
 				@foreach($data as $row)
 				<div  class="columnImage">
 					<img class="imganimal" src="{{ asset('images/' . $row->images) }}" width="150" height="120"/>
-	                      <p>{{ $row->name }} :ناو</p>
-						  <p>{{ $row->species }} :جۆر</p>
-                          <p>{{ $row->birth_date }} :لەدایکبوونی</p>
+					  <div style="line-height: 0.8; text-align: right">
+						<p class="pImage">{{ $row->name }} :ناو</p>
+						<p class="pImage">{{ $row->species }} :جۆر</p>
+                        <p class="pImage">{{ $row->birth_date }} :لەدایکبوونی</p>
+					  </div>
+	                      
 						  <div class="edit-Delete-button">
 						  <form action="{{ route('animal.destroy',$row->id) }}" method="POST">
 						  <a class="button-Edit" href="#divEdit">گۆڕین</a>

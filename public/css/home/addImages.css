@@ -118,6 +118,7 @@ line-height: 0.1;
 }
 .columnImage .imganimal {
  max-width: 100%;
+ cursor: pointer;
 }
 
 .edit-Delete-button {

@@ -8,7 +8,7 @@
       <img src="myImages/logo2.jpg" alt="Logo of pet care"class="circular-image">
 
 				<p class="footer-links">					
-					<a class="aFooter link-1" href="/ماڵەوە">ماڵەوە</a>
+					<a class="aFooter link-1" href="/home">ماڵەوە</a>
 				
 					<a class="aFooter" href="/نەخشە">نەخشە</a>
 
