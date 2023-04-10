@@ -5,6 +5,7 @@ use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\AnimalController;
 use App\Http\Controllers\Stolen_missingController;
 use App\Http\Controllers\Pet_clinicController;
+use App\Http\Controllers\Pet_storeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -45,3 +46,4 @@ Route::get('home', [AuthController::class, 'home']);
 Route::resource('animal', AnimalController::class);
 Route::resource('stolen_missing', Stolen_missingController::class);
 Route::resource('pet_clinic', Pet_clinicController::class);
+Route::resource('pet_store', Pet_storeController::class);

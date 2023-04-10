@@ -5,7 +5,7 @@
 
 			<div class="footer-left">
 
-      <img src="myImages/logo.png" alt="Logo of pet care" width="80px" height="80px">
+      <img src="myImages/logo2.jpg" alt="Logo of pet care"class="circular-image">
 
 				<p class="footer-links">					
 					<a class="aFooter link-1" href="/ماڵەوە">ماڵەوە</a>

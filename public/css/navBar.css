@@ -104,3 +104,9 @@ ul {
 	color: #34495e;
 	font-size: 1.499em;
 }
+
+.circular-image {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+  }

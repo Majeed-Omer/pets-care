@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="css/navBar.css">
     <header class="header">
-    <div class="logo"><a href="#" class="aNav"><img src="myImages/logo.png" alt="Logo of pet care" width="80px" height="80px"></a></div>
+    <div class="logo"><a href="#" class="aNav"><img src="myImages/logo2.jpg" alt="Logo of pet care" class="circular-image"></a></div>
       <ul class="main-nav">
           <li><a class="aNav" href="/home">ماڵەوە</a></li>
           <li><a class="aNav" href="/نەخشە">نەخشە</a></li>
@@ -10,7 +10,7 @@
            <i class="fa fa-caret-down"></i>
             </button>
            <div class="dropdown-content">
-            <a class="aNavContent" href="#">فرۆشگای ئاژەڵان</a>
+            <a class="aNavContent" href="/pet_store">فرۆشگای ئاژەڵان</a>
             <a class="aNavContent" href="/pet_clinic">ڤێتەرنەکان</a>
             </div>
            </div> 
