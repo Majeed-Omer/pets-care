@@ -47,3 +47,5 @@ Route::resource('animal', AnimalController::class);
 Route::resource('stolen_missing', Stolen_missingController::class);
 Route::resource('pet_clinic', Pet_clinicController::class);
 Route::resource('pet_store', Pet_storeController::class);
+Route::resource('home', AnimalController::class);
+Route::resource('/', AnimalController::class);
