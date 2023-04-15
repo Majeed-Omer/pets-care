@@ -2,7 +2,7 @@
     
 <footer class="container-fluid footer-distributed">
 	<div class="footer-left">
-    	<img src="myImages/logo.png" alt="Logo of pet care" width="80px" height="80px">
+    	<img src="myImages/logo2-removebg.png" alt="Logo of pet care" width="80px" height="80px">
 		<p class="footer-links">					
 			<a class="aFooter link-1" href="/ماڵەوە">ماڵەوە</a>
 			<a class="aFooter" href="/نەخشە">نەخشە</a>
