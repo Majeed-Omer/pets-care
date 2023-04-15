@@ -2,8 +2,12 @@
     
 <footer class="container-fluid footer-distributed">
 	<div class="footer-left">
+<<<<<<< HEAD
 	<img src="myImages/logo2.jpg" alt="your-image-description" class="circle-img">
     	<!-- <img src="myImages/logo2-removebg.png" alt="Logo of pet care" width="80px" height="80px"> -->
+=======
+    	<img src="myImages/logo2-removebg.png" alt="Logo of pet care" width="80px" height="80px">
+>>>>>>> f381b4370092837299a3695acf7e4eb8321f422c
 		<p class="footer-links">					
 			<a class="aFooter link-1" href="/home">ماڵەوە</a>
 			<a class="aFooter" href="/نەخشە">نەخشە</a>
