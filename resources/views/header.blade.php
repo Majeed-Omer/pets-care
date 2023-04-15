@@ -1,4 +1,6 @@
+<link rel="stylesheet" href="css/bootstrap/bootstrap.css">
 <link rel="stylesheet" href="css/navBar.css">
+<<<<<<< HEAD
     <header class="header">
     <div class="logo"><a href="#" class="aNav"><img src="myImages/logo2.jpg" alt="Logo of pet care" class="circular-image"></a></div>
       <ul class="main-nav">
@@ -22,31 +24,46 @@
 	</header>
     
     <style>
+=======
+>>>>>>> 1d1f44de7b86aa916d8a4bb5a1676a69bee2bcc3
 
+<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+<div class="container-fluid nav-left">
+    <a class="navbar-brand" href="#"><img src="myImages/logo2-removebg.png" alt="Logo of pet care" width="80px" height="80px"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+</div>
+<div class="list collapse navbar-collapse" id="navbarScroll">
+  <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 250px;">
+	<li class="nav-item">
+	  <a class="nav-link text-style active" aria-current="page" href="/home">ماڵەوە</a>
+	</li>
+	<li class="nav-item">
+	  <a class="nav-link text-style" href="/نەخشە">نەخشە</a>
+	</li>
+	<li class="nav-item">
+	  <a class="nav-link text-style" href="/ڤێتەرنەکان">ڤێتەرنەرەکان</a>
+	</li>
+	<li class="nav-item dropdown">
+        <a class="nav-link text-style dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          شوێنەکان
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item text-style" href="/pet_store">فرۆشگای ئاژەڵان</a></li>
+          <li><a class="dropdown-item text-style" href="/pet_clinic">کلینیکی ئاژەڵان</a></li>
+        </ul>
+    </li>
+	<li class="nav-item">
+	  <a class="nav-link text-style" href="/دەربارەی-ئێمە">دەربارەی ئێمە</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link text-style" href="/login"><i class="fa-regular fa-circle-user" style="margin-right: 7px"></i>خۆت تۆماربکە</a>
+	</li>
+  </ul>
+</div>
+</nav>
 
-    /* header */
-@media (min-width: 769px) {
-	.header,
-	.main-nav {
-		display: flex;
-	}
-	.header {
-		flex-direction: column;
-		align-items: center;
-    	.header{
-		width: 80%;
-		margin: 0 auto;
-		max-width: 1150px;
-	}
-	}
-
-}
-
-@media (min-width: 1025px) {
-	.header {
-		flex-direction: row;
-		justify-content: space-between;
-	}
-
-}
-</style>
+<!-- Bootstrap JavaScript -->
+<script src="js/bootstrap/popper.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>

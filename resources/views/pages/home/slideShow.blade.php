@@ -1,24 +1,48 @@
-<link href="css/slide_show.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/home/slide_show.css">
 
-<div class="slideshow-container ">
-
-<div class="mySlides fade">
-  <img src="myImages/cat.jpg" width="100%" height="600px">
+<div id="myCarousel" class="carousel slide carousel-fade" data-bs-interval="3000" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="myImages/squirrel.jpg" class="d-block w-100 h-100" alt="...">
+      <div class="carousel-caption">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="myImages/pets.jpg" class="d-block w-100 h-100" alt="...">
+      <div class="carousel-caption">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="myImages/cat.jpg" class="d-block w-100 h-100" alt="...">
+      <div class="carousel-caption">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="myImages/th.jpg" class="d-block w-100 h-100" alt="...">
+      <div class="carousel-caption">
+        <h5>Fourth slide label</h5>
+        <p>Some representative placeholder content for the fourth slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
-
-<div class="mySlides fade">
-  <img src="myImages/pets.jpg" width="100%"height="600px">
-</div>
-
-<div class="mySlides fade">
-  <img src="myImages/squirrel.jpg" width="100%"height="600px">
-</div>
-
-</div>
-<br>
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-<script src="js/slide_show.js"></script>
