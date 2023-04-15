@@ -26,7 +26,6 @@
 </section>
 
 @include('pages.home.bigImage')
-@include('pages.home.caring')
 @yield('content')
 @include('footer') 
 <script src="js/bootstrap/popper.min.js"></script>
