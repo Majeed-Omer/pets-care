@@ -2,7 +2,6 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="css/home/caring.css" rel="stylesheet" type="text/css">
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
 <link rel="stylesheet" href="css/home/products-section.css">
@@ -26,7 +25,10 @@
 </section>
 
 @include('pages.home.bigImage')
+<br><br><br>
 @yield('content')
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 @include('footer') 
+<script src="js/addImage.js"></script>	
 </body>
 </html>

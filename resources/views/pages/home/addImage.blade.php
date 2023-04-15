@@ -1,11 +1,11 @@
 @extends('pages.home.home')
 @section('content')
-
-<div class="box">
-		<a class="button" href="#divOne">ئاژەڵەکەت زیادبکە</a>
+<link rel="stylesheet" href="css/home/addImages.css">
+<div class="boxImages">
+		<a class="buttonAddImages" href="#divOne">ئاژەڵەکەت زیادبکە</a>
 	</div>
 	<div class="overlay" id="divOne">
-		<div class="wrapper">
+		<div class="wrapperImages">
 			<h2>زیادکردن</h2><a class="close" href="#">&times;</a>
 			<div class="content">
 				<div class="container">
@@ -14,34 +14,34 @@
 	<div class="card-body">
 		<form class="formADDEdit" method="post" action="{{ route('animal.store') }}" enctype="multipart/form-data">
 			@csrf
-			<div class="row mb-3">
-				<label class="col-sm-2 col-label-form">ناوی ئاژەڵ</label>
+			<div class="rowaddImages mb-3">
+				<label >ناوی ئاژەڵ</label>
 				<div class="col-sm-10">
-					<input type="text" name="name" class="form-control" />
+					<input class="inputImagesAdd" type="text" name="name" class="form-control" />
 				</div>
 			</div>
-			<div class="row mb-3">
-				<label class="col-sm-2 col-label-form">جۆری ئاژەڵ</label>
+			<div class="rowaddImages mb-3">
+				<label >جۆری ئاژەڵ</label>
 				<div class="col-sm-10">
-					<input type="text" name="species" class="form-control" />
+					<input class="inputImagesAdd" type="text" name="species" class="form-control" />
 				</div>
 			</div>
-			<div class="row mb-4">
-				<label class="col-sm-2 col-label-form">بەرواری لەدایکبوونی</label>
+			<div class="rowaddImages mb-4">
+				<label >بەرواری لەدایکبوونی</label>
 				<div class="col-sm-10">
 				<input type="date" name="birth_date" class="form-control" />
 				</div>
 			</div>
-			<div class="row mb-4">
-				<label class="col-sm-2 col-label-form">وێنەی ئاژەڵەکە</label>
+			<div class="rowaddImages mb-4">
+				<label >وێنەی ئاژەڵەکە</label>
 				<div class="col-sm-10">
 					<input type="file" name="images" />
 				</div>
 			</div>
-			<div class="row mb-3">
-				<label class="col-sm-2 col-label-form">زانیاری</label>
+			<div class="rowaddImages mb-3">
+				<label >زانیاری</label>
 				<div class="col-sm-10">
-					<input type="text" name="notes" class="form-control" />
+					<input class="inputImagesAdd" type="text" name="notes" class="form-control" />
 				</div>
 			</div>
 			<div class="text-center">
@@ -79,7 +79,7 @@
 							
 						  </div>
 						  <div class="overlay" id="divEdit">
-		<div class="wrapper">
+		<div class="wrapperImages">
 			<h2>گۆڕین</h2><a class="close" href="#">&times;</a>
 			<div class="content">
 				<div class="container">
@@ -90,28 +90,28 @@
 			<br><br><br><br><br><br><br><br><br><br>
 			@csrf
 			@method('PUT')
-			<div class="row mb-3">
-				<label class="col-sm-2 col-label-form">ناوی ئاژەڵ</label>
+			<div class="rowaddImages mb-3">
+				<label>ناوی ئاژەڵ</label>
 				<div class="col-sm-10">
 					<input type="text" name="name" class="form-control" value="{{ $row->name }}" />
 				</div>
 			</div>
-			<div class="row mb-3">
-				<label class="col-sm-2 col-label-form">جۆری ئاژەڵ</label>
+			<div class="rowaddImages mb-3">
+				<label >جۆری ئاژەڵ</label>
 				<div class="col-sm-10">
 					<input type="text" name="species" class="form-control" value="{{ $row->species }}" />
 				</div>
 			</div>
-			<div class="row mb-4">
-				<label class="col-sm-2 col-label-form">لەدایکبوونی</label>
+			<div class="rowaddImages mb-4">
+				<label>لەدایکبوونی</label>
 				<div class="col-sm-10">
 					<br><br><br><br><br><br><br>
 				<input type="date" name="birth_date" class="form-control" value="{{ $row->birth_date }}" />
 				</div>
 			</div>
 			<br><br><br><br><br><br><br>
-			<div class="row mb-4">
-				<label class="col-sm-2 col-label-form">وێنەی</label>
+			<div class="rowaddImages mb-4">
+				<label>وێنەی</label>
 				<br><br><br><br><br><br><br>
 				<div class="col-sm-10">
 					<input type="file" name="images" />
@@ -121,8 +121,8 @@
 				</div>
 			</div>
 			<br><br><br><br><br><br><br><br><br>
-			<div class="row mb-4">
-				<label class="col-sm-2 col-label-form">زانیاری</label>
+			<div class="rowaddImages mb-4">
+				<label>زانیاری</label>
 				<br>
 				<div class="col-sm-10">
 				<input type="text" name="notes" class="form-control" value="{{ $row->notes }}" />
@@ -140,7 +140,7 @@
 			
 		</div>
 	</div>
-                </div>					
+                </div>				
        
 				@endforeach
 
@@ -152,5 +152,4 @@
 		{!! $data->links() !!}
 
 		@endsection
-
 

@@ -1,5 +1,43 @@
 <link rel="stylesheet" href="css/missing_pets.css">
 
+<style>
+	.cardAddImages {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  padding: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+}
+
+.cardAddImages img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.card-buttons button {
+  padding: 8px 16px;
+  margin: 0 5px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.card-buttons button:hover {
+  background-color: #333;
+}
+
+</style>
 
 <div class="box">
 		<a class="button" href="#divOne">ئاژەڵەکەت زیادبکە</a>
@@ -79,8 +117,24 @@
 
 @foreach($data as $row) 
   <div class="columnMissing">
-	
-    <div>
+  <div class="cardAddImages">
+  <img src="{{ asset('picture/' . $row->picture) }}" class="imgMissing">
+  <div class="card-buttons edit-Delete-button-Missing">
+  <form action="{{ route('stolen_missing.destroy',$row->id) }}" method="POST">
+		 <!-- <a class="button-Edit-Missing">گۆڕین</a>
+        <a type= "submit" class="button-Edit-Missing"  href="#divEdit">گۆڕین</a>
+         
+		<button type="submit" class="button-Delete-Missing">سڕینەوە</button> -->
+		<a class="button2" href="#divEdit">Edit</a>
+	@csrf
+	@method('DELETE')
+    <button type="submit" class="button1">Delete</button>
+	</form>  
+    
+  </div>
+</div>
+</div>
+    <!-- <div>
 		<img src="{{ asset('picture/' . $row->picture) }}" class="imgMissing"></div> 
      <pre class="text">
 	         {{ $row->reward }} :خەڵات
@@ -91,7 +145,7 @@
 		  {{ $row->pet_case }} :هۆکاری دیارنەمانی 
      </pre>
 		<form action="{{ route('stolen_missing.destroy',$row->id) }}" method="POST">
-		<!-- <a class="button-Edit-Missing">گۆڕین</a> -->
+		 <a class="button-Edit-Missing">گۆڕین</a>
 		<table class='edit-Delete-button-Missing'>
         <tr>
           <td><a type= "submit" class="button-Edit-Missing"  href="#divEdit">گۆڕین</a></td>
@@ -102,7 +156,7 @@
         </table>
 	     </form>
 		 
-  </div>
+  </div> -->
   
   <div class="overlay" id="divEdit">
 		<div class="wrapper">
