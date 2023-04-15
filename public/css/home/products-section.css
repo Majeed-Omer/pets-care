@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3 {
+  margin: 0 auto;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 50%;
+  color: #000;
+  /* background-color: rgba(255, 255, 255, 0.8); */
+}
+.row .col {
+  padding: 0;
+  margin: auto 0;
+}
+.row .col img {
+  padding: 0;
+  margin: 0;
+}
+.parent {
+  position: relative;
+  background-image: url('/myImages/food2.jpeg');
+}
+/* Waves */ 
+.spacer {
+  position: absolute;
+  aspect-ratio: 900/30;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.top {
+  top: 0;
+  left: 0;
+}
+.bottom {
+  bottom: 0;
+  left: 0;
+}
+.layer {
+  background-image: url('/myImages/top.svg');
+}
+.layer2 {
+  background-image: url('/myImages/bottom.svg');
+}
