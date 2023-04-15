@@ -6,4 +6,4 @@
   <div class=greyCover></div>
   <p class="txt">ئاژەڵان زۆرخۆشەویستن لە ماڵەوە<br>بەڵام لەناکاو بزردەبن و دیارنامێنن</p>
   <button class="btn" onclick="location.href='/stolen_missing'" type="button">زیاتر ببینە</button>
-<div>  
+</div>  

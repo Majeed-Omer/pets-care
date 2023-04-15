@@ -6,6 +6,7 @@ use App\Http\Controllers\AnimalController;
 use App\Http\Controllers\Stolen_missingController;
 use App\Http\Controllers\Pet_clinicController;
 use App\Http\Controllers\Pet_storeController;
+use App\Http\Controllers\AllSupplyController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,10 +23,6 @@ Route::get('/', function () {
     return view('pages.home.home');
 });
 
-Route::get('/dbconn', function () {
-    return view('dbconn');
-});
-
 Route::get('/pet_clinic', function () {
     return view('pages.pet_clinic');
 });
@@ -35,6 +32,10 @@ Route::get('/نەخشە', function () {
 
 Route::get('/دەربارەی-ئێمە', function () {
     return view('pages.about');
+});
+
+Route::get('/all_supply', function () {
+    return view('pages.all_supply');
 });
 
 Route::get('login', [AuthController::class, 'index'])->name('login');
@@ -49,3 +50,6 @@ Route::resource('pet_clinic', Pet_clinicController::class);
 Route::resource('pet_store', Pet_storeController::class);
 Route::resource('home', AnimalController::class);
 Route::resource('/', AnimalController::class);
+Route::get('all_supply', [AllSupplyController::class, 'index']);
+
+

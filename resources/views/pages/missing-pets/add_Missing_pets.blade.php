@@ -79,8 +79,9 @@
 
 @foreach($data as $row) 
   <div class="columnMissing">
+	
     <div>
-		<img style="width:100%" src="{{ asset('picture/' . $row->picture) }}" class="imgSlideShow"></div> 
+		<img src="{{ asset('picture/' . $row->picture) }}" class="imgMissing"></div> 
      <pre class="text">
 	         {{ $row->reward }} :خەڵات
 		  {{ $row->email }} :ئیمێڵ

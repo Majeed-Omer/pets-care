@@ -58,15 +58,15 @@
 <br><br><br>
 
 			
-			@if(count($data) > 0)
+	@if(count($data) > 0)
 
 				@foreach($data as $row)
 				<div  class="columnImage">
 					<img class="imganimal" src="{{ asset('images/' . $row->images) }}" width="150" height="120"/>
-					  <div style="line-height: 0.8; text-align: right">
-						<p class="pImage">{{ $row->name }} :ناو</p>
-						<p class="pImage">{{ $row->species }} :جۆر</p>
-                        <p class="pImage">{{ $row->birth_date }} :لەدایکبوونی</p>
+					  <div class="divAnimalText">
+						<p class="pImage">{{ $row->name }}</p>
+						<p class="pImage">{{ $row->species }}</p>
+                        <p class="pImage">{{ $row->birth_date }}</p>
 					  </div>
 	                      
 						  <div class="edit-Delete-button">

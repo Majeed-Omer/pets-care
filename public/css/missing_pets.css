@@ -180,7 +180,10 @@ input[type="submit"] {
 	margin-top: 5px;
 }
 
-.columnImage .imganimal {
- max-width: 100%;
+.imgMissing {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
 }
 

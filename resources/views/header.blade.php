@@ -15,6 +15,7 @@
             </div>
            </div> 
 		  </li> 
+		  <li><a class="aNav" href="/all_supply">پێداویستی ئاژەڵان</a></li>
           <li><a class="aNav" href="/دەربارەی-ئێمە">دەربارەی ئێمە</a></li>
 		  <li><a class="aNav" href="/login"><i class="fa-regular fa-circle-user" style="margin-right: 7px"></i>خۆت تۆماربکە</a></li>
       </ul>

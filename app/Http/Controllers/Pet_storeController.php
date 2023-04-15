@@ -19,7 +19,6 @@ class Pet_storeController extends Controller
         return view('pages.pet_store', compact('data'))->with('i', (request()->input('page', 1) - 1) * 5);
     }
    
-
     /**
      * Display the specified resource.
      *
