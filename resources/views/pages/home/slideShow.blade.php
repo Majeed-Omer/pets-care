@@ -11,49 +11,29 @@
     <div class="carousel-item active">
       <img src="myImages/squirrel2.jpg" class="d-block w-100 h-100" alt="...">
       <div class="carousel-caption">
-<<<<<<< HEAD
-        <h5>First slide label</h5>
-        <p class="pSlides">Some representative placeholder content for the first slide.</p>
-=======
         <h5 class="image-header">First slide label</h5>
         <p class="image-description">Some representative placeholder content for the first slide.</p>
->>>>>>> f381b4370092837299a3695acf7e4eb8321f422c
       </div>
     </div>
     <div class="carousel-item">
       <img src="myImages/pets.jpg" class="d-block w-100 h-100" alt="...">
       <div class="carousel-caption">
-<<<<<<< HEAD
-        <h5>Second slide label</h5>
-        <p class="pSlides">Some representative placeholder content for the second slide.</p>
-=======
         <h5 class="image-header">Second slide label</h5>
         <p class="image-description">Some representative placeholder content for the second slide.</p>
->>>>>>> f381b4370092837299a3695acf7e4eb8321f422c
       </div>
     </div>
     <div class="carousel-item">
       <img src="myImages/cat.jpg" class="d-block w-100 h-100" alt="...">
       <div class="carousel-caption">
-<<<<<<< HEAD
-        <h5>Third slide label</h5>
-        <p class="pSlides">Some representative placeholder content for the third slide.</p>
-=======
         <h5 class="image-header">Third slide label</h5>
         <p class="image-description">Some representative placeholder content for the third slide.</p>
->>>>>>> f381b4370092837299a3695acf7e4eb8321f422c
       </div>
     </div>
     <div class="carousel-item">
       <img src="myImages/th.jpg" class="d-block w-100 h-100" alt="...">
       <div class="carousel-caption">
-<<<<<<< HEAD
-        <h5>Fourth slide label</h5>
-        <p class="pSlides">Some representative placeholder content for the fourth slide.</p>
-=======
         <h5 class="image-header">Fourth slide label</h5>
         <p class="image-description">Some representative placeholder content for the fourth slide.</p>
->>>>>>> f381b4370092837299a3695acf7e4eb8321f422c
       </div>
     </div>
   </div>
