@@ -1,35 +1,9 @@
 <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
 <link rel="stylesheet" href="css/navBar.css">
-<<<<<<< HEAD
-    <header class="header">
-    <div class="logo"><a href="#" class="aNav"><img src="myImages/logo2.jpg" alt="Logo of pet care" class="circular-image"></a></div>
-      <ul class="main-nav">
-          <li><a class="aNav" href="/home">ماڵەوە</a></li>
-          <li><a class="aNav" href="/نەخشە">نەخشە</a></li>
-		  <li>
-		  <div class="dropdown">
-          <button class="dropbtn">شوێنەکان 
-           <i class="fa fa-caret-down"></i>
-            </button>
-           <div class="dropdown-content">
-            <a class="aNavContent" href="/pet_store">فرۆشگای ئاژەڵان</a>
-            <a class="aNavContent" href="/pet_clinic">ڤێتەرنەکان</a>
-            </div>
-           </div> 
-		  </li> 
-		  <li><a class="aNav" href="/all_supply">پێداویستی ئاژەڵان</a></li>
-          <li><a class="aNav" href="/دەربارەی-ئێمە">دەربارەی ئێمە</a></li>
-		  <li><a class="aNav" href="/login"><i class="fa-regular fa-circle-user" style="margin-right: 7px"></i>خۆت تۆماربکە</a></li>
-      </ul>
-	</header>
-    
-    <style>
-=======
->>>>>>> 1d1f44de7b86aa916d8a4bb5a1676a69bee2bcc3
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
 <div class="container-fluid nav-left">
-    <a class="navbar-brand" href="#"><img src="myImages/logo2-removebg.png" alt="Logo of pet care" width="80px" height="80px"></a>
+  <a class="navbar-brand" href="#"><img src="myImages/logo2-removebg.png" alt="Logo of pet care" width="80px" height="80px"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

@@ -1,17 +1,17 @@
 .carousel-item,.carousel-inner {
     height: 32rem;
 }
-.carousel-indicators, .carousel-item h5, p {
+.carousel-indicators, .carousel-item .image-header, .image-description {
   margin: 1rem auto;
   width: fit-content;
   border-radius: 0.3rem;
   color: #000;
   background-color: rgba(255,255,255,0.6);
 }
-.carousel-item p {
+.carousel-item .image-description {
   text-align: center;
 }
-.carousel-indicators.carousel-indicators button{
+.carousel-indicators.carousel-indicators .bg {
   background-color: #000;
 }
 .carousel .carousel-control-prev, .carousel-control-next {

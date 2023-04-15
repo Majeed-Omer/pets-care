@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-h3 {
+.products-header {
   margin: 0 auto;
   font-weight: 700;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -13,11 +13,11 @@ h3 {
   color: #000;
   /* background-color: rgba(255, 255, 255, 0.8); */
 }
-.row .col {
+.products .products-item {
   padding: 0;
   margin: auto 0;
 }
-.row .col img {
+.products-image {
   padding: 0;
   margin: 0;
 }
