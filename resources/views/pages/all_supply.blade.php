@@ -40,7 +40,7 @@
 }
 
 /* NAVIGATION */
-/* 
+
 .navigation-wrapper {
 	background-color: #02344a;
 	width: 300px;
@@ -150,7 +150,7 @@
 	background-repeat: no-repeat;
 	background-size: 8px 12px;
 	padding-right: 40px;
-} */
+}
 
 /* NAVIGATION END */
 .rowStuff {

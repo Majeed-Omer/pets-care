@@ -11,7 +11,7 @@
   max-width: 300px;
 }
 
-.cardAddImages img {
+.cardAddImages {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
@@ -25,18 +25,27 @@
 }
 
 .card-buttons button {
-  padding: 8px 16px;
-  margin: 0 5px;
-  background-color: #555;
-  color: #fff;
-  border: none;
-  cursor: pointer;
+  font-size: 1em;
+	padding: 5px 20px;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+	background: red;
 }
 
 .card-buttons button:hover {
   background-color: #333;
 }
-
+.buttonEdit {
+	font-size: 1em;
+	padding: 8px 25px;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+	background: #0171d3;
+}
 </style>
 
 <div class="box">
@@ -112,10 +121,11 @@
 <br><br><br><br>
 	  
 
-<div class="rowMissing">
 @if(count($data) > 0)
+<div class="rowMissing">
 
 @foreach($data as $row) 
+
   <div class="columnMissing">
   <div class="cardAddImages">
   <img src="{{ asset('picture/' . $row->picture) }}" class="imgMissing">
@@ -125,38 +135,18 @@
         <a type= "submit" class="button-Edit-Missing"  href="#divEdit">گۆڕین</a>
          
 		<button type="submit" class="button-Delete-Missing">سڕینەوە</button> -->
-		<a class="button2" href="#divEdit">Edit</a>
+		<a class="buttonEdit" href="#divEdit">Edit</a>
 	@csrf
 	@method('DELETE')
     <button type="submit" class="button1">Delete</button>
-	</form>  
-    
+	</form> 
   </div>
 </div>
 </div>
-    <!-- <div>
-		<img src="{{ asset('picture/' . $row->picture) }}" class="imgMissing"></div> 
-     <pre class="text">
-	         {{ $row->reward }} :خەڵات
-		  {{ $row->email }} :ئیمێڵ
-		  {{ $row->phone_number }} :ژمارەی مۆبایل
-		  {{ $row->stolen_lost_date }} :بەرواری دیارنەمانی  
-		  {{ $row->description }} :زانیاری زیادە
-		  {{ $row->pet_case }} :هۆکاری دیارنەمانی 
-     </pre>
-		<form action="{{ route('stolen_missing.destroy',$row->id) }}" method="POST">
-		 <a class="button-Edit-Missing">گۆڕین</a>
-		<table class='edit-Delete-button-Missing'>
-        <tr>
-          <td><a type= "submit" class="button-Edit-Missing"  href="#divEdit">گۆڕین</a></td>
-          <td>@csrf
-		 @method('DELETE')
-		<button type="submit" class="button-Delete-Missing">سڕینەوە</button></td>
-         </tr>
-        </table>
-	     </form>
-		 
-  </div> -->
+@endforeach
+
+</div>
+
   
   <div class="overlay" id="divEdit">
 		<div class="wrapper">
@@ -231,7 +221,6 @@
 			
 		</div>
 	</div>
-  @endforeach
 
 @else
 	<tr>
@@ -239,7 +228,6 @@
 	</tr>
 @endif
 {!! $data->links() !!}	
-</div>
 
 
 

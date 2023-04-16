@@ -12,28 +12,28 @@
       <img src="myImages/squirrel2.jpg" class="d-block w-100 h-100" alt="...">
       <div class="carousel-caption">
         <h5 class="image-header">First slide label</h5>
-        <p class="image-description">Some representative placeholder content for the first slide.</p>
+        <p class="pSlides">Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="myImages/pets.jpg" class="d-block w-100 h-100" alt="...">
       <div class="carousel-caption">
         <h5 class="image-header">Second slide label</h5>
-        <p class="image-description">Some representative placeholder content for the second slide.</p>
+        <p class="pSlides">Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="myImages/cat.jpg" class="d-block w-100 h-100" alt="...">
       <div class="carousel-caption">
         <h5 class="image-header">Third slide label</h5>
-        <p class="image-description">Some representative placeholder content for the third slide.</p>
+        <p class="pSlides">Some representative placeholder content for the third slide.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="myImages/th.jpg" class="d-block w-100 h-100" alt="...">
       <div class="carousel-caption">
         <h5 class="image-header">Fourth slide label</h5>
-        <p class="image-description">Some representative placeholder content for the fourth slide.</p>
+        <p class="pSlides">Some representative placeholder content for the fourth slide.</p>
       </div>
     </div>
   </div>

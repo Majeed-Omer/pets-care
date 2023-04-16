@@ -83,12 +83,12 @@
 	overflow: auto;
 }
 
-.formADDEdit .labelImagesAdd {
+.formADDEdit .label {
 	text-transform: uppercase;
 	font-weight: 500;
 	letter-spacing: 3px;
 }
-.inputImagesAdd[type=text], .select, textarea {
+.input[type=text], .select, .textarea {
 	width: 100%;
 	padding: 12px;
 	border: 1px solid #ccc;
@@ -140,6 +140,7 @@ line-height: 0.1;
 	color: #fff;
 	cursor: pointer;
 	background: red;
+	height: 30px;
 }
 
 .divAnimalText{
