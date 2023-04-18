@@ -88,7 +88,7 @@
 	font-weight: 500;
 	letter-spacing: 3px;
 }
-.input[type=text], .select, .textarea {
+/* input[type=text], .select, .textarea {
 	width: 100%;
 	padding: 12px;
 	border: 1px solid #ccc;
@@ -97,8 +97,8 @@
 	margin-top: 6px;
 	margin-bottom: 16px;
 	resize: vertical;
-}
-.input[type="submit"] {
+} */
+input[type="submit"] {
 	background-color: #413b3b;
 	color: #fff;
 	padding: 15px 50px;

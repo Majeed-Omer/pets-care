@@ -12,26 +12,6 @@
   padding: 32px;
 }
 
-.rowMissing {
-  display: -ms-flexbox; /* IE 10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE 10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create two equal columns that sits next to each other */
-.columnMissing {
-  -ms-flex: 50%; /* IE 10 */
-  flex: 50%;
-  padding: 0 40px;
-}
-
-/* .columnMissing img {
-  margin-top: 8px;
-  vertical-align: middle;
-} */
-
 /* Style the buttons */
 .btn {
   border: none;
@@ -77,12 +57,6 @@ font-size: 20px;
 	width: 250px;
 }
 
-/* .column {
-  float: left;
-  width: 20%;
-  padding: 5px;
-} */
-
 /* Clearfix (clear floats) */
 .row::after {
   content: "";
@@ -90,10 +64,10 @@ font-size: 20px;
   display: table;
 }
 
-.box {
+.boxrideView {
 	text-align: center;
 }
-.button {
+.buttonAddMissing {
 	font-size: 1em;
 	padding: 15px 35px;
 	color: #fff;
@@ -103,7 +77,7 @@ font-size: 20px;
 	background: #0171d3;
 	border-radius: 50px;
 }
-.button:hover {
+.buttonAddMissing:hover {
 	background-color: black;
 }
 .overlay {
@@ -187,3 +161,121 @@ input[type="submit"] {
     object-fit: cover;
 }
 
+.imgShowMissing {
+    float: left;
+    width:  350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.wrapperShowImage {
+	margin: 70px auto;
+	padding: 20px;
+	background: #e7e7e7;
+	border-radius: 5px;
+	width:30%;
+	position: relative;
+	transition: all 5s ease-in-out;
+}
+.wrapperShowImage{
+	margin-top: 0;
+	color: #333;
+}
+.wrapperShowImage .close {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+.wrapperShowImage .close:hover {
+	color: #06D85F;
+}
+.wrapperShowImage .content {
+	max-height: 30%;
+	overflow: auto;
+}
+
+
+
+.cardAddImages {
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+	padding: 5px;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 300px;
+  }
+  
+  .cardAddImages {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+  }
+  
+  
+  .card-buttons {
+	justify-content: center;
+	margin-top: 10px;
+	width: 370px;
+  }
+  
+  .card-buttons .buttonDelete {
+	font-size: 1em;
+	  padding: 5px 10px;
+	  color: #fff;
+	  text-decoration: none;
+	  cursor: pointer;
+	  transition: all 0.3s ease-out;
+	  background: red;
+	  margin-right: 10px;
+  }
+
+  .buttonShow {
+	font-size: 1em;
+	  padding: 8px 25px;
+	  color: #fff;
+	  text-decoration: none;
+	  cursor: pointer;
+	  transition: all 0.3s ease-out;
+	  background: greenyellow;
+  }
+  
+  
+  .buttonEdit {
+	  font-size: 1em;
+	  padding: 8px 25px;
+	  color: #fff;
+	  text-decoration: none;
+	  cursor: pointer;
+	  transition: all 0.3s ease-out;
+	  background: #0171d3;
+  }
+  
+  .grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: #2196F3;
+	padding: 10px;
+  }
+  .grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+  }
+
+  .card-buttons .buttonShow {
+	font-size: 1em;
+	  padding: 5px 10px;
+	  color: #fff;
+	  text-decoration: none;
+	  cursor: pointer;
+	  transition: all 0.3s ease-out;
+	  background: green;
+  }

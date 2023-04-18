@@ -6,17 +6,48 @@
 </head>
 <body class="bodyGrideView">
 
-<!-- Header -->
-  
-<!-- <div class="header" id="myHeader">
-  <h1>ئاژەڵە بزربووەکان</h1>
-  <p>ئەو دوگمانە داگرە بۆ بینینی شێوازی جیاوازی ئەو وێنانە</p>
-  <button class="btn" onclick="one()">1</button>
-  <button class="btn active" onclick="two()">2</button>
-  <button class="btn" onclick="four()">4</button> -->
-  <br><br><br>
-  @include('pages.missing-pets.add_Missing_pets')
+<br><br><br><br><br>
+
+@include('pages.missing-pets.add_missing_pets_page')
+
+<br><br><br><br>
+
+@if(count($data) > 0)
+
+<div class="grid-container">
+
+@foreach($data as $row) 
+  <div class="grid-item">
+	<div class="cardAddImages">
+  <img src="{{ asset('picture/' . $row->picture) }}" class="imgMissing">
+  <div class="card-buttons edit-Delete-button-Missing">
+  <form action="{{ route('stolen_missing.destroy',$row->id) }}" method="POST">
+	@csrf
+	@method('DELETE')
+	<a class="buttonEdit" href="#divEdit/{{$row->id}}">گۆڕین</a>
+	<a class="buttonShow" href="#divShow/{{$row->id}}">پیشاندان</a>
+    <button type="submit" class="button1 buttonDelete">سڕینەوە</button>
+	</form> 
+  </div>
+  </div>
+  </div>   
+
+  @include('pages.missing-pets.edit_missing_pets_page')
+
+  @include('pages.missing-pets.show_missing_pets_page')
+
+  @endforeach  
 </div>
+	
+<br><br><br>
+
+	@else
+	<tr>
+		<td colspan="5" class="text-center">هیچ وێنەیەک نییە</td>
+	</tr>
+@endif
+{!! $data->links() !!}
+<script src="js/addMissingImage.js"></script>
 
 
 </body>

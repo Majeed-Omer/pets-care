@@ -1,5 +1,5 @@
 // Get all product elements
-const products = document.querySelectorAll('.columnMissing');
+const products = document.querySelectorAll('.grid-item');
 
 // Loop through each product element
 products.forEach(product => {

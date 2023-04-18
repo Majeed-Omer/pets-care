@@ -1,6 +1,7 @@
 .navbar {
     padding: auto 2rem;
-    background-color: bisque;
+    /* background-color: bisque; */
+    background-color: rgb(176, 206, 226);
 }
 .nav-left {
     width: fit-content;
