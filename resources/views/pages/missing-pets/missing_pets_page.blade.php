@@ -46,7 +46,6 @@
 		<td colspan="5" class="text-center">هیچ وێنەیەک نییە</td>
 	</tr>
 @endif
-{!! $data->links() !!}
 <script src="js/addMissingImage.js"></script>
 
 

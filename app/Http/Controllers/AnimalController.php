@@ -14,9 +14,12 @@ class AnimalController extends Controller
      */
     public function index()
     {
-        $data = Animal::latest()->paginate(5);
+        // $data = Animal::latest()->paginate(5);
 
-        return view('pages.home.addImage', compact('data'))->with('i', (request()->input('page', 1) - 1) * 5);
+        // return view('pages.home.animal-images.animal_images_page', compact('data'))->with('i', (request()->input('page', 1) - 1) * 5);
+
+        $data = Animal::all();
+        return view('pages.home.animal-images.animal_images_page', compact('data'));
     }
 
     /**

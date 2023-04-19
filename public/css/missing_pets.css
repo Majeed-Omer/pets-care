@@ -224,7 +224,23 @@ input[type="submit"] {
 	width: 370px;
   }
   
-  .card-buttons .buttonDelete {
+  .grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: 10px;
+	background-color: #2196F3;
+	padding: 10px;
+  }
+  
+  .grid-item {
+	background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.buttonDelete {
 	font-size: 1em;
 	  padding: 5px 10px;
 	  color: #fff;
@@ -234,43 +250,18 @@ input[type="submit"] {
 	  background: red;
 	  margin-right: 10px;
   }
-
-  .buttonShow {
-	font-size: 1em;
-	  padding: 8px 25px;
-	  color: #fff;
-	  text-decoration: none;
-	  cursor: pointer;
-	  transition: all 0.3s ease-out;
-	  background: greenyellow;
-  }
-  
   
   .buttonEdit {
 	  font-size: 1em;
-	  padding: 8px 25px;
+	  padding: 5px 10px;
 	  color: #fff;
 	  text-decoration: none;
 	  cursor: pointer;
 	  transition: all 0.3s ease-out;
 	  background: #0171d3;
   }
-  
-  .grid-container {
-	display: grid;
-	grid-template-columns: auto auto auto;
-	background-color: #2196F3;
-	padding: 10px;
-  }
-  .grid-item {
-	background-color: rgba(255, 255, 255, 0.8);
-	border: 1px solid rgba(0, 0, 0, 0.8);
-	padding: 20px;
-	font-size: 30px;
-	text-align: center;
-  }
 
-  .card-buttons .buttonShow {
+  .buttonShow {
 	font-size: 1em;
 	  padding: 5px 10px;
 	  color: #fff;

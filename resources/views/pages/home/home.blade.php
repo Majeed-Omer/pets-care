@@ -27,7 +27,7 @@
 @include('pages.home.bigImage')
 <br><br><br>
 @yield('content')
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br>
 @include('footer') 
 <script src="js/addImage.js"></script>	
 </body>

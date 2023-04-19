@@ -14,9 +14,8 @@ class Stolen_missingController extends Controller
      */
     public function index()
     {
-        $data = Stolen_missing::latest()->paginate(5);
-
-        return view('pages.missing-pets.missing_pets_page', compact('data'))->with('i', (request()->input('page', 1) - 1) * 5);
+        $data = Stolen_missing::all();
+        return view('pages.missing-pets.missing_pets_page', compact('data'));
     }
 
     /**
