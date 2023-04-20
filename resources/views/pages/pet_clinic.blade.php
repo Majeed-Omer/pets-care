@@ -14,8 +14,7 @@
  @if(count($data) > 0)
 
 @foreach($data as $row) 
-<div class="bgtint">
-<section class="bussinesscard">
+	<section class="bussinesscard">
 	 <div class="flip">
 			<div class="front">				
 				<div class="top">				
@@ -43,8 +42,8 @@
 			<div class="back"></div> 
 		</div>
 			</section>
-			</div>
-			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	 @endforeach		
 
 @else
@@ -52,8 +51,7 @@
 		<td colspan="5" class="text-center">هیچ کلینیکێک نییە</td>
 	</tr>
 @endif
-{!! $data->links() !!}
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br>		
+<br><br>
 </body>
 @include('footer')
 

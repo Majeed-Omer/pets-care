@@ -22,13 +22,14 @@
   width: 100%;
   height: 100%;
   z-index: 9;
+  background-image: url('/myImages/back-image.jpg');
 }
 
 .bgtint {
-  position: absolute;
+  position: flex;
   height: 100%;
   width: 100%;
-  background: white;
+  background: red;
 }
 
 /* p {
@@ -46,7 +47,7 @@
   transition: all 0.2s ease-in-out;
 }
 .aBusinessCard:hover {
-  color: #6acd79;
+  color: #4070f4;
 }
 
 .bussinesscard {
@@ -55,12 +56,12 @@
   overflow: hidden;
   box-shadow: 0px 0px 43px -10px black;
   position: absolute;
+  float: center;
   left: 50%;
-  top: 50%;
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 10%);
 }
 .bussinesscard .flip {
   -moz-transition: all 0.5s ease;
@@ -107,7 +108,7 @@
 }
 .bussinesscard .front .top .logo {
   display: inline-block;
-  background: #6acd79;
+  background: #4070f4;
   color: #fff;
   z-index: 11;
   padding: .16em;
@@ -195,7 +196,7 @@
   color: #fff;
   font-weight: 300;
   padding: .4em;
-  background: #6acd79;
+  background: #4070f4;
 }
 
 /* HOVER ANIMATIONS */
