@@ -155,3 +155,8 @@ body{
     margin-top: 30px;
     text-align: center;
 }
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-webkit-reveal {
+  display: none;
+}

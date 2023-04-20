@@ -21,8 +21,6 @@ class AuthController extends Controller
         return view('auth.login');
     }  
 
-   
-      
     /**
      * Write code on Method
      *
@@ -52,9 +50,9 @@ class AuthController extends Controller
     public function postRegistration(Request $request)
     {  
         $request->validate([
-            'first_name' => 'required',
-            'last_name' => 'required',
+            'name' => 'required',
             'email' => 'required|email|unique:users',
+            'phone_number' => 'required|unique:users',
             'password' => 'required|min:6',
             'notes' => 'required'
         ]);
@@ -87,9 +85,9 @@ class AuthController extends Controller
     public function create(array $data)
     {
       return User::create([
-        'first_name' => $data['first_name'],
-        'last_name' => $data['last_name'],
+        'name' => $data['name'],
         'email' => $data['email'],
+        'phone_number' => $data['phone_number'],
         'password' => Hash::make($data['password']),
         'notes' => $data['notes']
       ]);

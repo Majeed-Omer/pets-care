@@ -23,10 +23,9 @@
                         @endif
                     </div>
                     <div class="input-field">
-                        <input id="password" class="password" name="password" placeholder="وشەی نهێنی بنووسە" required>
+                        <input id="password" type="password" class="password" name="password" placeholder="وشەی نهێنی بنووسە" required>
                         <i class="uil uil-lock icon"></i>
                         <i class="uil uil-eye-slash showHidePw"></i>
-                        
                     </div>
 
                     <div class="checkbox-text">

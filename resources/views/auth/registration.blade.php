@@ -5,19 +5,13 @@
          <form action="{{ route('register.post') }}" method="POST">
            @csrf
                     <div class="input-field">
-                        <input type="text" id="first_name" placeholder="ناوی یەکەمت بنووسە" name="first_name" required autofocus>
+                        <input type="text" id="name" placeholder="ناوت بنووسە" name="name" required autofocus>
                         <i class="uil uil-user"></i>
-                        @if ($errors->has('first_name'))
-                            <span class="text-danger">{{ $errors->first('first_name') }}</span>
+                        @if ($errors->has('name'))
+                            <span class="text-danger">{{ $errors->first('name') }}</span>
                         @endif
                     </div>
-                    <div class="input-field">
-                        <input type="text" id="last_name" placeholder="ناوی دووەمت بنووسە" name="last_name" required autofocus>
-                        <i class="uil uil-user"></i>
-                        @if ($errors->has('last_name'))
-                            <span class="text-danger">{{ $errors->first('last_name') }}</span>
-                        @endif
-                    </div>
+                    
                     <div class="input-field">
                         <input type="text" id="email_address" placeholder="ئیمێڵت بنووسە" name="email" required autofocus>
                         <i class="uil uil-envelope icon"></i>
@@ -25,9 +19,17 @@
                             <span class="text-danger">{{ $errors->first('email') }}</span>
                         @endif
                     </div>
+
+                    <div class="input-field">
+                        <input type="tel" id="phone_number" placeholder="ژمارەی مۆبایلت بنووسە" name="phone_number" required autofocus>
+                        <i class="uil uil-phone icon"></i>
+                        @if ($errors->has('phone_number'))
+                            <span class="text-danger">{{ $errors->first('phone_number') }}</span>
+                        @endif
+                    </div>
                     
                     <div class="input-field">
-                        <input id="password" name="password" class="password" placeholder="وشەی نهێنی بنووسە" required>
+                        <input id="password" type="password" name="password" class="password" placeholder="وشەی نهێنی بنووسە" required>
                         <i class="uil uil-lock icon"></i>
                         <i class="uil uil-eye-slash showHidePw"></i>
                         @if ($errors->has('password'))
