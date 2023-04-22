@@ -25,19 +25,6 @@
   background-image: url('/myImages/back-image.jpg');
 }
 
-.bgtint {
-  position: flex;
-  height: 100%;
-  width: 100%;
-  background: red;
-}
-
-/* p {
-  padding: 0;
-  margin: 0;
-  display: inline-block;
-} */
-
 .aBusinessCard {
   color: #2a2b39;
   text-decoration: none;

@@ -20,7 +20,7 @@
 	@method('DELETE')
 	<a class="buttonEdit" href="#divEditAnimal/{{$row->id}}">گۆڕین</a>
 	<a class="buttonShow" href="#divShowAnimal/{{$row->id}}">پیشاندان</a>
-    <button type="submit" class="button1 buttonDelete">سڕینەوە</button>
+    <button type="submit" class="buttonDelete">سڕینەوە</button>
 	</form> 
   </div>
   </div>

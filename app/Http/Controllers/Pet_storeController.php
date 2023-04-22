@@ -14,9 +14,8 @@ class Pet_storeController extends Controller
      */
     public function index()
     {
-        $data = Pet_store::latest()->paginate(5);
-
-        return view('pages.pet_store', compact('data'))->with('i', (request()->input('page', 1) - 1) * 5);
+        $data = Pet_store::all();
+        return view('pages.pet_store', compact('data'));
     }
    
     /**

@@ -14,10 +14,6 @@ class Pet_clinicController extends Controller
      */
     public function index()
     {
-        // $data = Pet_clinic::latest()->paginate(5);
-
-        // return view('pages.pet_clinic', compact('data'))->with('i', (request()->input('page', 1) - 1) * 5);
-
         $data = Pet_clinic::all();
         return view('pages.pet_clinic', compact('data'));
     }

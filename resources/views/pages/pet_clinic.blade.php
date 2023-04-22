@@ -51,7 +51,7 @@
 		<td colspan="5" class="text-center">هیچ کلینیکێک نییە</td>
 	</tr>
 @endif
-<br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
 @include('footer')
 
