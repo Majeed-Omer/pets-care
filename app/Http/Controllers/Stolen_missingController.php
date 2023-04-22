@@ -5,6 +5,12 @@ namespace App\Http\Controllers;
 use App\Models\Stolen_missing;
 use Illuminate\Http\Request;
 
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
+// use Session;
+use App\Models\User;
+// use Hash;
+
 class Stolen_missingController extends Controller
 {
     /**
@@ -26,6 +32,7 @@ class Stolen_missingController extends Controller
      */
     public function store(Request $request)
     {
+        if(Auth::check()){
         $request->validate([
             'reward'          =>  'required',
             'email'         =>  'required',
@@ -48,10 +55,14 @@ class Stolen_missingController extends Controller
         $stolen_missing->pet_case = $request->pet_case;
         $stolen_missing->description = $request->description;
         $stolen_missing->picture = $file_name;
+        $stolen_missing->user_id = Auth::id();
 
         $stolen_missing->save();
 
         return redirect()->route('stolen_missing.index')->with('success', 'Animal Added successfully.');
+    } else {
+        return redirect("login")->withSuccess('Opps! You do not have account');
+    }
     }
 
     /**

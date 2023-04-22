@@ -5,6 +5,12 @@ namespace App\Http\Controllers;
 use App\Models\Animal;
 use Illuminate\Http\Request;
 
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
+// use Session;
+use App\Models\User;
+// use Hash;
+
 class AnimalController extends Controller
 {
     /**
@@ -14,12 +20,8 @@ class AnimalController extends Controller
      */
     public function index()
     {
-        // $data = Animal::latest()->paginate(5);
-
-        // return view('pages.home.animal-images.animal_images_page', compact('data'))->with('i', (request()->input('page', 1) - 1) * 5);
-
-        $data = Animal::all();
-        return view('pages.home.animal-images.animal_images_page', compact('data'));
+            $data = Animal::all();
+            return view('pages.home.animal-images.animal_images_page', compact('data'));
     }
 
     /**
@@ -30,6 +32,8 @@ class AnimalController extends Controller
      */
     public function store(Request $request)
     {
+        if(Auth::check()){
+
         $request->validate([
             'name'          =>  'required',
             'species'         =>  'required',
@@ -49,10 +53,14 @@ class AnimalController extends Controller
         $animal->birth_date = $request->birth_date;
         $animal->notes = $request->notes;
         $animal->images = $file_name;
+        $animal->user_id = Auth::id();
 
         $animal->save();
 
         return redirect()->route('index')->with('success', 'Animal Added successfully.');
+        } else {
+            return redirect("login")->withSuccess('Opps! You do not have account');
+        }
     }
 
     /**

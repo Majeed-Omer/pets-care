@@ -14,14 +14,17 @@
 <div class="grid-item">
 	<div class="cardAddImages">
   <img src="{{ asset('images/' . $row->images) }}" class="imgAnimals">
-  <div class="card-buttons edit-Delete-button">
-  <form action="{{ route('animal.destroy',$row->id) }}" method="POST">
+  <div class="card-buttons">
+  @if($row->user_id == auth()->id())  
+  <form class="formAnimal" action="{{ route('animal.destroy',$row->id) }}" method="POST">
 	@csrf
 	@method('DELETE')
 	<a class="buttonEdit" href="#divEditAnimal/{{$row->id}}">گۆڕین</a>
-	<a class="buttonShow" href="#divShowAnimal/{{$row->id}}">پیشاندان</a>
-    <button type="submit" class="buttonDelete">سڕینەوە</button>
+    <button type="submit" class="buttonDelete">سڕینەوە</button>  
 	</form> 
+  @endif
+  <a class="buttonShow" href="#divShowAnimal/{{$row->id}}">پیشاندان</a>
+
   </div>
   </div>
   </div>

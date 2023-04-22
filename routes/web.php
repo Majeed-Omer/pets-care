@@ -53,6 +53,7 @@ Route::resource('stolen_missing', Stolen_missingController::class);
 Route::resource('pet_clinic', Pet_clinicController::class);
 Route::resource('pet_store', Pet_storeController::class);
 Route::resource('home', AnimalController::class);
+Route::resource('animal_images_page', AnimalController::class);
 Route::resource('/', AnimalController::class);
 Route::get('all_supply', [AllSupplyController::class, 'index']);
 

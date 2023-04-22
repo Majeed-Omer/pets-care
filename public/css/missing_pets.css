@@ -16,18 +16,6 @@
 font-size: 20px;
 }
 
-.edit-Delete-button-Missing {
-	display: none;
-} 
-
-
-/* Clearfix (clear floats) */
-/* .row::after {
-  content: "";
-  clear: both;
-  display: table;
-} */
-
 .boxrideView {
 	text-align: center;
 }
@@ -169,8 +157,6 @@ input[type="submit"]:hover {
 	overflow: auto;
 }
 
-
-
 .cardAddImages {
 	border: 1px solid #ccc;
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
@@ -187,11 +173,11 @@ input[type="submit"]:hover {
 	margin-bottom: 10px;
   }
   
-  
   .card-buttons {
 	justify-content: center;
 	margin-top: 10px;
 	width: 370px;
+	display: none;
   }
   
   .grid-container {
@@ -218,7 +204,6 @@ input[type="submit"]:hover {
 	  cursor: pointer;
 	  transition: all 0.3s ease-out;
 	  background: #0171d3;
-	  margin-right: 10px;
 	  border: none;
   }
   
@@ -255,4 +240,8 @@ input[type="submit"]:hover {
   .buttonDelete:hover{
 	background-color: black;
 	color: white;
+  }
+
+  .formMissing {
+	display: inline-block;
   }

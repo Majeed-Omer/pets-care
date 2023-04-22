@@ -76,7 +76,7 @@
 	font-weight: 500;
 	letter-spacing: 3px;
 }
-/* input[type=text], .select, .textarea {
+input[type=text], .select, .textarea {
 	width: 100%;
 	padding: 12px;
 	border: 1px solid #ccc;
@@ -85,7 +85,7 @@
 	margin-top: 6px;
 	margin-bottom: 16px;
 	resize: vertical;
-} */
+}
 input[type="submit"] {
 	font-size: 1.2em;
 	padding: 10px 35px;
@@ -196,7 +196,6 @@ input[type="submit"]:hover {
 	  cursor: pointer;
 	  transition: all 0.3s ease-out;
 	  background: #0171d3;
-	  border-radius: 50px;
   }
 
     
@@ -208,8 +207,6 @@ input[type="submit"]:hover {
 	  cursor: pointer;
 	  transition: all 0.3s ease-out;
 	  background: #0171d3;
-	  margin-right: 10px;
-	  border-radius: 50px;
 	  border: none;
   }
   
@@ -221,7 +218,6 @@ input[type="submit"]:hover {
 	  cursor: pointer;
 	  transition: all 0.3s ease-out;
 	  background: #0171d3;
-	  border-radius: 50px;
   }
 
   .buttonEdit:hover{
@@ -239,3 +235,6 @@ input[type="submit"]:hover {
 	color: white;
   }
 
+  .formAnimal {
+	display: inline-block;
+  }
