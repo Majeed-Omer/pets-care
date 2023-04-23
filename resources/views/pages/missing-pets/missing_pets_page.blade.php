@@ -20,13 +20,13 @@
   <div class="grid-item">
 	<div class="cardAddImages">
   <img src="{{ asset('picture/' . $row->picture) }}" class="imgMissing">
-  <div class="card-buttons edit-Delete-button-Missing">
+  <div class="card-buttons">
   @if($row->user_id == auth()->id())
   <form class="formMissing" action="{{ route('stolen_missing.destroy',$row->id) }}" method="POST">
 	@csrf
 	@method('DELETE')
 	<a class="buttonEdit" href="#divEdit/{{$row->id}}">گۆڕین</a>
-    <button type="submit" class="button1 buttonDelete">سڕینەوە</button>
+    <button type="submit" class="buttonDelete">سڕینەوە</button>
 	</form> 
   @endif
   <a class="buttonShow" href="#divShow/{{$row->id}}">پیشاندان</a>

@@ -4,7 +4,7 @@ const products = document.querySelectorAll('.grid-item');
 // Loop through each product element
 products.forEach(product => {
   // Get the button element
-  const button = product.querySelector('.edit-Delete-button-Missing');
+  const button = product.querySelector('.card-buttons');
 
   // Add a click event listener to the product element
   product.addEventListener('click', () => {

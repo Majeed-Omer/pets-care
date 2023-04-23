@@ -7,7 +7,7 @@
 	<div class="card-body">
 		<form class="formADDEdit" method="post" action="{{ route('stolen_missing.update', $row->id) }}" enctype="multipart/form-data">
 			@csrf
-			@method('PUT')
+			@method('PUT')	
 			<div class="row mb-3">
 				<label class="col-sm-2 col-label-form">خەڵات</label>
 				<div class="col-sm-10">

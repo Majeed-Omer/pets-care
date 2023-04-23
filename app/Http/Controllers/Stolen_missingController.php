@@ -85,14 +85,14 @@ class Stolen_missingController extends Controller
      */
     public function update(Request $request, Stolen_missing $stolen_missing)
     {
-        $request->validate([
-            'reward'          =>  'required',
-            'email'         =>  'required',
-            'phone_number'         =>  'required',
-            'stolen_lost_date'         =>  'required',
-            'description'         =>  'required',
-            'picture'         =>  'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=2000,max_height=2000'
-        ]);
+        // $request->validate([
+        //     'reward'          =>  'required',
+        //     'email'         =>  'required',
+        //     'phone_number'         =>  'required',
+        //     'stolen_lost_date'         =>  'required',
+        //     'description'         =>  'required',
+        //     'picture'         =>  'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=2000,max_height=2000'
+        // ]);
 
         $picture = $request->hidden_picture;
 
@@ -104,13 +104,21 @@ class Stolen_missingController extends Controller
         }
 
         $stolen_missing = Stolen_missing::find($request->hidden_id);
+
         $stolen_missing->reward = $request->reward;
+
         $stolen_missing->email = $request->email;
+
         $stolen_missing->phone_number = $request->phone_number;
+
         $stolen_missing->stolen_lost_date = $request->stolen_lost_date;
+
         $stolen_missing->pet_case = $request->pet_case;
+
         $stolen_missing->description = $request->description;
+
         $stolen_missing->picture = $picture;
+        
         $stolen_missing->save();
         return redirect()->route('stolen_missing.index')->with('success', 'Animal Data has been updated successfully');
     }
