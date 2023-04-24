@@ -14,7 +14,7 @@
 	  <a class="nav-link text-style active" aria-current="page" href="/home">ماڵەوە</a>
 	</li>
 	<li class="nav-item">
-	  <a class="nav-link text-style" href="/نەخشە">نەخشە</a>
+	  <a class="nav-link text-style" href="/map">نەخشە</a>
 	</li>
 	<li class="nav-item">
 	  <a class="nav-link text-style" href="/all_supply">پێداویستی ئاژەڵان</a>
@@ -29,7 +29,7 @@
         </ul>
     </li>
 	<li class="nav-item">
-	  <a class="nav-link text-style" href="/دەربارەی-ئێمە">دەربارەی ئێمە</a>
+	  <a class="nav-link text-style" href="/about-us">دەربارەی ئێمە</a>
 	</li>
 	<li class="nav-item">
 		<a class="nav-link text-style" href="/login"><i class="fa-regular fa-circle-user" style="margin-right: 7px"></i>خۆت تۆماربکە</a>

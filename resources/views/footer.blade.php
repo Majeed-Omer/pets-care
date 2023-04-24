@@ -6,9 +6,10 @@
     	<!-- <img src="myImages/logo2-removebg.png" alt="Logo of pet care" width="80px" height="80px"> -->
 		<p class="footer-links">					
 			<a class="aFooter link-1" href="/home">ماڵەوە</a>
-			<a class="aFooter" href="/نەخشە">نەخشە</a>
-			<a class="aFooter" href="/ڤێتەرنەکان">ڤێتەرنەکان</a>
-			<a class="aFooter" href="/دەربارەی-ئێمە">دەربارەی ئێمە</a>		
+			<a class="aFooter" href="/map">نەخشە</a>
+			<a class="aFooter" href="/pet_clinic">کلینیکی ئاژەڵان</a>
+			<a class="aFooter" href="/pet_store">فرۆشگای ئاژەڵان</a>
+			<a class="aFooter" href="/about-us">دەربارەی ئێمە</a>		
 			
 		</p>
 		<p class="footer-company-name">یارمەتی دانی ئاژەڵان © ٢٠١٥</p>
@@ -32,7 +33,7 @@
 	<div class="footer-right">
 		<p class="footer-company-about" class="pFooter">
 			<span class="spanFooter">دەربارەی ماڵپەڕەکە</span>
-			Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+			ئەم ماڵپەڕە تایبەتە بە زانیاری دەربارەی ئاژەڵان، زانیاری گرینگی تێدایە دەربارەی شوێنەکانی تایبەت بە ئاژەڵان وە زانیاری دەربارەی خواردەمەنی ئاژەڵان
 		</p>
 		<div class="footer-icons">
 			<a class="aFooter" href="#"><i class="fa fa-facebook"></i></a>

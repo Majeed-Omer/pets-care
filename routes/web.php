@@ -23,23 +23,16 @@ Route::get('/', function () {
     return view('pages.home.home');
 });
 
-Route::get('/pet_clinic', function () {
-    return view('pages.pet_clinic');
-});
-Route::get('/نەخشە', function () {
+Route::get('/map', function () {
     return view('pages.locations');
 });
 
-Route::get('/دەربارەی-ئێمە', function () {
+Route::get('/about-us', function () {
     return view('pages.about');
 });
 
 Route::get('/all_supply', function () {
     return view('pages.all_supply');
-});
-
-Route::get('/edit', function () {
-    return view('pages.missing-pets.edit');
 });
 
 Route::get('login', [AuthController::class, 'index'])->name('login');
