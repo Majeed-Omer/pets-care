@@ -20,7 +20,7 @@ use App\Http\Controllers\AllSupplyController;
 */
 
 Route::get('/', function () {
-    return view('pages.home.home');
+    return view('test');
 });
 
 Route::get('/map', function () {
