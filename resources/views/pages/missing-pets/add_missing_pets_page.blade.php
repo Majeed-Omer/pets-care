@@ -39,8 +39,8 @@
 				<label class="col-sm-2 col-label-form">هۆکاری دیارنەمانی</label>
 				<div class="col-sm-10">
 					<select name="pet_case" class="form-control">
-						<option value="Stolen">دزراو</option>
-						<option value="Missing">ونبووە</option>
+						<option value="دزراو">دزراو</option>
+						<option value="ونبووە">ونبووە</option>
 					</select>
 				</div>
 			</div>

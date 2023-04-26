@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('email');
             $table->string('phone_number');
             $table->date('stolen_lost_date');
-            $table->enum('pet_case', ['stolen', 'missing']);
+            $table->enum('pet_case', ['دزراو', 'ونبووە']);
             $table->string('description');
             $table->string('picture');
             $table->timestamps();

@@ -15,9 +15,10 @@
 				</div>
 			</div>
 			
-		<p style="text-align: right"><span> ناو</span> {{ $row->name }}</p>
-		<p style="text-align: right">{{ $row->species }} <span> جۆر</span></p>
+		<p style="text-align: right"><span> ناو</span> {{ $row->pet_name }}</p>
+		<p style="text-align: right"> <span>جۆری </span>{{ $row->species_name }}</p>
       	<p style="text-align: right"><span> بەرواری لەدایکبوونی</span> {{ $row->birth_date }}</p>
+		  <p style="text-align: right"><span>بارودۆخی</span> {{ $row->state }}</p>
 		<p style="text-align: right"><span> وردەکاری زیاتر</span>{{ $row->notes }}</p>
 
 		</form>

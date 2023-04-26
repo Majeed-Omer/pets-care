@@ -5,28 +5,38 @@
 				<div class="container">
 					<div class="card">
 						<div class="card-body">
-							<form class="formADDEdit" method="post" action="{{ route('animal.update', $row->id) }}" enctype="multipart/form-data">
+							<form class="formADDEdit" method="post" action="{{ route('species.update', $row->id) }}" enctype="multipart/form-data">
 								@csrf
 								@method('PUT')
-								<div class="rowaddImages mb-3">
+								<div class="rowaddImages mb-2">
 									<label>ناوی ئاژەڵ</label>
 									<div class="col-sm-10">
-										<input type="text" name="name" class="form-control" value="{{ $row->name }}" />
+										<input type="text" name="pet_name" class="form-control" value="{{ $row->pet_name }}" />
+									</div>
+								</div>
+								<div class="rowaddImages mb-2">
+									<label>جۆری ئاژەڵ</label>
+									<div class="col-sm-10">
+										<input type="text" name="species_name" class="form-control" value="{{ $row->species_name }}" />
 									</div>
 								</div>
 								<div class="rowaddImages mb-3">
-									<label>جۆری ئاژەڵ</label>
-									<div class="col-sm-10">
-										<input type="text" name="species" class="form-control" value="{{ $row->species }}" />
-									</div>
-								</div>
-								<div class="rowaddImages mb-4">
 									<label>لەدایکبوونی</label>
 									<div class="col-sm-10">
 									<input type="date" name="birth_date" class="form-control" value="{{ $row->birth_date }}" />
 									</div>
 								</div>
-								<div class="rowaddImages mb-4">
+								<div class="row mb-3">
+				               <label class="col-sm-3 col-label-form">بارودۆخی</label>
+				              <div class="col-sm-10">
+				              <select name="state" class="form-control">
+						      <option value="ماڵییە">ماڵییە</option>
+						      <option value="کێوییە">کێوییە</option>
+							  <option value="لەفرۆشگای ئاژەڵانە">لەفرۆشگای ئاژەڵانە</option>
+					          </select>
+				              </div>
+			                   </div>
+								<div class="rowaddImages mb-3">
 									<label >وێنەی</label>
 									<div class="col-sm-10">
 										<input type="file" name="images" />
@@ -34,7 +44,7 @@
 										<input type="hidden" name="hidden_images" value="{{ $row->images }}" />
 									</div>
 								</div>
-								<div class="rowaddImages mb-4">
+								<div class="rowaddImages mb-3">
 									<label>زانیاری</label>
 									<div class="col-sm-10">
 									<input type="text" name="notes" class="form-control" value="{{ $row->notes }}" />

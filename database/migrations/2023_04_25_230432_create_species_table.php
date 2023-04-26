@@ -8,16 +8,15 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
-     *
-     * @return void
      */
-    public function up()
+    public function up(): void
     {
-        Schema::create('animals', function (Blueprint $table) {
+        Schema::create('species', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('species');
+            $table->string('species_name');
+            $table->string('pet_name');
             $table->date('birth_date');
+            $table->enum('state', ['ماڵییە', 'کێوییە', 'لە فرۆشگای ئاژەڵانە']);
             $table->string('images');
             $table->string('notes');
             $table->timestamps();
@@ -26,11 +25,9 @@ return new class extends Migration
 
     /**
      * Reverse the migrations.
-     *
-     * @return void
      */
-    public function down()
+    public function down(): void
     {
-        Schema::dropIfExists('animals');
+        Schema::dropIfExists('species');
     }
 };
