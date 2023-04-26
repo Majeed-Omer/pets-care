@@ -3,10 +3,19 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/missing_pets.css" rel="stylesheet" type="text/css">
+
 </head>
 <body class="bodyGrideView">
 
-<br><br><br><br><br>
+<div class="item">
+
+<button class="buttonBack" onclick="location.href='/home'"><i class="fa fa-long-arrow-left arrow1" aria-hidden="true"></i> 
+<span>بۆ ماڵەوە</span>   
+</button>
+
+</div>
+
+<br><br>
 
 @include('pages.missing-pets.add_missing_pets_page')
 
@@ -50,6 +59,8 @@
 @endif
 <script src="js/addMissingImage.js"></script>
 
+<script src="https://kit.fontawesome.com/217328fb47.js" crossorigin="anonymous"></script>
 
 </body>
 </html>
+

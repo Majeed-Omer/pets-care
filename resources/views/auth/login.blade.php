@@ -19,7 +19,7 @@
                         <input type="text" id="email_address" placeholder="ئیمێڵت بنووسە" name="email" required autofocus>
                         <i class="uil uil-envelope icon"></i>
                         @if ($errors->has('email'))
-                                      <span class="text-danger">{{ $errors->first('email') }}</span>
+                            <span class="text-danger">{{ $errors->first('email') }}</span>
                         @endif
                     </div>
                     <div class="input-field">
