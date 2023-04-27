@@ -287,7 +287,6 @@ input[type="submit"]:hover {
   .arrow1 {
 	animation: slide1 1s ease-in-out infinite;
 	font-size: 1.2em;
-	/* margin-left: 9px; */
   }
 
   .textboMalua{

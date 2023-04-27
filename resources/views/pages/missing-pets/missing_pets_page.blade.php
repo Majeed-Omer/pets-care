@@ -30,7 +30,7 @@
 	<div class="cardAddImages">
   <img src="{{ asset('picture/' . $row->picture) }}" class="imgMissing">
   <div class="card-buttons">
-  @if($row->user_id == auth()->id())
+  @if($row->user_id == auth()->id()  || auth()->id() === 1)
   <form class="formMissing" action="{{ route('stolen_missing.destroy',$row->id) }}" method="POST">
 	@csrf
 	@method('DELETE')

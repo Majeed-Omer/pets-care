@@ -16,6 +16,10 @@
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
+.iLogin{
+    font-size: 1.2em;
+    margin-right: 7px
+}
 @media screen and (max-width: 991px) {
     .navbar {
         padding: auto 1rem;

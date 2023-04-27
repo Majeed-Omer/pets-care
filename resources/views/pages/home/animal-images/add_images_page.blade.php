@@ -34,7 +34,7 @@
 					        <select name="state" class="form-control">
 						    <option value="ماڵییە">ماڵییە</option>
 						    <option value="کێوییە">کێوییە</option>
-							<option value="لەفرۆشگای ئاژەڵانە">لەفرۆشگای ئاژەڵانە</option>
+							<option value="لە فرۆشگای ئاژەڵانە">لە فرۆشگای ئاژەڵانە</option>
 					        </select>
 				            </div>
 			                </div>

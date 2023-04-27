@@ -27,7 +27,7 @@
 				</div>
 			</div>
       <h3>{{ $row->medicine_name }}</h3>
-      <p class="priceP">{{ $row->medicine_contents }}</p>
+      <p>{{ $row->medicine_contents }}</p>
 
 		</form>
 	</div>
@@ -68,7 +68,7 @@
 				</div>
 			</div>
       <h3>{{ $row->medicine_name }}</h3>
-      <p class="priceP">{{ $row->medicine_contents }}</p>
+      <p>{{ $row->medicine_contents }}</p>
 
 		</form>
 	</div>
@@ -110,8 +110,7 @@
 				</div>
 			</div>
       <h3>{{ $row->medicine_name }}</h3>
-      <p class="priceP">{{ $row->medicine_contents }}</p>
-
+      <p>{{ $row->medicine_contents }}</p>
 		</form>
 	</div>
 </div>

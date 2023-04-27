@@ -32,7 +32,7 @@
 	  <a class="nav-link text-style" href="/about-us">دەربارەی ئێمە</a>
 	</li>
 	<li class="nav-item">
-		<a class="nav-link text-style" href="/login"><i class="fa-regular fa-circle-user" style="margin-right: 7px"></i>خۆت تۆماربکە</a>
+		<a class="nav-link text-style" href="/login"><i class="fa-regular fa-circle-user iLogin"></i>خۆت تۆماربکە</a>
 	</li>
   </ul>
 </div>

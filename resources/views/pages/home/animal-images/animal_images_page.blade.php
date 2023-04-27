@@ -15,7 +15,7 @@
 	<div class="cardAddImages">
   <img src="{{ asset('images/' . $row->images) }}" class="imgAnimals">
   <div class="card-buttons">
-  @if($row->user_id == auth()->id())  
+  @if($row->user_id == auth()->id() || auth()->id() === 1) 
   <form class="formAnimal" action="{{ route('species.destroy',$row->id) }}" method="POST">
 	@csrf
 	@method('DELETE')
