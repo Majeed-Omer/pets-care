@@ -9,8 +9,8 @@
 
 <div class="item">
 
-<button class="buttonBack" onclick="location.href='/home'"><i class="fa fa-long-arrow-left arrow1" aria-hidden="true"></i> 
-<span>بۆ ماڵەوە</span>   
+<button class="buttonBack" onclick="location.href='/'"><i class="fa fa-long-arrow-left arrow1" aria-hidden="true"></i> 
+<span class="textboMalua">بۆ ماڵەوە</span>   
 </button>
 
 </div>

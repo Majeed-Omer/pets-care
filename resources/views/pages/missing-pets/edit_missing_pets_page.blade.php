@@ -11,25 +11,25 @@
 			<div class="row mb-3">
 				<label class="col-sm-2 col-label-form">خەڵات</label>
 				<div class="col-sm-10">
-					<input type="text" name="reward" class="form-control" value="{{ $row->reward }}" />
+					<input type="text" name="reward" class="form-control" value="{{ $row->reward }}" required/>
 				</div>
 			</div>
 			<div class="row mb-3">
 				<label class="col-sm-2 col-label-form">ئیمێڵ</label>
 				<div class="col-sm-10">
-					<input type="text" name="email" class="form-control" value="{{ $row->email }}" />
+					<input type="text" name="email" class="form-control" value="{{ $row->email }}" required/>
 				</div>
 			</div>
 			<div class="row mb-3">
 				<label class="col-sm-2 col-label-form">ژمارەی مۆبایل</label>
 				<div class="col-sm-10">
-					<input type="tel" name="phone_number" class="form-control" value="{{ $row->phone_number }}" />
+					<input type="tel" name="phone_number" class="form-control" value="{{ $row->phone_number }}" required/>
 				</div>
 			</div>
 			<div class="row mb-4">
 				<label class="col-sm-2 col-label-form">بەرواری دیارنەمانی</label>
 				<div class="col-sm-10">
-				<input type="date" name="stolen_lost_date" class="form-control" value="{{ $row->stolen_lost_date }}" />
+				<input type="date" name="stolen_lost_date" class="form-control" value="{{ $row->stolen_lost_date }}" required/>
 				</div>
 			</div>
 			<div class="row mb-4">
@@ -46,16 +46,16 @@
 				<label class="col-sm-2 col-label-form">زانیاری زیادە</label>
 				<br>
 				<div class="col-sm-10">
-				<input type="text" name="description" class="form-control" value="{{ $row->description }}" />
+				<input type="text" name="description" class="form-control" value="{{ $row->description }}" required/>
 				</div>
 			</div>
 
 			<div class="row mb-4">
 				<label class="col-sm-2 col-label-form">وێنەی</label>
 				<div class="col-sm-10">
-					<input type="file" name="picture" />
+					<input type="file" name="picture"/>
 					<img src="{{ asset('picture/' . $row->picture) }}" width="100" class="img-thumbnail" />
-					<input type="hidden" name="hidden_picture" value="{{ $row->picture }}" />
+					<input type="hidden" name="hidden_picture" value="{{ $row->picture }}"/>
 				</div>
 			</div>
 			

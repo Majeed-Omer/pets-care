@@ -8,25 +8,25 @@
 							<form class="formADDEdit" method="post" action="{{ route('species.update', $row->id) }}" enctype="multipart/form-data">
 								@csrf
 								@method('PUT')
-								<div class="rowaddImages mb-2">
+								<div class="rowaddImages mb-1">
 									<label>ناوی ئاژەڵ</label>
 									<div class="col-sm-10">
-										<input type="text" name="pet_name" class="form-control" value="{{ $row->pet_name }}" />
+										<input type="text" name="pet_name" class="form-control" value="{{ $row->pet_name }}" required/>
+									</div>
+								</div>
+								<div class="rowaddImages mb-1">
+									<label>جۆری ئاژەڵ</label>
+									<div class="col-sm-10">
+										<input type="text" name="species_name" class="form-control" value="{{ $row->species_name }}" required/>
 									</div>
 								</div>
 								<div class="rowaddImages mb-2">
-									<label>جۆری ئاژەڵ</label>
-									<div class="col-sm-10">
-										<input type="text" name="species_name" class="form-control" value="{{ $row->species_name }}" />
-									</div>
-								</div>
-								<div class="rowaddImages mb-3">
 									<label>لەدایکبوونی</label>
 									<div class="col-sm-10">
-									<input type="date" name="birth_date" class="form-control" value="{{ $row->birth_date }}" />
+									<input type="date" name="birth_date" class="form-control" value="{{ $row->birth_date }}" required/>
 									</div>
 								</div>
-								<div class="row mb-3">
+								<div class="row mb-2">
 				               <label class="col-sm-3 col-label-form">بارودۆخی</label>
 				              <div class="col-sm-10">
 				              <select name="state" class="form-control">
@@ -36,18 +36,18 @@
 					          </select>
 				              </div>
 			                   </div>
-								<div class="rowaddImages mb-3">
+								<div class="rowaddImages mb-2">
 									<label >وێنەی</label>
 									<div class="col-sm-10">
 										<input type="file" name="images" />
 										<img src="{{ asset('images/' . $row->images) }}" width="100" class="img-thumbnail" />
-										<input type="hidden" name="hidden_images" value="{{ $row->images }}" />
+										<input type="hidden" name="hidden_images" value="{{ $row->images }}"/>
 									</div>
 								</div>
-								<div class="rowaddImages mb-3">
+								<div class="rowaddImages mb-2" required>
 									<label>زانیاری</label>
 									<div class="col-sm-10">
-									<input type="text" name="notes" class="form-control" value="{{ $row->notes }}" />
+									<input type="text" name="notes" class="form-control" value="{{ $row->notes }}"/>
 									</div>
 								</div>
 								<div class="text-center">

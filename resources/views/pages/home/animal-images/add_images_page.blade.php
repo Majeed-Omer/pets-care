@@ -13,19 +13,19 @@
 							<div class="rowaddImages mb-3">
 								<label>ناوی ئاژەڵ</label>
 								<div class="col-sm-10">
-									<input type="text" name="pet_name" class="form-control" />
+									<input type="text" name="pet_name" class="form-control" required/>
 								</div>
 							</div>
 							<div class="rowaddImages mb-3">
 								<label>جۆری ئاژەڵ</label>
 								<div class="col-sm-10">
-									<input type="text" name="species_name" class="form-control" />
+									<input type="text" name="species_name" class="form-control" required/>
 								</div>
 							</div>
 							<div class="rowaddImages mb-4">
 								<label>بەرواری لەدایکبوونی</label>
 								<div class="col-sm-10">
-								<input type="date" name="birth_date" class="form-control" />
+								<input type="date" name="birth_date" class="form-control" required/>
 								</div>
 							</div>
 							<div class="row mb-4">
@@ -41,13 +41,13 @@
 							<div class="rowaddImages mb-4">
 								<label>وێنەی ئاژەڵەکە</label>
 								<div class="col-sm-10">
-									<input type="file" name="images" />
+									<input type="file" name="images" required/>
 								</div>
 							</div>
 							<div class="rowaddImages mb-3">
 								<label>زانیاری</label>
 								<div class="col-sm-10">
-									<input type="text" name="notes" class="form-control" />
+									<input type="text" name="notes" class="form-control" required/>
 								</div>
 							</div>
 							<div class="text-center">

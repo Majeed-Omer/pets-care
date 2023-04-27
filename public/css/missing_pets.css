@@ -251,7 +251,7 @@ input[type="submit"]:hover {
 	font-family: "Lato";
   }
   .item {
-	width: 125px;
+	width: 130px;
 	height: 50px;
 	margin: 10px;
 	position: relative;
@@ -266,6 +266,7 @@ input[type="submit"]:hover {
 	color: white;
 	transition: background 0.5s ease;
 	cursor: pointer;
+	border-radius: 10px;
   }
   
   .buttonBack:hover {
@@ -285,7 +286,12 @@ input[type="submit"]:hover {
   
   .arrow1 {
 	animation: slide1 1s ease-in-out infinite;
+	font-size: 1.2em;
 	/* margin-left: 9px; */
+  }
+
+  .textboMalua{
+	font-size: 18px;
   }
   
   @keyframes slide1 {
