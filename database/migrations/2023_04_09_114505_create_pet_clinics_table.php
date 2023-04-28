@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('pet_clinic', function (Blueprint $table) {
+        Schema::create('pet_clinics', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->string('email');
@@ -32,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('pet_clinic');
+        Schema::dropIfExists('pet_clinics');
     }
 };

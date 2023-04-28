@@ -11,6 +11,7 @@
                <input type="checkbox" id="btn-2">
                <ul>
                   <li><a href="#" onclick="showSection('medicine-cat')">دەرمانی پشیلە</a></li>
+                  <li><a href="#" onclick="showSection('product-cat')">خواردنی پشیلە</a></li>
                   <li><a href="#" onclick="showSection('product-cat')">پێداویستی تری پشیلە</a></li>
                </ul>
             </li>
@@ -21,6 +22,7 @@
                <input type="checkbox" id="btn-3">
                <ul>
                   <li><a href="#" onclick="showSection('medicine-dog')">دەرمانی سەگ</a></li>
+                  <li><a href="#" onclick="showSection('product-dog')">خواردنی سەگ</a></li>
                   <li><a href="#" onclick="showSection('product-dog')">پێداویستی تری سەگ</a></li>
                </ul>
             </li>
@@ -31,6 +33,7 @@
                <input type="checkbox" id="btn-4">
                <ul>
                   <li ><a href="#" onclick="showSection('medicine-bird')">دەرمانی باڵندە</a></li>
+                  <li ><a href="#" onclick="showSection('product-bird')">خواردنی باڵندە</a></li>
                   <li><a href="#" onclick="showSection('product-bird')">پێداویستی تری باڵندە</a></li>
                </ul>
             </li>

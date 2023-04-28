@@ -13,15 +13,15 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('stolen_missing', function (Blueprint $table) {
+        Schema::create('pet_stores', function (Blueprint $table) {
             $table->id();
-            $table->string('reward');
+            $table->string('name');
+            $table->string('seller');
             $table->string('email');
             $table->string('phone_number');
-            $table->date('stolen_lost_date');
-            $table->enum('pet_case', ['دزراو', 'ونبووە']);
-            $table->string('description');
-            $table->string('picture');
+            $table->string('address');
+            $table->integer('equipment_id');
+            $table->integer('species_id');
             $table->timestamps();
         });
     }
@@ -33,6 +33,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('stolen_missing');
+        Schema::dropIfExists('pet_stores');
     }
 };
