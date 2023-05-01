@@ -26,6 +26,7 @@
         <ul class="dropdown-menu">
           <li><a class="dropdown-item text-style" href="/pet_store">فرۆشگای ئاژەڵان</a></li>
           <li><a class="dropdown-item text-style" href="/pet_clinic">کلینیکی ئاژەڵان</a></li>
+		  <li><a class="dropdown-item text-style" href="/shelter">پەناگەی ئاژەڵان</a></li>
         </ul>
     </li>
 	<li class="nav-item">

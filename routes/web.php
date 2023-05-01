@@ -8,6 +8,7 @@ use App\Http\Controllers\Stolen_missingController;
 use App\Http\Controllers\Pet_clinicController;
 use App\Http\Controllers\Pet_storeController;
 use App\Http\Controllers\AllSupplyController;
+use App\Http\Controllers\ShelterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -50,5 +51,6 @@ Route::resource('pet_store', Pet_storeController::class);
 Route::resource('home', SpeciesController::class);
 Route::resource('/', SpeciesController::class);
 Route::get('all_supply', [AllSupplyController::class, 'index']);
+Route::resource('shelter', ShelterController::class);
 
 
