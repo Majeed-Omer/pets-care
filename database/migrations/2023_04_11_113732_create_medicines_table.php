@@ -17,6 +17,8 @@ return new class extends Migration
             $table->string('medicine_contents');
             $table->integer('animal_id');
             $table->string('medicine_price');
+            $table->string('clinic_name');
+            $table->string('clinic_location');
             $table->timestamps();
         });
     }

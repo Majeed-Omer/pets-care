@@ -15,7 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('address');
+            $table->string('location');
             $table->string('information');
+            $table->string('video');
             $table->integer('species_id');
             $table->timestamps();
         });

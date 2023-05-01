@@ -22,6 +22,7 @@ return new class extends Migration
             $table->enum('pet_case', ['دزراو', 'ونبووە']);
             $table->string('description');
             $table->string('picture');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }

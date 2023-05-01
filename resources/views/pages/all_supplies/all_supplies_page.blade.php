@@ -17,9 +17,9 @@
 
 <div class="columnNames" > 
 
-@include('pages.all_supplies.medicines')
+@include('pages.all_supplies.medicinesGroup.medicines')
 
-@include('pages.all_supplies.products')
+@include('pages.all_supplies.productsGroup.products')
 
 </div>
 <div class="columnNames">

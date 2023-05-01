@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('pet_stores', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->string('seller');
+            $table->string('owner');
             $table->string('email');
             $table->string('phone_number');
             $table->string('address');

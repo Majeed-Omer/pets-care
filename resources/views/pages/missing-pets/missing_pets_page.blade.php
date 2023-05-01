@@ -54,9 +54,7 @@
 <br><br><br>
 
 	@else
-	<tr>
-		<td colspan="5" class="text-center">هیچ وێنەیەک نییە</td>
-	</tr>
+	<p class="noMissingStolen">هیچ ئاژەڵەکی بزربوو نییە</p>
 @endif
 <script src="js/addMissingImage.js"></script>
 

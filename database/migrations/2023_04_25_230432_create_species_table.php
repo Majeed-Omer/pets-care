@@ -19,6 +19,7 @@ return new class extends Migration
             $table->enum('state', ['ماڵییە', 'کێوییە', 'لە فرۆشگای ئاژەڵانە']);
             $table->string('images');
             $table->string('notes');
+            $table->integer('user_id');
             $table->timestamps();
         });
     }
