@@ -72,9 +72,7 @@
 	 @endforeach		
 
 @else
-	<tr>
-		<td colspan="5" class="text-center">هیچ ستۆرەک نییە</td>
-	</tr>
+<p class="noStore">هیچ ستۆرەک نییە</p>
 @endif
 <br><br><br><br><br><br><br><br><br><br><br><br>
 </body>

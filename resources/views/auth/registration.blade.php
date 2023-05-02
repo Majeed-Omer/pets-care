@@ -5,10 +5,10 @@
          <form action="{{ route('register.post') }}" method="POST">
            @csrf
                     <div class="input-field">
-                        <input type="text" id="name" placeholder="ناوت بنووسە" name="name" required autofocus>
+                        <input type="text" id="full_name" placeholder="ناوت بنووسە" name="full_name" required autofocus>
                         <i class="uil uil-user"></i>
-                        @if ($errors->has('name'))
-                            <span class="text-danger">{{ $errors->first('name') }}</span>
+                        @if ($errors->has('full_name'))
+                            <span class="text-danger">{{ $errors->first('full_name') }}</span>
                         @endif
                     </div>
                     

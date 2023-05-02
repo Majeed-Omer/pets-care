@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
-<link rel="stylesheet" href="css/navBar.css">
+<link rel="stylesheet" href="css/header.css">
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
 <div class="container-fluid nav-left">

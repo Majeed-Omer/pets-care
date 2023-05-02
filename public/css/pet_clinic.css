@@ -228,3 +228,9 @@
   -webkit-transform: translateY(-52%);
   transform: translateY(-52%);
 }
+
+.noClinic{
+  font-size: 50px;
+  margin: 90px 500px;
+  width: 600px;
+}

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/veterinary.css" rel="stylesheet" type="text/css">
+  <link href="css/pet_clinic.css" rel="stylesheet" type="text/css">
   <title>ڤێتەرنەکان</title>
   @include('header')
 
@@ -47,9 +47,7 @@
 	 @endforeach		
 
 @else
-	<tr>
-		<td colspan="5" class="text-center">هیچ کلینیکێک نییە</td>
-	</tr>
+<p class="noClinic">هیچ کلینەک نییە</p>
 @endif
 <br><br><br><br><br><br><br><br><br><br><br><br>
 </body>

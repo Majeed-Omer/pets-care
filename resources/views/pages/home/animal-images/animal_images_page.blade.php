@@ -36,9 +36,6 @@
 </div>
 @else
 
-<tr>
-	<td colspan="5" class="text-center">هیچ وێنەیەک نییە</td>
-</tr>
-
+<p class="noAnimals">هیچ وێنەیەک نییە</p>
 @endif
 @endsection

@@ -238,3 +238,9 @@ input[type="submit"]:hover {
   .formAnimal {
 	display: inline-block;
   }
+
+  .noAnimals{
+    font-size: 50px;
+    margin: 90px 500px;
+    width: 600px;
+  }
