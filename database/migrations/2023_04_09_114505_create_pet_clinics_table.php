@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('email');
             $table->string('phone_number');
             $table->string('address');
+            $table->string('location');
             $table->string('veterinarian');
             $table->integer('medicine_id');
             $table->timestamps();

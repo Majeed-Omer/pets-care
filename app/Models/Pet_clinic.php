@@ -9,5 +9,5 @@ class pet_clinic extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'email', 'phone_number', 'address', 'veterinarian', 'medicine_id'];
+    protected $fillable = ['name', 'email', 'phone_number', 'address', 'location', 'veterinarian', 'medicine_id'];
 }

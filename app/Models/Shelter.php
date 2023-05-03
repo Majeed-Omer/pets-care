@@ -9,5 +9,5 @@ class Shelter extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['name', 'address', 'species_id'];
+    protected $fillable = ['name', 'video', 'address', 'location', 'species_id'];
 }

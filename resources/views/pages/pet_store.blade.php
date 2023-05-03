@@ -42,7 +42,7 @@
                             <p>{{ $row->email }}</p>
                         </div>
                     </div>
-                    <a class="pLocationStore" href="https://www.google.com/maps/place/Sardam+Veterinary+Clinic/@36.1787118,43.9904005,17z/data=!3m1!4b1!4m6!3m5!1s0x400723cb7d747fcf:0xf348d08620ceef16!8m2!3d36.1787118!4d43.9904005!16s%2Fg%2F11rb56cfzy">
+                    <a class="pLocationStore" href="{{ $row->location }}">
                         <div class="locationStore right-contentStore">
                         <i class="fas fa-map-marker-alt iCardStore"></i>
                         <div>
