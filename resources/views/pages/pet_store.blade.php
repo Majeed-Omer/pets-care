@@ -25,7 +25,7 @@
                     <div class="personStore right-contentStore">
                         <i class="fas fa-user-alt iCardStore"></i>
                         <div>
-                            <h4>{{ $row->seller }}</h4>
+                            <h4>{{ $row->owner }}</h4>
                         </div>
                     </div>
 
