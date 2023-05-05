@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
 <link rel="stylesheet" href="css/home/products-section.css">
 </head>
-<body>
+<body class="bodyHome">
   
 @include('header')
 @include('pages.home.slideShow')

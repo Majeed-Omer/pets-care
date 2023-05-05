@@ -1,4 +1,4 @@
-<div class="overlay" id="divShow/{{$row->id}}">
+<div class="overlayMissing" id="divShow/{{$row->id}}">
 		<div class="wrapperShowImage">
 			<h2>پیشاندان</h2><a class="close" href="#">&times;</a>
 			<div class="content">

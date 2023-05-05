@@ -27,7 +27,7 @@
 <div class="grid-container">
 
 @foreach($data as $row) 
-  <div class="grid-item">
+  <!-- <div class="grid-item">
 	<div class="cardAddImages">
   <img src="{{ asset('picture/' . $row->picture) }}" class="imgMissing">
   <div class="card-buttons">
@@ -42,7 +42,26 @@
   <a class="buttonShow" href="#divShow/{{$row->id}}">پیشاندان</a>
   </div>
   </div>
-  </div>   
+  </div>    -->
+
+  <div class="cardMissing">
+        <div class="imgBx">
+            <img src="{{ asset('picture/' . $row->picture) }}" class="imgMissing">
+        </div>
+        <div class="details">
+        <div class="card-buttons">
+  @if($row->user_id == auth()->id()  || auth()->id() === 1)
+  <form class="formMissing" action="{{ route('stolen_missing.destroy',$row->id) }}" method="POST">
+	@csrf
+	@method('DELETE')
+	<a class="buttonEdit" href="#divEdit/{{$row->id}}">گۆڕین</a>
+    <button type="submit" class="buttonDelete">سڕینەوە</button>
+	</form> 
+  @endif
+  <a class="buttonShow" href="#divShow/{{$row->id}}">پیشاندان</a>
+  </div>
+        </div>
+      </div>
 
   @include('pages.missing-pets.edit_missing_pets_page')
 

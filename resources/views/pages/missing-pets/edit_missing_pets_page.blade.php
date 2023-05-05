@@ -1,4 +1,4 @@
-<div class="overlay" id="divEdit/{{$row->id}}">
+<div class="overlayMissing" id="divEdit/{{$row->id}}">
 		<div class="wrapper">
 			<h2>گۆڕین</h2><a class="close" href="#">&times;</a>
 			<div class="content">

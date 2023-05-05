@@ -1,7 +1,7 @@
 <div class="boxrideView">
 		<a class="buttonAddMissing" href="#divOne">ئاژەڵەکەت زیادبکە</a>
 	</div>
-	<div class="overlay" id="divOne">
+	<div class="overlayMissing" id="divOne">
 		<div class="wrapper">
 			<h2>زیادکردن</h2><a class="close" href="#">&times;</a>
 			<div class="content">
