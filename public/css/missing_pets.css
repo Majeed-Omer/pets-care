@@ -114,8 +114,8 @@ input[type="submit"]:hover {
 
 .imgMissing {
     float: left;
-    width:  350px;
-    height: 350px;
+    width:  380px;
+    height: 380px;
     object-fit: cover;
 }
 
@@ -182,9 +182,10 @@ input[type="submit"]:hover {
   
   .grid-container {
 	display: grid;
-	grid-template-columns: auto auto auto;
+	/* grid-template-columns: auto auto auto; */
+	grid-template-columns: repeat(3, 1fr);
 	gap: 10px;
-	background-color: #0171d3;
+	/* background-color: #0171d3; */
 	padding: 10px;
   }
   
