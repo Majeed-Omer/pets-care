@@ -170,9 +170,8 @@ input[type="submit"]:hover {
   }
   @media screen and (min-width: 768px) {
     .cardMissing {
-      width: 50%;
-      max-width: 600px;
-      height: auto;
+		width: 480px;
+		height: 570px;
     }
   }
   .cardMissing:before,
