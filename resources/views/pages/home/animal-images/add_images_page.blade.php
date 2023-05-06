@@ -1,7 +1,8 @@
 <div class="boxImages">
-		<a class="buttonAddImages" href="#divOne">ئاژەڵەکەت زیادبکە</a>
+		<a class="buttonAddImages" href="#divAddAnimal">ئاژەڵەکەت زیادبکە</a>
 </div>
-<div class="overlay" id="divOne">
+
+<div class="overlay" id="divAddAnimal">
 	<div class="wrapperImages">
 		<h2>زیادکردن</h2><a class="close" href="#">&times;</a>
 		<div class="content">
@@ -60,3 +61,4 @@
 		</div>
 	</div>
 </div>
+

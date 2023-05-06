@@ -10,22 +10,21 @@
 <div class="grid-container">
 @foreach($data as $row)
 
-
-<div class="grid-item">
-	<div class="cardAddImages">
-  <img src="{{ asset('images/' . $row->images) }}" class="imgAnimals">
-  <div class="card-buttons">
+  <div class="cardAnimals">
+        <div class="imgBx">
+            <img src="{{ asset('images/' . $row->images) }}">
+        </div>
+        <div class="details">
   @if($row->user_id == auth()->id() || auth()->id() === 1) 
   <form class="formAnimal" action="{{ route('species.destroy',$row->id) }}" method="POST">
 	@csrf
 	@method('DELETE')
-	<a class="buttonEdit" href="#divEditAnimal/{{$row->id}}">گۆڕین</a>
-    <button type="submit" class="buttonDelete">سڕینەوە</button>  
+	<a class="buttonEDS aButtonsAnimals" href="#divEditAnimal/{{$row->id}}">گۆڕین</a>
+    <button type="submit" class="buttonEDS"  style="--color:#f3738a">سڕینەوە</button>  
 	</form> 
   @endif
-  <a class="buttonShow" href="#divShowAnimal/{{$row->id}}">پیشاندان</a>
+  <a class="buttonEDS aButtonsAnimals" href="#divShowAnimal/{{$row->id}}" style="--color:#69db3a">پیشاندان</a>
 
-  </div>
   </div>
   </div>
   
