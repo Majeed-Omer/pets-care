@@ -168,11 +168,12 @@ input[type="submit"]:hover {
     border-radius: 4px;
     box-shadow:0 2px 10px rgba(0,0,0,.2);
   }
-  @media only screen and (min-width: 1200px) {
-	.cardMissing {
-	  width: 495px;
-	  height: 370px;
-	}
+  @media screen and (min-width: 768px) {
+    .cardMissing {
+      width: 50%;
+      max-width: 600px;
+      height: auto;
+    }
   }
   .cardMissing:before,
   .cardMissing:after
