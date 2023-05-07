@@ -21,7 +21,8 @@
 					<div class="logo"><span class="fat">S</span><span class="skinny">M</span></div>				
 				</div>
 				<div class="nametroduction">
-					<div class="name">{{ $row->name }}</div>
+					<!-- <div class="name">{{ $row->name }}</div> -->
+                            <h4 class="name">کلینیکی <span>{{ $row->name }}</span></h4>
 					<div class="introduction">{{ $row->veterinarian}}</div>
 				</div>	
 				<div class="contact">						

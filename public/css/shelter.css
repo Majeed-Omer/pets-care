@@ -1,20 +1,22 @@
 .bodyShelter {
-    margin: 0 10;
+    margin: 0 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    background-color: #e9e9e9;
 }
 
 .h1Selter{
-text-align: center;
-margin: 20px 0px;
+text-align: right;
+margin: 30px 15px;
 }
 
 .multiline-text {
     font-size: 20px;
     line-height: 1.5;
     text-align: right;
-    margin-bottom: 30px;
-    margin-top: 10px
+    /* margin-bottom: 30px;
+    margin-top: 10px */
+    margin: 20px 15px;
 }
 /* Video container */
 .video-container {
@@ -24,6 +26,7 @@ margin: 20px 0px;
     overflow: hidden;
     background-color: #000;
     z-index: 0;
+    margin: 0 15px;
 }
 
 .video-container video {
@@ -50,7 +53,8 @@ margin: 20px 0px;
 .aLocationShelter{
 text-decoration: none;
 color: black;
-float: right
+float: right;
+margin: 0 15px;
 }
 
 .noShelter{

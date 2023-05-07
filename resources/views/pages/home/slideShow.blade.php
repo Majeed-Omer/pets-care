@@ -9,31 +9,31 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="myImages/squirrel2.jpg" class="d-block w-100 h-100" alt="...">
+      <img src="myImages/birds.webp" class="d-block w-100 h-100" alt="...">
       <div class="carousel-caption">
-        <h5 class="image-header">First slide label</h5>
-        <p class="pSlides">Some representative placeholder content for the first slide.</p>
+        <h5 class="image-header">بەشی یەکەم ماڵەوە</h5>
+        <p class="pSlides">لەم بەشەدا وێنەی ئاژەڵان و خۆرەکەکانیان و وێنە زیادکراوەکانی ئاژەڵانی تێدایە</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="myImages/pets.jpg" class="d-block w-100 h-100" alt="...">
       <div class="carousel-caption">
-        <h5 class="image-header">Second slide label</h5>
-        <p class="pSlides">Some representative placeholder content for the second slide.</p>
+        <h5 class="image-header">بەشی دووەم نەخشە</h5>
+        <p class="pSlides">لەم بەشەدا لەسەر گۆگڵ ماپ چەند شوێنەک دیاری کراوە کە تایبەتە بە ئاژەڵان</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="myImages/cat.jpg" class="d-block w-100 h-100" alt="...">
       <div class="carousel-caption">
-        <h5 class="image-header">Third slide label</h5>
-        <p class="pSlides">Some representative placeholder content for the third slide.</p>
+        <h5 class="image-header">بەشی سێیەم پێداویستی ئاژەڵان</h5>
+        <p class="pSlides">لەم بەشەدا کۆمەڵێک پێداویستی ئاژەڵانی تێدایە وەک خواردن و دەرمان و شتی تر</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="myImages/th.jpg" class="d-block w-100 h-100" alt="...">
       <div class="carousel-caption">
-        <h5 class="image-header">Fourth slide label</h5>
-        <p class="pSlides">Some representative placeholder content for the fourth slide.</p>
+        <h5 class="image-header">بەشی چوارەم شوێنەکەکان</h5>
+        <p class="pSlides">ئەم بەشە لەسێ بەش پێکهاتووە ئەوانیش فرۆشگا و کلینیک پەناگەی ئاژەڵان</p>
       </div>
     </div>
   </div>
