@@ -2,7 +2,7 @@
     
 <footer class="container-fluid footer-distributed">
 	<div class="footer-left">
-	<img src="myImages/logo2.jpg" alt="your-image-description" class="circle-img">
+	<img src="myImages/logo2-removebg.png" alt="your-image-description" class="circle-img">
 		<p class="footer-links">					
 			<a class="aFooter link-1" href="/home">ماڵەوە</a>
 			<a class="aFooter" href="/map">نەخشە</a>
@@ -11,17 +11,17 @@
 			<a class="aFooter" href="/about-us">دەربارەی ئێمە</a>		
 			
 		</p>
-		<p class="footer-company-name">یارمەتی دانی ئاژەڵان © ٢٠١٥</p>
+		<p class="footer-company-name">  یارمەتی دانی ئاژەڵان © <span class="number">٢٠٢٣</span> </p>
 	</div>
 
 	<div class="footer-center">
 		<div>
 			<i class="fa fa-map-marker"></i>
-			<p class="pFooter"><span class="spanFooter">ئازادی، شەقامی ٦٠م</span> هاولێر، کوردستان</p>
+			<p class="pFooter"><span class="spanFooter">ئازادی، شەقامی ٦٠م</span> هەولێر، کوردستان</p>
 		</div>
 		<div>
 			<i class="fa fa-phone"></i>
-			<p class="pFooter">٠٧٥٠١٢٣٥٦٩٠</p>
+			<p class="pFooter phone">٠٧٥٠١٢٣٥٦٩٠</p>
 		</div>
 		<div>
 			<i class="fa fa-envelope"></i>
@@ -30,7 +30,7 @@
 	</div>
 
 	<div class="footer-right">
-		<p class="footer-company-about" class="pFooter">
+		<p class="footer-company-about pFooter">
 			<span class="spanFooter">دەربارەی ماڵپەڕەکە</span>
 			ئەم ماڵپەڕە تایبەتە بە زانیاری دەربارەی ئاژەڵان، زانیاری گرینگی تێدایە دەربارەی شوێنەکانی تایبەت بە ئاژەڵان وە زانیاری دەربارەی خواردەمەنی ئاژەڵان
 		</p>
