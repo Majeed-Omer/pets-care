@@ -270,9 +270,9 @@ input[type="submit"]:hover {
     }
 }
 
-@media (min-width: 1400px) { /* Adjust grid layout for screens wider than 1200 pixels */
+@media (min-width: 1200px) { /* Adjust grid layout for screens wider than 1200 pixels */
     .grid-container {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 1fr;
     }
 }
