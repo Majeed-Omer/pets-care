@@ -151,4 +151,10 @@
     font-size: 50px;
     margin: 90px 500px;
     width: 600px;
-  }
+}
+@media screen and (max-width: 420px) {
+    .BussinessCardStore {
+        width: 80vw;
+        height: 20vh;
+    }
+}
