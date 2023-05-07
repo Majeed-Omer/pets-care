@@ -97,6 +97,7 @@
 
 .pLocationStore{
     color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
 }
 
@@ -150,4 +151,10 @@
     font-size: 50px;
     margin: 90px 500px;
     width: 600px;
-  }
+}
+@media screen and (max-width: 420px) {
+    .BussinessCardStore {
+        width: 80vw;
+        height: 20vh;
+    }
+}
