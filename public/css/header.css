@@ -1,7 +1,6 @@
 .navbar {
     padding: auto 2rem;
-    /* background-color:  #87CEEB; */
-    background-color: rgb(176, 206, 226);
+    background-color: #87CEEB;
 }
 .nav-left {
     width: fit-content;
@@ -13,7 +12,7 @@
 .text-style {
     font-weight: bolder;
     color: black;
-    font-size: 18px;
+    font-size: 105%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 .iLogin{
@@ -21,17 +20,14 @@
     margin-right: 7px
 }
 @media screen and (max-width: 991px) {
-    .navbar {
-        padding: auto 1rem;
-    }
     .nav-item {
         margin: auto 0;
         width: 100%;
         text-align: end;
-     }
-      .nav-left {
+    }
+    .nav-left {
         width: 100%;
-      }
+    }
 }
 @media screen and (min-width: 992px) {
     .list {

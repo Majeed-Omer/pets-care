@@ -1,0 +1,177 @@
+/* Variables declared here - these are the colors for our pages, as well as the font stacks and sizes. */
+
+:root {
+    --black: #171321;
+    --dkblue: #0d314b;
+    --plum: #4b0d49;
+    --hotmag: #ff17e4;
+    --magenta: #e310cb;
+    --aqua: #86fbfb;
+    --white: #f7f8fa;
+    --font-size: 1.3rem;
+    --oxy: 'Oxygen', sans-serif;
+}
+
+/* generic styles for the page */
+
+.bg {
+    background: linear-gradient(180deg, rgba(135,206,235,1) 5%, rgba(242,135,0,1) 12%, rgba(242,135,0,1) 83%, rgba(135,206,235,1) 90%);
+}
+.cen {
+    display: grid;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+.members .text {
+    text-align: right;
+}
+
+.link {
+    color: var(--magenta);
+    font-weight: 400;
+    text-decoration: none;
+    border-bottom: var(--hotmag) 0.1rem solid;
+    padding-bottom: 0.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+.link:hover {
+    color: var(--hotmag);
+    text-decoration: none;
+}
+
+.profile-image {
+    width: 100%;
+}
+
+/* projects section */
+
+.members {
+    background-color: salmon;
+    box-shadow: 0px 0px 10rem rgba(255, 255, 255, 0.6);
+    border-radius: 50px;
+    padding: 4rem 3rem;
+}
+
+.members .h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
+    color: var(--white);
+    text-align: right;
+    margin-bottom: calc(2.5rem * 1.5);
+}
+
+.members .h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    color: 	#f6fa08f3;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.members .h4 {
+    font-weight: bold;
+    font-size: 1.65rem;
+    color: var(--white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+.members .h5 {
+    font-size: 1.5rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+.blackbox {
+    padding: 1rem;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--black);
+    font-size: 1rem;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.members .language-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    gap: 1rem;
+    color: var(--white);font-weight: 500;
+    letter-spacing: 0.1rem;
+    font-family: var(--oxy);
+    font-size: 1rem;
+}
+
+.members .profile-image {
+    margin: 2rem 0 4rem 0;
+    padding: 1rem;
+    border-left: 1px solid var(--aqua);
+    border-top: 1px solid var(--aqua);
+    border-radius: 25px;
+}
+
+@media (min-width: 800px) {
+    .about {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+    }
+    .members {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .members .profile-image {
+        grid-column: 1/6;
+        grid-row: 1/2;
+    }
+    .text {
+        grid-column: 5/11;
+        grid-row: 1/2;
+        order: 2;
+        text-align: right;
+    }
+    .members .language-list {
+        justify-content: flex-end;
+    }
+    .members .reverse .text {
+        grid-column: 1/7;
+        order: 2;
+        text-align: left;
+    }
+    .members .reverse .profile-image {
+        grid-column: 6/11;
+        grid-row: 1/2;
+    }
+    .members .reverse .language-list {
+        justify-content: flex-start;
+    }
+}
+
+/*! modifying the background (landscape) ----------- */
+
+@media only screen and (min-device-width : 921px) and (max-device-width : 1100px) {
+    .bg {
+        background: linear-gradient(180deg, rgba(135,206,235,1) 5%, rgba(242,135,0,1) 12%, rgba(242,135,0,1) 78%, rgba(135,206,235,1) 85%);
+    }
+}
+@media only screen and (min-device-width : 881px) and (max-device-width : 920px) {
+    .bg {
+        background: linear-gradient(180deg, rgba(135,206,235,1) 5%, rgba(242,135,0,1) 12%, rgba(242,135,0,1) 75%, rgba(135,206,235,1) 82%);
+    }
+}
+@media only screen and (min-device-width : 700px) and (max-device-width : 880px) {
+    .bg {
+        background: linear-gradient(180deg, rgba(135,206,235,1) 5%, rgba(242,135,0,1) 12%, rgba(242,135,0,1) 64%, rgba(135,206,235,1) 71%);
+    }
+}
+@media only screen and (min-device-width : 420px) and (max-device-width : 700px) {
+    .bg {
+        background: linear-gradient(180deg, rgba(135,206,235,1) 5%, rgba(242,135,0,1) 12%, rgba(242,135,0,1) 64%, rgba(135,206,235,1) 71%);
+    }
+}
