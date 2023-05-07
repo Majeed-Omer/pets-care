@@ -11,6 +11,8 @@
 	text-align: center;
 }
 .buttonAddImages {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+	font-weight: 500;
 	font-size: 1.2em;
 	padding: 15px 35px;
 	color: #fff;
