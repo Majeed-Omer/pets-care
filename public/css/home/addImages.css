@@ -19,6 +19,7 @@
 	transition: all 0.3s ease-out;
 	background: #0171d3;
 	border-radius: 50px;
+	
 }
 .buttonAddImages:hover {
 	background-color: black;

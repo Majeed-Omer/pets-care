@@ -50,8 +50,8 @@
                 <h4 class="h4">مجید عومەر</h4>
                 <h3 class="h3">پەرەپێدەری بەشی کارپێکەری ماڵپەرەکە</h3>
                 <p class="blackbox">
-                    من مجید، قوتابی قۆناغی چوارەمی بەشی ئەندازیاری پڕۆگرامسازیم لە زانکۆی سەلاحەددین بەشی ئەندازیاری، ڕۆڵی سەرەکی من لەم ماڵپەڕە <br><br> بۆ بینینی پڕۆفایالی
-                    <a class="link" href="https://www.facebook.com/boy.yahyamewan/">فەیسبووکەکەم</a>, یاخود <a class="link" href="https://account.viber.com/en/account/#profile">ڤایبەرەکەم</a> یان <a class="link" href="https://www.instagram.com/yahyamewan/">ئینستایەکەم</a>، کلیلک لەسەر هەر یەک لەم لینکانەی پێشووتر بکە
+                    من مجید، قوتابی قۆناغی چوارەمی بەشی ئەندازیاری پڕۆگرامسازیم لە زانکۆی سەلاحەددین بەشی ئەندازیاری، ڕۆڵی سەرەکی من لەم ماڵپەڕە دروستکردنی بەشی پێشەوە و دواوەی پاڵبەرەکەیە، هۆکاری هەڵبژاردنمان بۆ ئەم بیرۆکەیە ئەوەبوو کە یارمەتیەکی زیاتر بە بەخێوکەرانی ئاژەڵە ماڵیەکان لە کوردستان بدەین<br><br> بۆ بینینی پڕۆفایالی
+                    <a class="link" href="https://www.facebook.com/majeed.omer.9">فەیسبووکەکەم</a>, یاخود <a class="link" href="https://account.viber.com/en/account/#profile">ڤایبەرەکەم</a> یان <a class="link" href="https://www.instagram.com/majeedomer1/">ئینستایەکەم</a>، کلیلک لەسەر هەر یەک لەم لینکانەی پێشووتر بکە
                 </p>
                 <h5 class="h5">: ئەو زمانانەی بەکارمهێناون</h5>
                 <ul class="language-list">

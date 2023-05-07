@@ -10,7 +10,7 @@
 @if(count($data) > 0)
 
 @foreach($data as $row)
-<section class="mx-5">
+<section class="mx-2">
 		<h1 class="h1Selter">{{ $row->name }}</h1>
 
 	<div class="video-container ">
