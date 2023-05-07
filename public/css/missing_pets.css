@@ -256,6 +256,27 @@ input[type="submit"]:hover {
 	justify-items: center;
   }
 
+  @media (max-width: 768px) { /* Adjust grid layout for screens up to 768 pixels wide */
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+    }
+}
+
+@media (max-width: 480px) { /* Adjust grid layout further for screens up to 480 pixels wide */
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-column-gap: 0;
+    }
+}
+
+@media (min-width: 1400px) { /* Adjust grid layout for screens wider than 1200 pixels */
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 1fr;
+    }
+}
+
 .buttonEDS {
 	--border: 5px;    /* the border width */
 	--slant: 0.7em;   /* control the slanted corners */
