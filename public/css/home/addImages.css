@@ -212,12 +212,7 @@ input[type="submit"]:hover {
 	}
   }
   
-  /* For screens larger than 1920px (e.g. 4K TVs) */
-  @media (min-width: 1920px) {
-	.grid-container {
-	  grid-template-columns: repeat(6, 1fr);
-	}
-  }
+  
   .buttonEDS {
 	--border: 2px;    /* the border width */
 	--slant: 0.7em;   /* control the slanted corners */
