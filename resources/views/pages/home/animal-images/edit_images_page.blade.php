@@ -1,6 +1,6 @@
 <div class="overlay" id="divEditAnimal/{{$row->id}}">
 		<div class="wrapperImages">
-			<h2>گۆڕین</h2><a class="close" href="#">&times;</a>
+			<h2>گۆڕین</h2><a class="close" href="#" id="closeButtonEdit/{{$row->id}}">&times;</a>
 			<div class="content">
 				<div class="container">
 					<div class="card">
@@ -61,3 +61,16 @@
 			</div>
 		</div>
 	</div>
+
+
+	<script>
+		document.getElementById("EditImageButton/{{$row->id}}").addEventListener("click", function(event) {
+    document.getElementById("divEditAnimal/{{$row->id}}").style.display = "block";
+  });
+  
+  document.getElementById("closeButtonEdit/{{$row->id}}").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.getElementById("divEditAnimal/{{$row->id}}").style.display = "none";
+  window.history.pushState({}, '', '/');
+  });
+	</script>

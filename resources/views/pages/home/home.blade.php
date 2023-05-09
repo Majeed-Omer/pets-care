@@ -3,6 +3,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ماڵەوە</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
 <link rel="stylesheet" href="css/home/products-section.css">
@@ -35,6 +37,7 @@
 @yield('content')
 <br><br>
 @include('footer') 
-<script src="js/addImage.js"></script>	
+<script src="js/addImage.js"></script>
+<script src="js/edit.js"></script>
 </body>
 </html>

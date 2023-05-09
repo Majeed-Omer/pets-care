@@ -1,10 +1,10 @@
 <div class="boxImages">
-		<a class="buttonAddImages" href="#divAddAnimal">ئاژەڵەکەت زیادبکە</a>
+	<a class="buttonAddImages" href="#divAddAnimal" id="addImageButton">ئاژەڵەکەت زیادبکە</a>
 </div>
 
 <div class="overlay" id="divAddAnimal">
 	<div class="wrapperImages">
-		<h2>زیادکردن</h2><a class="close" href="#">&times;</a>
+		<h2>زیادکردن</h2><a class="close" href="#" id="closeButton">&times;</a>
 		<div class="content">
 			<div class="container">
 				<div class="card">
@@ -61,3 +61,5 @@
 		</div>
 	</div>
 </div>
+
+

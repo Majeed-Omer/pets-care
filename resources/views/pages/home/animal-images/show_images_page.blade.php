@@ -1,6 +1,6 @@
 <div class="overlay" id="divShowAnimal/{{$row->id}}">
 		<div class="wrapperShowImage">
-			<h2>پیشاندان</h2><a class="close" href="#">&times;</a>
+			<h2>پیشاندان</h2><a class="close" href="#" id="closeShowImages/{{$row->id}}">&times;</a>
 			<div class="content">
 				<div class="container">
 				<div class="card">
@@ -29,3 +29,18 @@
 			
 		</div>
 	</div>
+
+<script>
+	document.getElementById("ShowImageButton/{{$row->id}}").addEventListener("click", function(event) {
+    document.getElementById("divShowAnimal/{{$row->id}}").style.display = "block";
+  });
+  
+  document.getElementById("closeShowImages/{{$row->id}}").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.getElementById("divShowAnimal/{{$row->id}}").style.display = "none";
+  window.history.pushState({}, '', '/');
+  });
+</script>
+
+
+

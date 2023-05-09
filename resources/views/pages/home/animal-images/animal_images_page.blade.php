@@ -19,11 +19,11 @@
   <form class="formAnimal" action="{{ route('species.destroy',$row->id) }}" method="POST">
 	@csrf
 	@method('DELETE')
-	<a class="buttonEDS aButtonsAnimals" href="#divEditAnimal/{{$row->id}}">گۆڕین</a>
+	<a class="buttonEDS aButtonsAnimals" href="#divEditAnimal/{{$row->id}}" id="EditImageButton/{{$row->id}}">گۆڕین</a>
     <button type="submit" class="buttonEDS"  style="--color:#f3738a">سڕینەوە</button>  
 	</form> 
   @endif
-  <a class="buttonEDS aButtonsAnimals" href="#divShowAnimal/{{$row->id}}" style="--color:#69db3a">پیشاندان</a>
+  <a class="buttonEDS aButtonsAnimals" href="#divShowAnimal/{{$row->id}}" style="--color:#69db3a"  id="ShowImageButton/{{$row->id}}">پیشاندان</a>
 
   </div>
   </div>
