@@ -211,6 +211,12 @@ input[type="submit"]:hover {
 	  grid-template-columns: repeat(5, 1fr);
 	}
   }
+
+  @media (min-width: 1919px) {
+	.grid-container {
+	  grid-template-columns: repeat(6, 1fr);
+	}
+  }
   
   
   .buttonEDS {
