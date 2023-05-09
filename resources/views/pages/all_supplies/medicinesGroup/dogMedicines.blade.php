@@ -5,7 +5,7 @@
       <div class="bottom">
         <div class="left">
           <div class="detailsSupplies">
-            <h1 class="h1Supplies">{{ $row->medicine_name }}</h1>
+            <p class="pNameSupplies">{{ $row->medicine_name }}</p>
             <p class="pSupplies">{{ $row->medicine_price }}</p>
           </div>
           <div class="findSupplies"><i class="material-icons">location_on</i></div>
@@ -13,7 +13,7 @@
         <div class="right">
           <div class="done"><i class="material-icons">location_on</i></div>
           <div class="detailsSupplies">
-            <a class="h1ClinicsSupplies" href="{{ $row->clinic_location }}"><h1>{{ $row->clinic_name }}</h1></a>
+            <a class="pPlaceSupplies" href="{{ $row->clinic_location }}"><p class="pNamePlaces">{{ $row->clinic_name }}</p></a>
             <!-- <p>Added to your cart</p> -->
           </div>
           <div class="remove"><i class="material-icons">clear</i></div>

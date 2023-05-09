@@ -8,14 +8,14 @@
   }
   
     .imgSupplies {
-      width:  250px;
-      height: 250px;
+      width:  200px;
+      height: 200px;
       object-fit: cover;
      }
   
     .wrapperAnimalSupplies {
-      width: 300px;
-      height: 500px;
+      width: 210px;
+      height: 350px;
       background: white;
       margin: auto;
       position: relative;
@@ -36,7 +36,6 @@
     .wrapperAnimalSupplies .containerSupplies .top {
       height: 80%;
       width: 100%;
-  
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;
@@ -50,17 +49,19 @@
     .wrapperAnimalSupplies .containerSupplies .bottom.clicked {
       transform: translateX(-50%);
     }
-    .wrapperAnimalSupplies .containerSupplies .bottom .h1Supplies {
+    .wrapperAnimalSupplies .containerSupplies .bottom .pNameSupplies {
       margin: 0;
       padding: 0;
       text-align: center;
-      color: black
+      color: black;
+      font-size: 23px;
     }
     .wrapperAnimalSupplies .containerSupplies .bottom .pSupplies {
       margin: 0;
       padding: 0;
       text-align: center;
-      color: black
+      color: grey;
+      font-size: 18px;
     }
     .wrapperAnimalSupplies .containerSupplies .bottom .left {
       height: 100%;
@@ -71,7 +72,7 @@
       float: left;
     }
     .wrapperAnimalSupplies .containerSupplies .bottom .left .detailsSupplies {
-      padding: 20px;
+      padding-top: 5px;
       float: left;
       width: calc(70% - 40px);
     }
@@ -86,7 +87,7 @@
     }
     .wrapperAnimalSupplies .containerSupplies .bottom .left .findSupplies i {
       font-size: 30px;
-      padding: 30px;
+      padding: 15px;
       color: #254053;
       transition: transform 0.5s;
     }
@@ -106,9 +107,10 @@
       overflow: hidden;
     }
     .wrapperAnimalSupplies .containerSupplies .bottom .right .detailsSupplies {
-      /* padding: 20px; */
+      padding: 15px;
       float: right;
-      width: calc(70% - 40px);
+      width: calc(90% - 40px);
+ 
     }
     .wrapperAnimalSupplies .containerSupplies .bottom .right .done {
       width: calc(30% - 2px);
@@ -119,7 +121,7 @@
     }
     .wrapperAnimalSupplies .containerSupplies .bottom .right .done i {
       font-size: 30px;
-      padding: 30px;
+      padding: 15px;
       color: white;
     }
     .wrapperAnimalSupplies .containerSupplies .bottom .right .remove {
@@ -139,7 +141,7 @@
     .wrapperAnimalSupplies .containerSupplies .bottom .right .remove i {
       transition: transform 0.5s;
       font-size: 30px;
-      padding: 30px;
+      padding: 15px;
       color: white;
     }
     .wrapperAnimalSupplies .containerSupplies .bottom .right:hover .remove, .wrapperAnimalSupplies .containerSupplies .bottom .right:hover .done {
@@ -151,8 +153,8 @@
       width: 140px;
       height: 140px;
       position: absolute;
-      top: -70px;
-      right: -70px;
+      top: -75px;
+      right: -75px;
       border-radius: 0px 0px 200px 200px;
       transition: all 0.5s, border-radius 2s, top 1s;
       overflow: hidden;
@@ -192,18 +194,24 @@
       text-align: right;
       width: 100%;
     }
-    .wrapperAnimalSupplies .inside .contents h1, .wrapperAnimalSupplies .inside .contents p, .wrapperAnimalSupplies .inside .contents {
+    .wrapperAnimalSupplies .inside .contents .wrapperAnimalSupplies .inside .contents p, .wrapperAnimalSupplies .inside .contents {
       color: white;
     }
-    .wrapperAnimalSupplies .inside .contents p {
+    /* .wrapperAnimalSupplies .inside .contents p {
       font-size: 20px;
-    }
+    } */
     
-    .h1ClinicsSupplies{
+    .pPlaceSupplies{
       text-decoration: none;
       color: black;
     }
     
     .remove{
       cursor: pointer;
+    }
+
+    .pNamePlaces{
+      text-align: center;
+      color: black;
+      font-size: 20px;
     }
