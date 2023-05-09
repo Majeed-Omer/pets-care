@@ -15,6 +15,7 @@ class Product extends Model
     	'product_name',
         'animal_id',
         'product_contents',
-        'product_price'
+        'product_price',
+        'product_image'
     ];
 }

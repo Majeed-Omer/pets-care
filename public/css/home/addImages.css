@@ -201,7 +201,7 @@ input[type="submit"]:hover {
   /* For screens between 1024px and 1279px (e.g. laptops) */
   @media (min-width: 1024px) and (max-width: 1279px) {
 	.grid-container {
-	  grid-template-columns: repeat(5, 1fr);
+	  grid-template-columns: repeat(4, 1fr);
 	}
   }
   
@@ -281,13 +281,13 @@ input[type="submit"]:hover {
     border-radius: 4px;
     box-shadow:0 2px 10px rgba(0,0,0,.2);
   }
-  @media only screen and (min-width: 1400px) {
+  /* @media only screen and (min-width: 1400px) {
   .cardAnimals {
     width: 300px;
     height: 375px;
     margin: 0px 10px;
   }
-}
+} */
   .cardAnimals:before,
   .cardAnimals:after
   {

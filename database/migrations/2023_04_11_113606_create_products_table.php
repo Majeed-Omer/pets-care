@@ -17,6 +17,7 @@ return new class extends Migration
             $table->integer('animal_id');
             $table->string('product_contents');
             $table->string('product_price');
+            $table->string('product_image');
             $table->string('store_name');
             $table->string('store_location');
             $table->timestamps();

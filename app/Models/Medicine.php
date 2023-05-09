@@ -13,6 +13,7 @@ class Medicine extends Model
     	'medicine_name',
         'medicine_contents',
         'animal_id',
-        'medicine_price'
+        'medicine_price',
+        'medicine_image',
     ];
 }
