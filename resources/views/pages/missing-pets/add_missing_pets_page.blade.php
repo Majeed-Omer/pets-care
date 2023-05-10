@@ -3,7 +3,7 @@
 	</div>
 	<div class="overlayMissing" id="divOne">
 		<div class="wrapper">
-			<h2>زیادکردن</h2><a class="close" href="#">&times;</a>
+			<h2>تۆمارکردنی زانیاری</h2><a class="close" href="#">&times;</a>
 			<div class="content">
 				<div class="container">
 					<div class="card">
@@ -17,7 +17,7 @@
 				</div>
 			</div>
 			<div class="row mb-3">
-				<label class="col-sm-2 col-label-form">ئیمێڵ</label>
+				<label class="col-sm-2 col-label-form">ئیمەیڵ</label>
 				<div class="col-sm-10">
 					<input type="text" name="email" class="form-control" required/>
 				</div>
@@ -25,19 +25,19 @@
 			<div class="row mb-4">
 				<label class="col-sm-2 col-label-form">ژمارەی مۆبایل</label>
 				<div class="col-sm-10">
-				<input type="tel" name="phone_number" class="form-control" required/>
+				<input type="tel" name="phone_number" class="phone form-control" required/>
 				</div>
 			</div>
 			<div class="row mb-4">
 				<label class="col-sm-2 col-label-form">بەرواری دیارنەمانی</label>
 				<div class="col-sm-10">
-				<input type="date" name="stolen_lost_date" class="form-control" required/>
+				<input type="date" name="stolen_lost_date" class="calender form-control" required/>
 				</div>
 			</div>
 			<div class="row mb-4">
 				<label class="col-sm-2 col-label-form">هۆکاری دیارنەمانی</label>
 				<div class="col-sm-10">
-					<select name="pet_case" class="form-control">
+					<select name="pet_case" class="missing-reason form-control">
 						<option value="دزراو">دزراو</option>
 						<option value="ونبووە">ونبووە</option>
 					</select>
@@ -52,7 +52,7 @@
 			<div class="row mb-4">
 				<label class="col-sm-2 col-label-form">وێنەی ئاژەڵەکە</label>
 				<div class="col-sm-10">
-					<input type="file" name="picture" required/>
+					<input type="file" name="picture" class="add-picture picture" required/>
 				</div>
 			</div>
 			<div class="text-center">

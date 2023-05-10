@@ -4,17 +4,21 @@
 
 .bodyGrideView {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #e9e9e9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+  background: radial-gradient(circle, rgba(191,255,93,1) 0%, rgba(135,206,235,1) 80%);
 }
 
 .header {
   text-align: center;
   padding: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
-
+.card-body {
+	text-align: right;
+}
 .text {
 font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 
 .boxrideView {
@@ -29,6 +33,7 @@ font-size: 20px;
 	transition: all 0.3s ease-out;
 	background: #0171d3;
 	border-radius: 50px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 .buttonAddMissing:hover {
 	background-color: black;
@@ -44,6 +49,7 @@ font-size: 20px;
 	visibility: hidden;
 	opacity: 0;
 	z-index: 9999;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 .overlayMissing:target {
 	visibility: visible;
@@ -71,6 +77,7 @@ font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
 	color: #333;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 .wrapper .close:hover {
 	color: #0171d3;
@@ -83,7 +90,42 @@ font-size: 20px;
 .formADDEdit label {
 	text-transform: uppercase;
 	font-weight: 500;
-	letter-spacing: 3px;
+	font-size: 1.2rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+.form-control {
+	margin: 1rem auto;
+	text-align: right;
+}
+.missing-reason {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+	font-weight: 500;
+	font-size: 1rem;
+	text-align: center;
+}
+.phone {
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+}
+.calender {
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+}
+.picture {
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+}
+.add-picture {
+	margin: 1rem auto;
 }
 input[type=text], select, textarea {
 	width: 100%;
@@ -91,8 +133,6 @@ input[type=text], select, textarea {
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	box-sizing: border-box;
-	margin-top: 2px;
-	margin-bottom: 5px;
 	resize: vertical;
 }
 input[type="submit"] {
@@ -107,6 +147,7 @@ input[type="submit"] {
 	border: none;
 	text-transform: uppercase;
 	margin-top: 10px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 
 input[type="submit"]:hover {
@@ -150,6 +191,7 @@ input[type="submit"]:hover {
 	font-weight: bold;
 	text-decoration: none;
 	color: #333;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 .wrapperShowImage .close:hover {
 	color: #0171d3;
@@ -237,6 +279,7 @@ input[type="submit"]:hover {
    font-size: 20px;
    color: #777;
    text-transform: uppercase;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   } 
 
   .cardMissing .details{
@@ -283,6 +326,7 @@ input[type="submit"]:hover {
 	--color: #37E8FC; /* the color */
 	
 	font-size: 25px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 	padding: 0.2em 0.5em;
 	border: none;
 	cursor: pointer;
@@ -323,6 +367,7 @@ input[type="submit"]:hover {
 	text-decoration: none;
 	text-align: center;
 	padding: 0.2em 0.7em;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   }
 
   .formMissing {
@@ -339,7 +384,7 @@ input[type="submit"]:hover {
   .buttonBack {
 	border: 1px solid white;
 	background: #0171d3;
-	width: 100%;
+	width: 120%;
 	padding: 15px;
 	border-radius: 3px;
 	color: white;
@@ -358,6 +403,10 @@ input[type="submit"]:hover {
 	color: white;
   }
   
+  .buttonForm {
+	width: 100%;
+  }
+  
   i {
 	color: white;
 	margin-right: 25px;
@@ -370,12 +419,15 @@ input[type="submit"]:hover {
 
   .textboMalua{
 	font-size: 18px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   }
   
   .noMissingStolen{
     font-size: 50px;
+	font-weight: 500;
     margin: 90px 450px;
-    width: 600px;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   }
   @keyframes slide1 {
 	0%,

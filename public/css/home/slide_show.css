@@ -11,9 +11,14 @@
   border-radius: 0.3rem;
   color: #000;
   background-color: rgba(255,255,255,0.6);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+.carousel-item h5 {
+
 }
 .carousel-item .pSlides {
   text-align: center;
+  font-weight: 500;
 }
 .carousel-indicators.carousel-indicators .bg {
   background-color: #000;
