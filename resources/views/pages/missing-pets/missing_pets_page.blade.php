@@ -5,8 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/missing_pets.css" rel="stylesheet" type="text/css">
 
+
 </head>
 <body class="bodyGrideView">
+<!-- <img src="myImages/pets_missing.jpg" alt="ئاژەڵی بزربوو" class="imgMissing"> -->
 
 <div class="item">
 
@@ -28,7 +30,7 @@
 
 @foreach($data as $row) 
 
-  <div class="cardMissing">
+  <div class="cardMissing" style="display: none;">
         <div class="imgBx">
             <img src="{{ asset('picture/' . $row->picture) }}" class="imgMissing">
         </div>
@@ -62,6 +64,7 @@
 <script src="js/addMissingImage.js"></script>
 
 <script src="https://kit.fontawesome.com/217328fb47.js" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

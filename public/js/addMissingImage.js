@@ -12,3 +12,15 @@ products.forEach(product => {
     button.style.display = button.style.display === 'block' ? 'none' : 'block';
   });
 });
+
+
+const cards = document.querySelectorAll('.cardMissing');
+  let delay = 0;
+
+  cards.forEach((card) => {
+    setTimeout(() => {
+      card.style.display = 'block';
+      card.classList.add('animated');
+    }, delay);
+    delay += 500; // Adjust the delay between cards here
+  });

@@ -29,8 +29,6 @@
 .multiline-text {
     font-size: 20px;
     text-align: right;
-    /* margin-bottom: 30px;
-    margin-top: 10px */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 /* Video container */
@@ -73,6 +71,7 @@
     text-decoration: none;
     color: black;
     float: right;
+    margin-bottom: 50px;
 }
 
 .noShelter{

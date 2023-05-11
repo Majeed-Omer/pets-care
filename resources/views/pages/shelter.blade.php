@@ -28,13 +28,12 @@
 			<span class="address">{{ $row->address }}</span>
 		<i class="location-icon fas fa-map-marker-alt"></i>
 		 </a>
-		 <br><br><br><br><br><br><br><br>
+		 </section>
+        </section>
 		 @endforeach		
 		@else
 		<p class="noShelter">هیچ پەناگەیەکی ئاژەڵان نییە</p>
 		@endif
-	</section>
-</section>
 <script src="https://kit.fontawesome.com/217328fb47.js" crossorigin="anonymous"></script>    
 </body>
 @include('footer')

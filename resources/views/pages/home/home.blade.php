@@ -37,7 +37,7 @@
 @yield('content')
 <br><br>
 @include('footer') 
-<script src="js/addImage.js"></script>
-<script src="js/edit.js"></script>
+<script src="js/addImages.js"></script>
+
 </body>
 </html>

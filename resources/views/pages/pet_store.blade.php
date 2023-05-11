@@ -67,6 +67,8 @@
             </div>
         </div>
     </div>
+    <img src="/myImages/b_store_cat.png" alt="cat" width=30% heigth=30% class="imgCatCart">
+    <img src="/myImages/b_dog_store.png" alt="dog" width=30% heigth=30% class="imgDogCart">
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 	 @endforeach		

@@ -5,7 +5,8 @@
 .bodyGrideView {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
-  background: radial-gradient(circle, rgba(191,255,93,1) 0%, rgba(135,206,235,1) 80%);
+  /* background: radial-gradient(circle, rgba(191,255,93,1) 0%, rgba(135,206,235,1) 80%); */
+  background: #E3E3D8;
 }
 
 .header {
@@ -94,7 +95,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Ar
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 .form-control {
-	margin: 1rem auto;
+	margin: 0.1rem auto;
 	text-align: right;
 }
 .missing-reason {
@@ -209,6 +210,8 @@ input[type="submit"]:hover {
     margin: 0;
     border-radius: 4px;
     box-shadow:0 2px 10px rgba(0,0,0,.2);
+	animation-duration: 1s;
+	animation-name: slideInUp;
   }
   @media screen and (min-width: 1400px) {
     .cardMissing {
@@ -216,6 +219,18 @@ input[type="submit"]:hover {
 		height: 570px;
     }
   }
+
+  @keyframes slideInUp {
+	from {
+	  transform: translateY(100%);
+	  opacity: 0;
+	}
+	to {
+	  transform: translateY(0%);
+	  opacity: 1;
+	}
+  }
+  
   .cardMissing:before,
   .cardMissing:after
   {
@@ -438,4 +453,9 @@ input[type="submit"]:hover {
 	50% {
 	  transform: translate(10px, 0);
 	}
+  }
+
+  .imgMissing{
+	float: right;
+	width: 100%;
   }

@@ -22,7 +22,6 @@
   width: 100%;
   height: 100%;
   z-index: 9;
-  /* background-image: url('/myImages/back-image.jpg'); */
   background-color: #e9e9e9;
 }
 
@@ -50,6 +49,8 @@
   -ms-transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, 10%);
+  margin-top: 10px;
+  
 }
 .bussinesscard .flip {
   -moz-transition: all 0.5s ease;
@@ -235,4 +236,13 @@
   font-size: 50px;
   margin: 90px 500px;
   width: 600px;
+}
+
+.imgCatDoctor{
+  float: left;
+}
+
+.imgDogCartDoctor{
+  float: right;
+  margin-right: 50px;
 }
