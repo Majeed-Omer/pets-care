@@ -4,14 +4,14 @@
 
 .bodyGrideView {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif; */
   background: radial-gradient(circle, rgba(191,255,93,1) 0%, rgba(135,206,235,1) 80%);
 }
 
 .header {
   text-align: center;
   padding: 32px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif; */
 }
 .card-body {
 	text-align: right;
@@ -64,6 +64,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Ar
 	position: relative;
 	transition: all 5s ease-in-out;
 }
+
 .wrapper{
 	margin-top: 0;
 	color: #333;
@@ -94,7 +95,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Ar
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 .form-control {
-	margin: 1rem auto;
+	margin: 5px auto;
 	text-align: right;
 }
 .missing-reason {
@@ -104,14 +105,14 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Ar
 	text-align: center;
 }
 .phone {
-	padding: 12px;
+	padding: 8px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	box-sizing: border-box;
 	resize: vertical;
 }
 .calender {
-	padding: 12px;
+	padding: 8px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	box-sizing: border-box;
@@ -125,11 +126,11 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Ar
 	resize: vertical;
 }
 .add-picture {
-	margin: 1rem auto;
+	margin: 5px auto;
 }
 input[type=text], select, textarea {
 	width: 100%;
-	padding: 12px;
+	padding: 8px;
 	border: 1px solid #ccc;
 	border-radius: 4px;
 	box-sizing: border-box;
@@ -279,7 +280,7 @@ input[type="submit"]:hover {
    font-size: 20px;
    color: #777;
    text-transform: uppercase;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif; */
   } 
 
   .cardMissing .details{
@@ -325,8 +326,8 @@ input[type="submit"]:hover {
 	--slant: 0.7em;   /* control the slanted corners */
 	--color: #37E8FC; /* the color */
 	
-	font-size: 25px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+	/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif; */
 	padding: 0.2em 0.5em;
 	border: none;
 	cursor: pointer;
@@ -367,7 +368,7 @@ input[type="submit"]:hover {
 	text-decoration: none;
 	text-align: center;
 	padding: 0.2em 0.7em;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+	/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif; */
   }
 
   .formMissing {

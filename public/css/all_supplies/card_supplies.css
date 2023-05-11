@@ -51,11 +51,14 @@
     }
     .wrapperAnimalSupplies .containerSupplies .bottom .pNameSupplies {
       margin: 0;
+      margin-left: 2%;
       padding: 0;
+      width: 100%;
       text-align: center;
       color: black;
-      font-size: 22px;
-      font-weight: bold;
+      font-size: 17px;
+      font-weight: 500;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
     }
     .wrapperAnimalSupplies .containerSupplies .bottom .pSupplies {
       margin: 0;
@@ -75,6 +78,7 @@
     .wrapperAnimalSupplies .containerSupplies .bottom .left .detailsSupplies {
       padding-top: 5px;
       float: left;
+      text-align: center;
       width: calc(70% - 40px);
     }
     .wrapperAnimalSupplies .containerSupplies .bottom .left .findSupplies {

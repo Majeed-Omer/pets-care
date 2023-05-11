@@ -15,7 +15,7 @@
 /* generic styles for the page */
 
 .bg {
-    background: linear-gradient(180deg, rgba(135,206,235,1) 5%, rgba(242,135,0,1) 12%, rgba(242,135,0,1) 83%, rgba(135,206,235,1) 90%);
+    background: white;
 }
 .cen {
     display: grid;
@@ -48,8 +48,8 @@
 /* projects section */
 
 .members {
-    background-color: salmon;
-    box-shadow: 0px 0px 10rem rgba(255, 255, 255, 0.6);
+    background-color: rgb(47,79,79);
+    box-shadow: 0px 0px 5rem 1rem rgba(0, 0, 0, 0.6);
     border-radius: 50px;
     padding: 4rem 3rem;
 }

@@ -2,7 +2,7 @@
     
 <footer class="container-fluid footer-distributed">
 	<div class="footer-left">
-	<img src="myImages/logo2-removebg.png" alt="your-image-description" class="circle-img">
+	<img src="myImages/logo2.jpg" alt="your-image-description" class="circle-img">
 		<p class="footer-links">					
 			<a class="aFooter link-1" href="/home">ماڵەوە</a>
 			<a class="aFooter" href="/map">نەخشە</a>
@@ -43,4 +43,4 @@
 	</div>
 </footer>
 
-<script src="https://kit.fontawesome.com/217328fb47.js" crossorigin="anonymous"></script>
+<script src="js/fa.js" crossorigin="anonymous"></script>
