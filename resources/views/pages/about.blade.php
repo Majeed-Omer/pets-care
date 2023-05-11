@@ -9,7 +9,7 @@
     @include('header')
 </head>
 <body class="bg">
-<section class="cen mt-5">
+<section class="cen my-5">
     <section class="mx-3 members">
         <h2 class="h2">ئەندامانی تیمەکەمان</h2>
         <article class="about">

@@ -1,0 +1,18 @@
+#header {
+    width: 100%;
+}
+.animal-care {
+   padding: 5rem 1rem;
+   margin-bottom: 12rem;
+}
+.left, .center, .right {
+   width: 33.33%;
+   float: left;
+}
+.center {
+   text-align: center;
+}
+.right {
+   text-align: right;
+}
+

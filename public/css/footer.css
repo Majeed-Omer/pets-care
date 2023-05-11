@@ -6,7 +6,7 @@
 
 
 .footer-distributed {
-  background: #87CEEB;
+  background: 	rgb(25,25,112);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -33,7 +33,7 @@
 /* Footer links */
 
 .footer-distributed .footer-links {
-  color: #000;
+  color: #fff;
   margin: 20px 0 12px;
   padding: 0;
 }
@@ -54,7 +54,7 @@
 }
 
 .footer-distributed .footer-company-name {
-  color: #222;
+  color: #fff;
   font-size: 1rem;
   font-weight: normal;
   margin: 0;
@@ -68,7 +68,7 @@
 }
 
 .footer-distributed .footer-center i {
-  background-color: #33383b;
+  background-color: #079103;
   color: #fff;
   font-size: 25px;
   width: 38px;
@@ -87,7 +87,7 @@
 
 .footer-distributed .footer-center .pFooter {
   display: inline-block;
-  color: #000;
+  color: #fff;
   font-weight: 500;
   vertical-align: middle;
   margin: 0;
@@ -116,7 +116,7 @@
   font-weight: 300;
   font-size: 20px;
   left: 0;
-  color: #000;
+  color: #fff;
   display: inline-block;
   padding-right: 5px;
 }
@@ -134,13 +134,14 @@
 .footer-distributed .footer-right .pFooter {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   font-size: 1rem;
+  color: #fff;
   font-weight: 500;
   line-height: 1.5rem;
 }
 
 .footer-distributed .footer-company-about .spanFooter {
   display: block;
-  color: #000;
+  color: #fff;
   font-size: 1.3rem;
   font-weight: 500;
   margin-bottom: 20px;
@@ -156,7 +157,7 @@
   width: 35px;
   height: 35px;
   cursor: pointer;
-  background-color: #33383b;
+  background-color: #079103;
   border-radius: 0.7rem;
 
   font-size: 20px;

@@ -1,0 +1,23 @@
+.containerPetStores {
+display: grid;
+align-items: center; 
+grid-template-columns: 1fr 1fr 10fr;
+}
+
+.imgPetStores {
+/* margin-top:10px; */
+margin-left: 10px;
+margin-bottom: 250px;
+}
+
+.text {
+font-size: 20px;
+}
+.cover {
+position: absolute;
+background-color: #0171d3;
+height:550px;
+width: 850px;
+margin-left: 15%; 
+color: white;
+}

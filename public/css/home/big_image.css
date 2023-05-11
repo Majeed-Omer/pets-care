@@ -4,9 +4,10 @@
 }
 .description {
   position: absolute;
-  font-size: 26px;
+  font-size: 4vh;
   top: 20%;
-  width: 30rem;
+  width: 80%;
+  text-align: center;
 }
 .see-more {
   position: absolute;
@@ -33,6 +34,16 @@
 .box .description {
   border-radius: 1rem;
   color: #fff;
-  height: 10rem;
+  height: 14vh;
   background-color: rgba(0,0,0,0.4);
+}
+@media (max-width: 387px) {
+  .box .description {
+    height: 26vh;
+  }
+}
+@media (max-width: 300px) {
+  .box .description {
+    height: 32vh;
+  }
 }

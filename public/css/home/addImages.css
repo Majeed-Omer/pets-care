@@ -216,8 +216,7 @@ input[type="submit"]:hover {
 	.grid-container {
 	  grid-template-columns: repeat(6, 1fr);
 	}
-  }
-  
+  } 
   
   .buttonEDS {
 	--border: 2px;    /* the border width */
@@ -272,9 +271,11 @@ input[type="submit"]:hover {
   }
 
   .noAnimals{
-    font-size: 50px;
-    margin: 90px 500px;
-    width: 600px;
+    font-size: 6vw;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+	margin: 90px auto;
+    width: 100%;
+	text-align: center;
   }
 
 
@@ -359,3 +360,9 @@ input[type="submit"]:hover {
   display: block;
   margin-top: 5px;
    } 
+   @media (min-width: 1700px) {
+	.cardAnimals {
+		width: 285px;
+		height: 340px;
+	}
+  }
