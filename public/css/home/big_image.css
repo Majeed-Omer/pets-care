@@ -10,11 +10,13 @@
   text-align: center;
 }
 .see-more {
+  display: grid;
+  place-items: center;
   position: absolute;
   top: 60%;
-  font-size: 20px;
-  width: 7rem;
-  height: 3rem;
+  font-size: 1.5rem;
+  width: 8rem;
+  height: 4rem;
   border-radius: 1rem;
   border: none;
   background-color: #0171d3;
@@ -45,5 +47,11 @@
 @media (max-width: 300px) {
   .box .description {
     height: 32vh;
+  }
+}
+@media (min-width: 1000px) {
+  .box .description {
+    width: fit-content;
+    padding: 4rem;
   }
 }
