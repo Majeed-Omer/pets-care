@@ -52,7 +52,7 @@
 								</div>
 							</div>
 							<div class="text-center">
-								<input class="buttonForm" type="submit" value="ناردن" />
+								<input class="buttonForm" type="submit" value="ناردن"/>
 							</div>	
 						</form>
 					</div>
@@ -61,5 +61,3 @@
 		</div>
 	</div>
 </div>
-
-
