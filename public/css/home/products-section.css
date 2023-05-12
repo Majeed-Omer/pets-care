@@ -1,6 +1,7 @@
 .products-header {
+  font-size: 3.0em;
   margin: 0 auto;
-  font-weight: 700;
+  font-weight: 600;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   width: 10rem;
   height: 3rem;
