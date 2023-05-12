@@ -9,28 +9,28 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="myImages/hyacinth-macaw.jpg" class="d-block w-100 h-100" alt="...">
+      <img src="myImages/hyacinth.jpg" class="d-block w-100 h-100" alt="...">
       <div class="carousel-caption">
         <h5 class="image-header">بەشی یەکەم ماڵەوە</h5>
         <p class="pSlides">لەم بەشەدا وێنەی ئاژەڵان و خۆرەکەکانیان و وێنە زیادکراوەکانی ئاژەڵانی تێدایە</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="myImages/shiba-inu.jpg" class="d-block w-100 h-100" alt="...">
+      <img src="myImages/shiba.jpg" class="d-block w-100 h-100" alt="...">
       <div class="carousel-caption">
         <h5 class="image-header">بەشی دووەم نەخشە</h5>
         <p class="pSlides">لەم بەشەدا لەسەر گۆگڵ ماپ چەند شوێنەک دیاری کراوە کە تایبەتە بە ئاژەڵان</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="myImages/scottish.jpg" class="d-block w-100 h-100" alt="...">
+      <img src="myImages/hamester.jpg" class="d-block w-100 h-100" alt="...">
       <div class="carousel-caption">
         <h5 class="image-header">بەشی سێیەم پێداویستی ئاژەڵان</h5>
         <p class="pSlides">لەم بەشەدا کۆمەڵێک پێداویستی ئاژەڵانی تێدایە وەک خواردن و دەرمان و شتی تر</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="myImages/long-hair.jpg" class="d-block w-100 h-100" alt="...">
+      <img src="myImages/british-lh.jpeg" class="d-block w-100 h-100" alt="...">
       <div class="carousel-caption">
         <h5 class="image-header">بەشی چوارەم شوێنەکان</h5>
         <p class="pSlides">ئەم بەشە لەسێ بەش پێکهاتووە ئەوانیش فرۆشگا و کلینیک و پەناگەی ئاژەڵان</p>

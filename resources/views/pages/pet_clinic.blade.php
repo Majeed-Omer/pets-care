@@ -10,7 +10,7 @@
 
 </head>
 <body class="bodyCard">
- 
+<br><br><br>
  @if(count($data) > 0)
 
 @foreach($data as $row) 
@@ -44,13 +44,13 @@
 		</section>
 		<img src="/myImages/b_dog_clinic.png" alt="dog" width=20% heigth=30% class="imgDogCartDoctor">
         <img src="/myImages/b_cat_clinic.png" alt="cat" width=30% heigth=30% class="imgCatDoctor">
-			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	 @endforeach		
 
 @else
 <p class="noClinic">هیچ کلینەک نییە</p>
 @endif
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 </body>
 
 @include('footer')

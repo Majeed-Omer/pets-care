@@ -16,13 +16,24 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+    .gradient {
+        background: linear-gradient(203deg, rgba(0,242,121,1) 18%, rgba(233,237,70,1) 45%, rgba(135,233,235,1) 78%);
+        height: 0.3rem;
+    }
+</style>
+
 </head>
 <body class="bodyHome">
   
 @include('header')
 @include('pages.home.slideShow')
+<div class="gradient"></div>
 @include('pages.home.products-section')
+<div class="gradient"></div>
 @include('pages.home.bigImage')
+<div class="gradient"></div>
 @include('pages.home.advices')    
 <br><br><br>
 @yield('content')

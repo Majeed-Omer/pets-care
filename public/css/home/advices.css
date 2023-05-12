@@ -57,11 +57,13 @@
   font-weight: 600;
   letter-spacing: 0.3px;
   color: #070024;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 .cardAdvice p {
   line-height: 2em;
   font-size: 1.3em;
   color: #454349;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 .cardAdvice:hover {
   background-position: 0;
