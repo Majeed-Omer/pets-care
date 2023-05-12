@@ -5,16 +5,18 @@
 .carousel-item,.carousel-inner {
     height: 32rem;
 }
-.carousel-indicators, .carousel-item h5, .pSlides {
+.carousel-indicators, .carousel-item .image-header, .pSlides {
   margin: 1rem auto;
+  padding: 4px;
   width: fit-content;
   border-radius: 0.3rem;
   color: #000;
   background-color: rgba(255,255,255,0.6);
+  font-size: 1.5rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
-.carousel-item h5 {
-
+.carousel-item .image-header {
+  font-size: 1.8rem;
 }
 .carousel-item .pSlides {
   text-align: center;
@@ -39,14 +41,12 @@
 }
 @media only screen and (min-width: 720px) {
   .carousel-inner {
-    background-image: url('/myImages/OIP.jpeg');
     height: 46rem;
     display: grid;
   }
   .carousel-item {
     height: 46rem;
     margin: 0 auto;
-    width: fit-content;
   }
   .carousel .carousel-control-prev, .carousel-control-next {
     margin: auto 2rem;

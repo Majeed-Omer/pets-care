@@ -11,7 +11,7 @@
 
 </head>
 <body class="bodyCardS">
- 
+<br><br><br>
  @if(count($data) > 0)
 
 @foreach($data as $row) 
@@ -76,7 +76,7 @@
 @else
 <p class="noStore">هیچ ستۆرەک نییە</p>
 @endif
-<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br>
 </body>
 @include('footer')
 

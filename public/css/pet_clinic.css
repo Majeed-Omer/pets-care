@@ -238,11 +238,21 @@
   width: 600px;
 }
 
-.imgCatDoctor{
+/* .imgCatDoctor{
   float: left;
 }
 
 .imgDogCartDoctor{
   float: right;
   margin-right: 50px;
+} */
+
+.imgCatDoctor{
+  position: absolute;
+  left: 0;
+}
+
+.imgDogCartDoctor{
+  position: absolute;
+  right: 10rem;
 }

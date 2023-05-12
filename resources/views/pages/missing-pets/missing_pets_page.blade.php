@@ -4,6 +4,7 @@
 <title>ئاژەڵە بزربووەکان</title> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/missing_pets.css" rel="stylesheet" type="text/css">
+<link href="css/cat.css" rel="stylesheet"">
 
 
 </head>
@@ -21,6 +22,9 @@
 <br><br>
 
 @include('pages.missing-pets.add_missing_pets_page')
+
+<br><br><br><br>
+
 
 <br><br><br><br>
 

@@ -147,8 +147,9 @@
 
 .noStore{
     font-size: 50px;
-    margin: 90px 500px;
-    width: 600px;
+    text-align: center;
+    margin: 12rem auto 6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 @media screen and (max-width: 420px) {
     .BussinessCardStore {
@@ -157,7 +158,13 @@
     }
 }
 
-.imgCatCart{
+/* .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
+
+/* .imgCatCart{
     float: right;
     margin-top: 20px;
 }
@@ -165,4 +172,13 @@
 .imgDogCart{
     float: left;
     margin-top: 50px;
+} */
+
+.imgDogCart {
+    position: absolute;
+    left: 0;
+}
+.imgCatCart {
+    position: absolute;
+    right: 0;
 }
