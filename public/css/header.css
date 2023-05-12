@@ -9,6 +9,15 @@
     margin: auto 20px;
     text-align: center;
 }
+.nav-item:hover {
+    transition: all 0.2s;
+    border-bottom: solid 3px black;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nav-item:last-of-type {
+    border: none;
+}
 .text-style {
     font-weight: bolder;
     color: black;
@@ -17,7 +26,16 @@
 }
 .iLogin{
     font-size: 1.2em;
-    margin-right: 7px
+    margin-right: 7px;
+}
+.login {
+    border: solid 2px black;
+    border-radius: 30px;
+    transition: all 0.5s ease-out;
+}
+.login:hover {
+    background: black;
+    color: white;
 }
 @media screen and (max-width: 991px) {
     .nav-item {
