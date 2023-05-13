@@ -10,6 +10,11 @@
 	</div>
 	<div class="list collapse navbar-collapse" id="navbarScroll">
 	  <ul class="navbar-nav my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 250px;">
+	  @if(auth()->user()->id == 1)
+	  <li class="nav-item">
+		  <a class="nav-link text-style" href="/admin">ئەدمین</a>
+	  </li>
+	  @endif
 		<li class="nav-item">
 		  <a class="nav-link text-style active" aria-current="page" href="/home">ماڵەوە</a>
 		</li>
@@ -38,7 +43,6 @@
           @else
          <a class="nav-link text-style login" href="/login"><i class="fa-regular fa-circle-user iLogin"></i>خۆت تۆماربکە</a>
           @endif
-
 		</li>
 	  </ul>
 	</div>
