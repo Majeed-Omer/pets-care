@@ -15,6 +15,13 @@
   margin: 0;
 }
 
+.bton {
+  text-decoration: none;
+}
+.bton:hover {
+  color: #fff;
+}
+
 .parent {
   position: relative;
 }
