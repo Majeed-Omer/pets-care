@@ -7,7 +7,7 @@ body {
 
 h1 {
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 .item {
@@ -69,7 +69,48 @@ button {
 	display: inline-block; margin-left: 10px;
 }  
 
+.grid-container {
+    display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-row-gap: 20px;
+	grid-column-gap: 0.5fr; 
+	justify-items: center;
+  }
 
+/* Apply different styles for mobile screens */
+@media (max-width: 480px) {
+	.grid-container {
+	  grid-template-columns: repeat(1, 1fr);
+	}
+  }
+  
+  /* Apply different styles for tablet screens */
+  @media (min-width: 481px) and (max-width: 768px) {
+	.grid-container {
+	  grid-template-columns: repeat(2, 1fr);
+	}
+  }
+  
+  /* Apply different styles for laptop screens */
+  @media (min-width: 769px) and (max-width: 1024px) {
+	.grid-container {
+	  grid-template-columns: repeat(3, 1fr);
+	}
+  }
+  
+  /* Apply different styles for PC screens */
+  @media (min-width: 1025px) and (max-width: 1440px) {
+	.grid-container {
+	  grid-template-columns: repeat(4, 1fr);
+	}
+  }
+  
+  /* Apply different styles for 4K TV screens */
+  @media (min-width: 1441px) {
+	.grid-container {
+	  grid-template-columns: repeat(5, 1fr);
+	}
+  }  
 
 .buttonRA {
 	--border: 5px;    /* the border width */
@@ -124,7 +165,7 @@ button {
   display: block;
   max-width: 400px;
   min-width: 180px;
-  margin: 100px auto;
+  margin: 20px auto;
   border: 1px solid #3C1C78;
   background-color: #fff;
   z-index: 10;
@@ -153,17 +194,10 @@ button {
   line-height: 38px;
   content: "∨";
   text-align: center;
-  color: #714BB9;
+  color: black;
   font-size: 24px;
   border-left: 1px solid #3C1C78;
   z-index: -1;
 }
 
 
-.grid-container {
-    display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-row-gap: 20px;
-	grid-column-gap: 0.5fr; 
-	justify-items: center;
-  }

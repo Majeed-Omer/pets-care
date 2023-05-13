@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="css/admin.css">
 </head>
 <body>
+    
 	<h1>لاپەڕەی ئەدمین</h1>
 
     <label class="custom-select" for="styledSelect1"><select id="styledSelect1" name="options">
