@@ -6,10 +6,10 @@
 @include('pages.home.animal-images.add_images_page')
 <br><br><br>
 
-@if(count($data) > 0)
+@if(count($data) >  0)
 <div class="grid-container">
 @foreach($data as $row)
-
+@if($row->approval	=== 1)
   <div class="cardAnimals">
         <div class="imgBx">
             <img src="{{ asset('images/' . $row->images) }}">
@@ -31,6 +31,7 @@
 @include('pages.home.animal-images.show_images_page')
 
 @include('pages.home.animal-images.edit_images_page')
+@endif
 @endforeach
 </div>
 @else

@@ -9,6 +9,7 @@ use App\Http\Controllers\Pet_clinicController;
 use App\Http\Controllers\Pet_storeController;
 use App\Http\Controllers\AllSupplyController;
 use App\Http\Controllers\ShelterController;
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -52,5 +53,12 @@ Route::resource('home', SpeciesController::class);
 Route::resource('/', SpeciesController::class);
 Route::get('all_supply', [AllSupplyController::class, 'index']);
 Route::resource('shelter', ShelterController::class);
+
+Route::get('admin', [AdminController::class, 'index'])->middleware('admin');
+Route::post('/approve/{id}', [SpeciesController::class, 'approve'])->middleware('admin')->name('approve');
+Route::post('/reject/{id}', [SpeciesController::class, 'reject'])->middleware('admin')->name('reject');
+
+Route::post('/approve1/{id}', [Stolen_missingController::class, 'approve1'])->middleware('admin')->name('approve1');
+Route::post('/reject1/{id}', [Stolen_missingController::class, 'reject1'])->middleware('admin')->name('reject1');
 
 

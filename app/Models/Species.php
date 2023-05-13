@@ -9,5 +9,5 @@ class Species extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['species_name', 'pet_name', 'birth_date', 'state', 'images', 'notes'];
+    protected $fillable = ['species_name', 'pet_name', 'birth_date', 'state', 'images', 'notes', 'approval'];
 }

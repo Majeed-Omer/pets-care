@@ -71,13 +71,7 @@ class SpeciesController extends Controller
      */
     public function update(Request $request, Species $species)
     {
-        // $request->validate([
-        //     'species_name'         =>  'required',
-        //     'pet_name'         =>  'required',
-        //     'birth_date'         =>  'required',
-        //     'images'         =>  'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=2000,max_height=2000',
-        //     'notes'         =>  'required'
-        // ]);
+     
 
         $images = $request->hidden_images;
 
@@ -108,5 +102,23 @@ class SpeciesController extends Controller
         $species->delete();
 
         return redirect()->route('index')->with('success', 'Animal Data deleted successfully');
+    }
+
+
+public function approve(Request $request, $id)
+{
+    $species = Species::findOrFail($id);
+    $species->approval = $request->input('approval');
+    $species->save();
+    return redirect()->back();
+}
+
+public function reject(Request $request, $id)
+    {
+    $species = Species::findOrFail($id);
+    $species->approval = $request->input('approval');
+    $species->save();
+    $species->delete();
+    return redirect('admin');
     }
 }

@@ -4,7 +4,6 @@
 <title>ئاژەڵە بزربووەکان</title> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/missing_pets.css" rel="stylesheet" type="text/css">
-<link href="css/cat.css" rel="stylesheet"">
 
 
 </head>
@@ -33,7 +32,7 @@
 <div class="grid-container">
 
 @foreach($data as $row) 
-
+@if($row->approval	=== 1)
   <div class="cardMissing" style="display: none;">
         <div class="imgBx">
             <img src="{{ asset('picture/' . $row->picture) }}" class="imgMissing">
@@ -56,7 +55,7 @@
   @include('pages.missing-pets.edit_missing_pets_page')
 
   @include('pages.missing-pets.show_missing_pets_page')
-
+  @endif
   @endforeach  
 </div>
 	
