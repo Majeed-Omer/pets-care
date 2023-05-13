@@ -4,21 +4,28 @@
 
 .bodyGrideView {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
-  background: radial-gradient(circle, rgba(191,255,93,1) 0%, rgba(135,206,235,1) 80%);
+  background-color: #161616;
+}
+
+.missing-p {
+	color: #fff;
+	text-align: center;
+	font-weight: 500;
+	font-size: 1.7rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 
 .header {
   text-align: center;
   padding: 32px;
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 .card-body {
 	text-align: right;
 }
 .text {
-font-size: 20px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 
 .boxrideView {
@@ -103,6 +110,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Ar
 	font-weight: 500;
 	font-size: 1rem;
 	text-align: center;
+	padding: 8px;
 }
 .phone {
 	padding: 8px;
@@ -126,6 +134,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Ar
 	resize: vertical;
 }
 .add-picture {
+	padding: 8px;
 	margin: 5px auto;
 }
 input[type=text], select, textarea {
@@ -312,6 +321,7 @@ input[type="submit"]:hover {
 	grid-row-gap: 20px;
 	grid-column-gap: 0.5fr; 
 	justify-items: center;
+	background-color: #777;
   }
 
   @media (max-width: 768px) { /* Adjust grid layout for screens up to 768 pixels wide */
@@ -341,7 +351,6 @@ input[type="submit"]:hover {
 	--color: #37E8FC; /* the color */
 	
 	font-size: 20px;
-	/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif; */
 	padding: 0.2em 0.5em;
 	border: none;
 	cursor: pointer;
@@ -382,7 +391,6 @@ input[type="submit"]:hover {
 	text-decoration: none;
 	text-align: center;
 	padding: 0.2em 0.7em;
-	/* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif; */
   }
 
   .formMissing {

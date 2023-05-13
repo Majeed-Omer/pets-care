@@ -67,6 +67,7 @@
 }
 .cardAdvice:hover {
   background-position: 0;
+  cursor: context-menu;
 }
 .cardAdvice:hover .icon:before {
   height: 2.25em;

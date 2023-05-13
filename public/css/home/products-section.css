@@ -10,16 +10,6 @@
   z-index: 2;
 }
 
-.products .products-item {
-  padding: 0;
-  margin: auto 5px;
-  background-color: #fff;
-  box-shadow:0 2px 10px rgba(0,0,0,.2);
-}
-.products-item:hover {
-	transform: scale(1.1);
-  z-index: 1;
-}
 .products-image {
   padding: 0;
   margin: 0;
@@ -28,7 +18,9 @@
 .parent {
   position: relative;
 }
+
 /* Waves */ 
+
 .spacer {
   position: absolute;
   aspect-ratio: 900/30;
@@ -54,4 +46,171 @@
   background-image: url('/myImages/bottom.svg');
   height: 7rem;
   z-index: 0;
+}
+
+:root {
+  --d: 700ms;
+  --e: cubic-bezier(0.19, 1, 0.22, 1);
+  --font-sans: "Rubik", sans-serif;
+  --font-serif: "product-cardo", serif;
+}
+
+.product-card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 600px) {
+  .product-card {
+    height: 350px;
+  }
+}
+.product-card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-size: cover;
+  background-position: 0 0;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: none;
+}
+.product-card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  background-image: linear-gradient(0deg, rgba(100,100,100,1) 10%, rgba(100,100,100,0) 90%);
+  transform: translateY(-50%);
+  transition: transform calc(var(--d) * 2) var(--e);
+}
+.product-card:nth-child(1):before {
+  background-image: url('/myImages/happy-cat.png');
+  background-size: 100% 100%;
+}
+.product-card:nth-child(2):before {
+  background-image: url('/myImages/royal-dog.webp');
+  background-size: 100% 100%;
+}
+.product-card:nth-child(3):before {
+  background-image: url('/myImages/bird-food.png');
+  background-size: 100% 100%;
+}
+.product-card:nth-child(4):before {
+  background-image: url('/myImages/check-food.png');
+  background-size: 100% 100%;
+}
+
+.product-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  transition: transform var(--d) var(--e);
+  z-index: 1;
+}
+.product-content > * + * {
+  margin-top: 3rem;
+}
+
+.title {
+  color: #000;
+  background-color: white;
+  border-radius: 50px;
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.copy {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.bton {
+  cursor: pointer;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  color: white;
+  background-color: seagreen;
+  border: none;
+}
+.bton:hover {
+  background-color: #0d0d0d;
+}
+.bton:focus {
+  outline: 1px dashed yellow;
+  outline-offset: 3px;
+}
+
+@media (hover: hover) and (min-width: 600px) {
+  .product-card:after {
+    transform: translateY(0);
+  }
+
+  .product-content {
+    transform: translateY(calc(100% + 5rem));
+  }
+  .product-content > * {
+    opacity: 0;
+    transform: translateY(1rem);
+    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+  }
+
+  .product-card:hover,
+.product-card:focus-within {
+    align-items: center;
+  }
+  .product-card:hover:before,
+.product-card:focus-within:before {
+    transform: translateY(-4%);
+  }
+  .product-card:hover:after,
+.product-card:focus-within:after {
+    transform: translateY(-50%);
+  }
+  .product-card:hover .product-content,
+.product-card:focus-within .product-content, .product-card:hover .title,
+.product-card:focus-within .title{
+    transform: translateY(0);
+  }
+  .product-card:hover .product-content > *,
+.product-card:focus-within .product-content > * {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+
+  .product-card:focus-within:before, .product-card:focus-within:after,
+.product-card:focus-within .product-content,
+.product-card:focus-within .product-content > * {
+    transition-duration: 0s;
+  }
+}
+.product-card.product-card.product-card {
+  height: 400px;
 }

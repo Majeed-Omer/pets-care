@@ -22,6 +22,7 @@
         background: linear-gradient(203deg, rgba(0,242,121,1) 18%, rgba(233,237,70,1) 45%, rgba(135,233,235,1) 78%);
         height: 0.3rem;
     }
+
 </style>
 
 </head>

@@ -19,11 +19,23 @@
 </div>
 
 <br><br>
+<div class="cat">
+	<div class="ear ear--left"></div>
+	<div class="ear ear--right"></div>
+	<div class="face">
+		<div class="eye eye--left">
+			<div class="eye-pupil"></div>
+		</div>
+		<div class="eye eye--right">
+			<div class="eye-pupil"></div>
+		</div>
+		<div class="muzzle"></div>
+	</div>
+</div>
+<p class="lead missing-p">ئێرە بەشی ئاژەڵە ونبووەکانە<br> لەم بەشەدا دەتوانی زانیاری دەربارەی<br> ئاژەڵە ونبووەکەت تۆمار بکەی بۆ ئەوەی ئاسانتر<br> بیدۆزیتەوە لە ڕێگەی ماڵپەرەکەمانەوە</p>
+<br><br>
 
 @include('pages.missing-pets.add_missing_pets_page')
-
-<br><br><br><br>
-
 
 <br><br><br><br>
 
