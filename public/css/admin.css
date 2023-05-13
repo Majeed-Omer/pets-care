@@ -69,48 +69,14 @@ button {
 	display: inline-block; margin-left: 10px;
 }  
 
-.grid-container {
+.grid-containerAdmin {
     display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 	grid-row-gap: 20px;
 	grid-column-gap: 0.5fr; 
 	justify-items: center;
   }
-
-/* Apply different styles for mobile screens */
-@media (max-width: 480px) {
-	.grid-container {
-	  grid-template-columns: repeat(1, 1fr);
-	}
-  }
   
-  /* Apply different styles for tablet screens */
-  @media (min-width: 481px) and (max-width: 768px) {
-	.grid-container {
-	  grid-template-columns: repeat(2, 1fr);
-	}
-  }
-  
-  /* Apply different styles for laptop screens */
-  @media (min-width: 769px) and (max-width: 1024px) {
-	.grid-container {
-	  grid-template-columns: repeat(3, 1fr);
-	}
-  }
-  
-  /* Apply different styles for PC screens */
-  @media (min-width: 1025px) and (max-width: 1440px) {
-	.grid-container {
-	  grid-template-columns: repeat(4, 1fr);
-	}
-  }
-  
-  /* Apply different styles for 4K TV screens */
-  @media (min-width: 1441px) {
-	.grid-container {
-	  grid-template-columns: repeat(5, 1fr);
-	}
-  }  
 
 .buttonRA {
 	--border: 5px;    /* the border width */
@@ -201,3 +167,25 @@ button {
 }
 
 
+.buttonBack {
+	border: 1px solid white;
+	background: #0171d3;
+	width: 120px;
+	padding: 15px;
+	border-radius: 3px;
+	color: white;
+	transition: background 0.5s ease;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-left: 10px;
+  }
+  
+  .buttonBack:hover {
+	background: black;
+	color: white;
+	font-weight: normal;
+  }
+  
+  .buttonBack:hover i {
+	color: white;
+  }

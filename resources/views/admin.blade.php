@@ -7,17 +7,21 @@
 <body>
     
 	<h1>لاپەڕەی ئەدمین</h1>
-
+    <button class="buttonBack" onclick="location.href='/'"><i class="fa fa-long-arrow-left arrow1" aria-hidden="true"></i> 
+     <span class="textboMalua">بۆ ماڵەوە</span>   
+    </button>
     <label class="custom-select" for="styledSelect1"><select id="styledSelect1" name="options">
     <option value="species">
       وێنەی ئاژەڵان
     </option>
+
+
     <option value="missing_stolen">
       وێنەی ئاژەڵی بزربوو
     </option>
   </select></label>
     <div id="species">
-    <div class="grid-container">
+    <div class="grid-containerAdmin">
     @foreach($species as $specie)
     <div class="item">
         <img src="{{ asset('images/' . $specie->images) }}" class="img-responsive">
@@ -44,7 +48,7 @@
 
 
 <div id="missing_stolen">
-<div class="grid-container">    
+<div class="grid-containerAdmin">    
 @foreach($stolen_missings as $stolen_missing)
     <div class="item">
         <img src="{{ asset('picture/' . $stolen_missing->picture) }}" class="img-responsive">

@@ -33,7 +33,12 @@
 		  <a class="nav-link text-style" href="/about-us">دەربارەی ئێمە</a>
 		</li>
 		<li class="nav-item">
-			<a class="nav-link text-style login" href="/login"><i class="fa-regular fa-circle-user iLogin"></i>خۆت تۆماربکە</a>
+			@if (Auth::check())
+          <a class="nav-link text-style login" href="/logout"><i class="fa-regular fa-circle-user iLogin"></i>چوونە دەرەوە</a>
+          @else
+         <a class="nav-link text-style login" href="/login"><i class="fa-regular fa-circle-user iLogin"></i>خۆت تۆماربکە</a>
+          @endif
+
 		</li>
 	  </ul>
 	</div>
