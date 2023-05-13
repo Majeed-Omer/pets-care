@@ -7,7 +7,7 @@
 <br><br><br>
 
 @if(count($data) >  0)
-<div class="grid-container">
+<div class="grid-container" id="animalCardsContainer">
 @foreach($data as $row)
 @if($row->approval	=== 1)
   <div class="cardAnimals">
@@ -39,3 +39,4 @@
 <p class="noAnimals">هیچ وێنەیەک نییە</p>
 @endif
 @endsection
+

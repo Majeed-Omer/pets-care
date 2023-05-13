@@ -215,3 +215,15 @@
 .product-card.product-card.product-card {
   height: 400px;
 }
+
+
+.product-card {
+  opacity: 0;
+  transform: translateY(100px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.product-card.show {
+  opacity: 1;
+  transform: translateY(0);
+}

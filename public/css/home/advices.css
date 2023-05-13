@@ -91,3 +91,27 @@
     padding: 0 1em;
   }
 }
+
+.columnAdvice {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  transition-delay: 0.2s; /* Add a delay of 0.2 seconds */
+}
+
+.columnAdvice:nth-child(2) {
+  transition-delay: 0.4s; /* Add a delay of 0.4 seconds for the second column */
+}
+
+.columnAdvice:nth-child(3) {
+  transition-delay: 0.6s; /* Add a delay of 0.6 seconds for the third column */
+}
+
+.columnAdvice.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+

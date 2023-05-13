@@ -40,3 +40,4 @@
 <!-- <main class="page-content">
   
 </main> -->
+<script src="js/products-section.js"></script>
