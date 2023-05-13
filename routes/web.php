@@ -60,5 +60,3 @@ Route::post('/reject/{id}', [SpeciesController::class, 'reject'])->middleware('a
 
 Route::post('/approve1/{id}', [Stolen_missingController::class, 'approve1'])->middleware('admin')->name('approve1');
 Route::post('/reject1/{id}', [Stolen_missingController::class, 'reject1'])->middleware('admin')->name('reject1');
-
-
