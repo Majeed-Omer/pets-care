@@ -35,7 +35,7 @@
     document.getElementById("divShowAnimal/{{$row->id}}").style.display = "block";
   });
   
-  document.getElementById("closeShowMSImage/{{$row->id}}").addEventListener("click", function(event) {
+  document.getElementById("closeShowImages/{{$row->id}}").addEventListener("click", function(event) {
     event.preventDefault();
     document.getElementById("divShowAnimal/{{$row->id}}").style.display = "none";
   window.history.pushState({}, '', '/');
