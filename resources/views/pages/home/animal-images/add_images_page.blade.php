@@ -9,7 +9,7 @@
 			<div class="container">
 				<div class="card">
 					<div class="card-body">
-						<form class="formADDEdit" method="post" action="{{ route('species.store') }}" enctype="multipart/form-data" id="myForm">
+						<form class="formADDEdit" method="post" action="{{ route('species.store') }}" enctype="multipart/form-data">
 							@csrf
 							<div class="rowaddImages mb-3">
 								<label	class="label">ناوی ئاژەڵ</label>
@@ -61,19 +61,3 @@
 		</div>
 	</div>
 </div>
-
-<script>
-  const form = document.getElementById('myForm');
-  form.addEventListener('submit', (event) => {
-    event.preventDefault(); // prevents the default form submission behavior
-    // your form submission code here
-    // you can use fetch or ajax to submit the form data without refreshing the page
-    // for example:
-    // fetch(form.action, {
-    //   method: form.method,
-    //   body: new FormData(form)
-    // }).then(response => {
-    //   console.log(response);
-    // });
-  });
-</script>
