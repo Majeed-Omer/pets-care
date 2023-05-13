@@ -25,7 +25,7 @@
 		</div>
 		<div>
 			<i class="fa fa-envelope"></i>
-			<p class="pFooter"><a class="aFooter" href="mailto:support@company.com">support@company.com</a></p>
+			<p class="pFooter"><a class="aFooter mail" href="mailto:support@company.com">support@company.com</a></p>
 		</div>
 	</div>
 
@@ -38,7 +38,7 @@
 			<a class="aFooter" href="#"><i class="fa fa-facebook"></i></a>
 			<a class="aFooter" href="#"><i class="fa fa-twitter"></i></a>
 			<a class="aFooter" href="#"><i class="fa fa-linkedin"></i></a>
-			<a class="aFooter" href="#"><i class="fa fa-github"></i></a>
+			<a class="aFooter" href="https://github.com/Majeed-Omer/pets-care"><i class="fa fa-github"></i></a>
 		</div>
 	</div>
 </footer>

@@ -112,6 +112,13 @@
   text-decoration: none;
 }
 
+.mail {
+  color: wheat;
+}
+.mail:hover {
+  color: peru;
+}
+
 .footer-distributed .footer-links .aFooter:before {
   content: "|";
   font-weight: 300;
