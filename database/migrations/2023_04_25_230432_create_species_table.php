@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('images');
             $table->string('notes');
             $table->integer('user_id');
+            $table->integer('approval')->default(0);
             $table->timestamps();
         });
     }

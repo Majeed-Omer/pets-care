@@ -85,15 +85,7 @@ class Stolen_missingController extends Controller
      */
     public function update(Request $request, Stolen_missing $stolen_missing)
     {
-        // $request->validate([
-        //     'reward'          =>  'required',
-        //     'email'         =>  'required',
-        //     'phone_number'         =>  'required',
-        //     'stolen_lost_date'         =>  'required',
-        //     'description'         =>  'required',
-        //     'picture'         =>  'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=2000,max_height=2000'
-        // ]);
-
+        
         $picture = $request->hidden_picture;
 
         if($request->picture != '')
@@ -134,5 +126,22 @@ class Stolen_missingController extends Controller
         $stolen_missing->delete();
 
         return redirect()->route('stolen_missing.index')->with('success', 'Animal Data deleted successfully');
+    }
+
+    public function approve1(Request $request, $id)
+{
+    $stolen_missing = Stolen_missing::findOrFail($id);
+    $stolen_missing->approval = $request->input('approval');
+    $stolen_missing->save();
+    return redirect()->back();
+}
+
+public function reject1(Request $request, $id)
+    {
+    $species = Stolen_missing::findOrFail($id);
+    $species->approval = $request->input('approval');
+    $species->save();
+    $species->delete();
+    return redirect('admin');
     }
 }

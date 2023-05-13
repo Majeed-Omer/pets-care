@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string('description');
             $table->string('picture');
             $table->integer('user_id');
+            $table->integer('approval')->default(0);
             $table->timestamps();
         });
     }

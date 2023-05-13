@@ -9,5 +9,5 @@ class stolen_missing extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['reward', 'email', 'phone_number', 'stolen_lost_date', 'pet_case', 'description', 'picture'];
+    protected $fillable = ['reward', 'email', 'phone_number', 'stolen_lost_date', 'pet_case', 'description', 'approval'];
 }
