@@ -34,6 +34,6 @@
 <script src="js/all_supply.js"></script>	
 
 </body>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 @include('footer')
 </html>

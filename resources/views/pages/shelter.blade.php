@@ -24,6 +24,7 @@
 		</div>
 	
 		<p class="multiline-text">{{ $row->information }}</p>
+		<span class="number">0790 123 34 56</span><p style="margin-left: 5px;" class="phone"> : بۆ پەیوەندیکردن</p>
 		 <a href="{{ $row->location }}" class="aLocationShelter">
 			<span class="address">{{ $row->address }}</span>
 		<i class="location-icon fas fa-map-marker-alt"></i>

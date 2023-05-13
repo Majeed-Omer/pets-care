@@ -4,11 +4,9 @@
   padding: 0;
   box-sizing: border-box;
   user-select: none;
-  font-family: 'Poppins', sans-serif;
 }
 .bodySupplies {
   background: #E3E3D8;
-  font-family: sans-serif;
   /* padding: 25px; */
 }
 .navList{
@@ -24,15 +22,21 @@
 }
 .navList .labelDrop{
   color: white;
+  text-align: right;
   font-size: 22px;
   font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   display: block;
   cursor: pointer;
+}
+.link-list {
+  text-align: right;
 }
 .buttonNavList .spanNavList{
   float: right;
   line-height: 40px;
   transition: 0.5s;
+  margin-left: 1rem;
 }
 .buttonNavList .spanNavList.rotate{
   transform: rotate(-180deg);
@@ -70,11 +74,13 @@
 }
 .navList ul li .labelDrop{
   font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 .navList ul li a{
   color: white;
   text-decoration: none;
   font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   display: block;
 }
 .navList ul li a:hover,
@@ -92,6 +98,7 @@
 .navList ul ul li a{
   color: #e6e6e6;
   font-size: 17px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 .navList ul li .spanNavList{
   font-size: 20px;
@@ -152,6 +159,7 @@ input{
 
 .nosuff{
   font-size: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   margin-left: 100px;
   margin-top: 100px;
   width: 600px;

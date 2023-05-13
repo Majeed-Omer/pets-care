@@ -1,7 +1,7 @@
 .bodyShelter {
     margin: 0 0;
     padding: 0;
-    background-color: #e9e9e9;
+    background-color: rgb(248, 223, 176);
 }
 
 .h1Selter{
@@ -21,6 +21,7 @@
     width: 80%;
     background-color: rgb(152, 255, 152);
     box-shadow: 0px 0px 10rem rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 5rem 0.5rem rgba(0, 0, 0, 0.6);
     margin: 3rem auto;
     border-radius: 50px;
 }
@@ -70,7 +71,24 @@
 .address {
     display: inline-block;
     vertical-align: middle;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+
+.phone {
+    margin-top: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+.number {
+    margin-top: 0.9rem;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
     font-weight: 500;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }

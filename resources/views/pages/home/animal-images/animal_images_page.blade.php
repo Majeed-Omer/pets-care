@@ -23,7 +23,7 @@
     <button type="submit" class="buttonEDS"  style="--color:#f3738a">سڕینەوە</button>  
 	</form> 
   @endif
-  <a class="buttonEDS aButtonsAnimals" href="#divShowAnimal/{{$row->id}}" style="--color:#69db3a"  id="ShowImageButton/{{$row->id}}">پیشاندان</a>
+  <a class="buttonEDS aButtonsAnimals" href="#divShowAnimal/{{$row->id}}" style="--color:#048f39"  id="ShowImageButton/{{$row->id}}">پیشاندان</a>
 
   </div>
   </div>

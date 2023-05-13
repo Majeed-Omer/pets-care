@@ -3,7 +3,7 @@
 	</div>
 	<div class="overlayMissing" id="divOne">
 		<div class="wrapper">
-			<h2>تۆمارکردنی زانیاری</h2><a class="close" href="#">&times;</a>
+			<h2 class="missing-header">تۆمارکردنی زانیاری</h2><a class="close" href="#">&times;</a>
 			<div class="content">
 				<div class="container">
 					<div class="card">
@@ -52,7 +52,7 @@
 			<div class="row">
 				<label class="col-sm-2 col-label-form">وێنەی ئاژەڵەکە</label>
 				<div class="col-sm-10">
-					<input type="file" name="picture" class="add-picture picture" required/>
+					<input type="file" name="picture" class="picture" required/>
 				</div>
 			</div>
 			<div class="text-center">
