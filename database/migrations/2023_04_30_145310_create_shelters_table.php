@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('location');
             $table->string('information');
             $table->string('video');
+            $table->string('contact');
             $table->integer('species_id');
             $table->timestamps();
         });
