@@ -42,7 +42,7 @@ Route::get('login', [AuthController::class, 'index'])->name('login');
 Route::post('post-login', [AuthController::class, 'postLogin'])->name('login.post'); 
 Route::post('post-registration', [AuthController::class, 'postRegistration'])->name('register.post'); 
 Route::get('home', [AuthController::class, 'home']); 
-// Route::get('logout', [AuthController::class, 'logout'])->name('logout');
+Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::resource('animal', AnimalController::class);
 Route::resource('species', SpeciesController::class);

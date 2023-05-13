@@ -7,7 +7,7 @@ body {
 
 h1 {
 	text-align: center;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 
 .item {
@@ -69,7 +69,14 @@ button {
 	display: inline-block; margin-left: 10px;
 }  
 
-
+.grid-containerAdmin {
+    display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-row-gap: 20px;
+	grid-column-gap: 0.5fr; 
+	justify-items: center;
+  }
+  
 
 .buttonRA {
 	--border: 5px;    /* the border width */
@@ -124,7 +131,7 @@ button {
   display: block;
   max-width: 400px;
   min-width: 180px;
-  margin: 100px auto;
+  margin: 20px auto;
   border: 1px solid #3C1C78;
   background-color: #fff;
   z-index: 10;
@@ -153,17 +160,32 @@ button {
   line-height: 38px;
   content: "∨";
   text-align: center;
-  color: #714BB9;
+  color: black;
   font-size: 24px;
   border-left: 1px solid #3C1C78;
   z-index: -1;
 }
 
 
-.grid-container {
-    display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	grid-row-gap: 20px;
-	grid-column-gap: 0.5fr; 
-	justify-items: center;
+.buttonBack {
+	border: 1px solid white;
+	background: #0171d3;
+	width: 120px;
+	padding: 15px;
+	border-radius: 3px;
+	color: white;
+	transition: background 0.5s ease;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-left: 10px;
+  }
+  
+  .buttonBack:hover {
+	background: black;
+	color: white;
+	font-weight: normal;
+  }
+  
+  .buttonBack:hover i {
+	color: white;
   }
