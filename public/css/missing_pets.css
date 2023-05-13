@@ -4,7 +4,7 @@
 
 .bodyGrideView {
   margin: 0;
-  background-color: #161616;
+  background: linear-gradient(180deg, rgba(22,22,22,1) 27%, rgba(187,187,187,1) 69%);
 }
 
 .missing-p {
@@ -95,14 +95,19 @@
 	overflow: auto;
 }
 
+.formADDEdit {
+	text-align: right;
+}
+
 .formADDEdit label {
 	text-transform: uppercase;
 	font-weight: 500;
 	font-size: 1.2rem;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+	text-align: right;
 }
 .form-control {
-	margin: 1rem auto;
+	margin: 0.5rem auto;
 	text-align: right;
 }
 .missing-reason {
@@ -301,7 +306,6 @@ input[type="submit"]:hover {
    padding: 0;
    font-weight: 600;
    font-size: 20px;
-   color: #777;
    text-transform: uppercase;
    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif; */
   } 
@@ -321,7 +325,7 @@ input[type="submit"]:hover {
 	grid-row-gap: 20px;
 	grid-column-gap: 0.5fr; 
 	justify-items: center;
-	background-color: #777;
+	padding: 4rem;
   }
 
   @media (max-width: 768px) { /* Adjust grid layout for screens up to 768 pixels wide */
@@ -448,6 +452,7 @@ input[type="submit"]:hover {
   .noMissingStolen{
     font-size: 50px;
 	font-weight: 500;
+	color: #fff;
     margin: 90px 450px;
 	text-align: center;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
