@@ -1,6 +1,6 @@
 <div class="overlayMissing" id="divShow/{{$row->id}}">
 		<div class="wrapperShowImage">
-			<h2 class="show-header">پیشاندان</h2><a class="close" href="#">&times;</a>
+			<h2 class="show-header">پیشاندان</h2><a class="close" href="#" id="closeShowMSImage/{{$row->id}}">&times;</a>
 			<div class="content">
 				<div class="container">
 				<div class="card">
@@ -30,3 +30,15 @@
 			
 		</div>
 	</div>
+
+	<script>
+	document.getElementById("ShowMSButton/{{$row->id}}").addEventListener("click", function(event) {
+    document.getElementById("divShow/{{$row->id}}").style.display = "block";
+  });
+  
+  document.getElementById("closeShowMSImage/{{$row->id}}").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.getElementById("divShow/{{$row->id}}").style.display = "none";
+  window.history.pushState({}, '', '/');
+  });
+</script>	

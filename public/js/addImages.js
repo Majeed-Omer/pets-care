@@ -8,22 +8,6 @@ document.getElementById("closeButton").addEventListener("click", function(event)
 window.history.pushState({}, '', '/');
 });
 
-// $(document).ready(function() {
-//   var $columns = $('.cardAnimals');
-
-//   var observer = new IntersectionObserver(function(entries) {
-//     entries.forEach(function(entry) {
-//       if (entry.isIntersecting) {
-//         $(entry.target).addClass('visible');
-//         observer.unobserve(entry.target);
-//       }
-//     });
-//   }, { threshold: 0.5 });
-
-//   $columns.each(function() {
-//     observer.observe(this);
-//   });
-// });
 
 $(document).ready(function() {
   var $cards = $('.cardAnimals');

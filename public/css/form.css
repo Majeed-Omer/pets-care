@@ -27,7 +27,7 @@ body{
 .container .forms{
     display: flex;
     align-items: center;
-    height: 440px;
+    height: 450px;
     width: 200%;
     transition: height 0.2s ease;
 }
@@ -72,7 +72,7 @@ body{
     position: relative;
     height: 40px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .input-field input{
     position: absolute;
@@ -81,7 +81,7 @@ body{
     padding: 0 35px;
     border: none;
     outline: none;
-    font-size: 16px;
+    font-size: 18px;
     border-bottom: 2px solid #ccc;
     border-top: 2px solid transparent;
     transition: all 0.2s ease;
@@ -94,7 +94,7 @@ body{
     top: 50%;
     transform: translateY(-50%);
     color: #999;
-    font-size: 23px;
+    font-size: 25px;
     transition: all 0.2s ease;
 }
 .input-field input:is(:focus, :valid) ~ i{
@@ -124,7 +124,7 @@ body{
 }
 .form .text{
     color: #333;
-    font-size: 14px;
+    font-size: 18px;
 }
 .form a.text{
     color: #0171d3;
@@ -139,7 +139,7 @@ body{
 .form .button input{
     border: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: 1px;
     border-radius: 6px;
@@ -159,4 +159,20 @@ body{
 input[type="password"]::-ms-reveal,
 input[type="password"]::-webkit-reveal {
   display: none;
+}
+
+.social-icons {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 33px;
+    color: black;
+}
+
+.social-icons a:hover {
+    color: #265df2; /* change color on hover */
 }

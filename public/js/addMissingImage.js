@@ -1,16 +1,11 @@
-// Get all product elements
-const products = document.querySelectorAll('.grid-item');
+document.getElementById("addMSButton").addEventListener("click", function(event) {
+  document.getElementById("divOne").style.display = "block";
+});
 
-// Loop through each product element
-products.forEach(product => {
-  // Get the button element
-  const button = product.querySelector('.card-buttons');
-
-  // Add a click event listener to the product element
-  product.addEventListener('click', () => {
-    // Toggle the display of the button element
-    button.style.display = button.style.display === 'block' ? 'none' : 'block';
-  });
+document.getElementById("closeButtonMS").addEventListener("click", function(event) {
+  event.preventDefault();
+  document.getElementById("divOne").style.display = "none";
+window.history.pushState({}, '', '/');
 });
 
 

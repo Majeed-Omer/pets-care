@@ -1,6 +1,6 @@
 <div class="overlayMissing" id="divEdit/{{$row->id}}">
 		<div class="wrapper">
-			<h2 class="edit-header">گۆڕین</h2><a class="close" href="#">&times;</a>
+			<h2 class="edit-header">گۆڕین</h2><a class="close" href="#" id="closeButtonEditMS/{{$row->id}}">&times;</a>
 			<div class="content">
 				<div class="container">
 				<div class="card">
@@ -71,3 +71,15 @@
 			
 		</div>
 	</div>
+
+	<script>
+		document.getElementById("EditMSButton/{{$row->id}}").addEventListener("click", function(event) {
+    document.getElementById("divEdit/{{$row->id}}").style.display = "block";
+  });
+  
+  document.getElementById("closeButtonEditMS/{{$row->id}}").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.getElementById("divEdit/{{$row->id}}").style.display = "none";
+  window.history.pushState({}, '', '/');
+  });
+	</script>

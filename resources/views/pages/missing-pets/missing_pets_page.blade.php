@@ -4,12 +4,11 @@
 <title>ئاژەڵە بزربووەکان</title> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/missing_pets.css" rel="stylesheet" type="text/css">
-<link href="css/cat.css" rel="stylesheet"">
+<link href="css/cat.css" rel="stylesheet">
 
 
 </head>
 <body class="bodyGrideView">
-<!-- <img src="myImages/pets_missing.jpg" alt="ئاژەڵی بزربوو" class="imgMissing"> -->
 
 <div class="item">
 
@@ -55,12 +54,12 @@
   <form class="formMissing" action="{{ route('stolen_missing.destroy',$row->id) }}" method="POST">
 	@csrf
 	@method('DELETE')
-	<a class="buttonEDS edit-btn aButtonsMissing" href="#divEdit/{{$row->id}}">گۆڕین</a>
+	<a class="buttonEDS edit-btn aButtonsMissing" href="#divEdit/{{$row->id}}" id="EditMSButton/{{$row->id}}">گۆڕین</a>
   <button type="submit" class="del buttonEDS" style="--color:#f3738a">سڕینەوە</button>
     
 	</form> 
   @endif
-  <a class="buttonEDS aButtonsMissing" href="#divShow/{{$row->id}}" style="--color:#048f39">پیشاندان</a>
+  <a class="buttonEDS aButtonsMissing" href="#divShow/{{$row->id}}" style="--color:#048f39"  id="ShowMSButton/{{$row->id}}">پیشاندان</a>
   
         </div>
       </div>

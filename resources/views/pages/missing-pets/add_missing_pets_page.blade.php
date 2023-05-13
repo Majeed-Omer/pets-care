@@ -1,9 +1,9 @@
 <div class="boxrideView">
-		<a class="buttonAddMissing" href="#divOne">ئاژەڵەکەت زیادبکە</a>
+		<a class="buttonAddMissing" href="#divOne" id="addMSButton">ئاژەڵەکەت زیادبکە</a>
 	</div>
 	<div class="overlayMissing" id="divOne">
 		<div class="wrapper">
-			<h2 class="missing-header">تۆمارکردنی زانیاری</h2><a class="close" href="#">&times;</a>
+			<h2 class="missing-header">تۆمارکردنی زانیاری</h2><a class="close" href="#" id="closeButtonMS">&times;</a>
 			<div class="content">
 				<div class="container">
 					<div class="card">
