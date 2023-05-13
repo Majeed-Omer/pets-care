@@ -10,9 +10,9 @@
                </label>
                <input type="checkbox" id="btn-2">
                <ul>
-                  <li><a href="#" onclick="showSection('medicine-cat')">دەرمانی پشیلە</a></li>
-                  <li><a href="#" onclick="showSection('food-cat')">خواردنی پشیلە</a></li>
-                  <li><a href="#" onclick="showSection('product-cat')">پێداویستی تری پشیلە</a></li>
+                  <li><a class="link-list" href="#" onclick="showSection('medicine-cat')">دەرمانی پشیلە</a></li>
+                  <li><a class="link-list" href="#" onclick="showSection('food-cat')">خواردنی پشیلە</a></li>
+                  <li><a class="link-list" href="#" onclick="showSection('product-cat')">پێداویستی تری پشیلە</a></li>
                </ul>
             </li>
             <li>
@@ -21,9 +21,9 @@
                </label>
                <input type="checkbox" id="btn-3">
                <ul>
-                  <li><a href="#" onclick="showSection('medicine-dog')">دەرمانی سەگ</a></li>
-                  <li><a href="#" onclick="showSection('food-dog')">خواردنی سەگ</a></li>
-                  <li><a href="#" onclick="showSection('product-dog')">پێداویستی تری سەگ</a></li>
+                  <li><a class="link-list" href="#" onclick="showSection('medicine-dog')">دەرمانی سەگ</a></li>
+                  <li><a class="link-list" href="#" onclick="showSection('food-dog')">خواردنی سەگ</a></li>
+                  <li><a class="link-list" href="#" onclick="showSection('product-dog')">پێداویستی تری سەگ</a></li>
                </ul>
             </li>
             <li>
@@ -32,9 +32,9 @@
                </label>
                <input type="checkbox" id="btn-4">
                <ul>
-                  <li ><a href="#" onclick="showSection('medicine-bird')">دەرمانی باڵندە</a></li>
-                  <li ><a href="#" onclick="showSection('food-bird')">خواردنی باڵندە</a></li>
-                  <li><a href="#" onclick="showSection('product-bird')">پێداویستی تری باڵندە</a></li>
+                  <li ><a class="link-list" href="#" onclick="showSection('medicine-bird')">دەرمانی باڵندە</a></li>
+                  <li ><a class="link-list" href="#" onclick="showSection('food-bird')">خواردنی باڵندە</a></li>
+                  <li><a class="link-list" href="#" onclick="showSection('product-bird')">پێداویستی تری باڵندە</a></li>
                </ul>
             </li>
          </ul>

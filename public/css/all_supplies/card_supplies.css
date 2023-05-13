@@ -187,6 +187,8 @@
       opacity: 1;
       transform: scale(1);
       transform: translateY(0);
+      font-weight: 500;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
     }
     .wrapperAnimalSupplies .inside .contents {
       padding: 5%;

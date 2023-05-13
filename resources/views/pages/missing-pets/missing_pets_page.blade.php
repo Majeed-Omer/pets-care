@@ -4,6 +4,7 @@
 <title>ئاژەڵە بزربووەکان</title> 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/missing_pets.css" rel="stylesheet" type="text/css">
+<link href="css/cat.css" rel="stylesheet"">
 
 
 </head>
@@ -44,7 +45,7 @@
 <div class="grid-container">
 
 @foreach($data as $row) 
-@if($row->approval	=== 1)
+
   <div class="cardMissing" style="display: none;">
         <div class="imgBx">
             <img src="{{ asset('picture/' . $row->picture) }}" class="imgMissing">
@@ -54,12 +55,12 @@
   <form class="formMissing" action="{{ route('stolen_missing.destroy',$row->id) }}" method="POST">
 	@csrf
 	@method('DELETE')
-	<a class="buttonEDS aButtonsMissing" href="#divEdit/{{$row->id}}">گۆڕین</a>
-  <button type="submit" class="buttonEDS" style="--color:#f3738a">سڕینەوە</button>
+	<a class="buttonEDS edit-btn aButtonsMissing" href="#divEdit/{{$row->id}}">گۆڕین</a>
+  <button type="submit" class="del buttonEDS" style="--color:#f3738a">سڕینەوە</button>
     
 	</form> 
   @endif
-  <a class="buttonEDS aButtonsMissing" href="#divShow/{{$row->id}}" style="--color:#69db3a">پیشاندان</a>
+  <a class="buttonEDS aButtonsMissing" href="#divShow/{{$row->id}}" style="--color:#048f39">پیشاندان</a>
   
         </div>
       </div>
@@ -67,7 +68,7 @@
   @include('pages.missing-pets.edit_missing_pets_page')
 
   @include('pages.missing-pets.show_missing_pets_page')
-  @endif
+
   @endforeach  
 </div>
 	
@@ -83,4 +84,3 @@
 
 </body>
 </html>
-
