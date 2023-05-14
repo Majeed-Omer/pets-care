@@ -103,6 +103,7 @@
 	box-sizing: border-box;
 	resize: vertical;
 	padding: 0.3rem;
+	width: 250px;
   }
 
   /* input[type=text], .select, .textarea {
@@ -150,9 +151,10 @@
   }
   
   .imgShowAnimals {
-	width:  350px;
-	height: 350px;
+	width:  100%;
+	height: 280px;
 	object-fit: cover;
+	border-radius: 30px;
   }
 
   .con-img {

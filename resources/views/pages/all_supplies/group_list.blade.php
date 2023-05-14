@@ -1,5 +1,5 @@
 <nav class="navList">
-         <label for="btn" class="buttonNavList labelDrop">گروپەکان
+         <label for="btn" class="buttonNavList labelDrop">گرووپەکان
          <span class="fas fa-caret-down spanNavList"></span>
          </label>
          <input type="checkbox" id="btn">
