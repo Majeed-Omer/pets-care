@@ -30,14 +30,10 @@
 	padding: 32px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   }
-  .card-body {
-	  text-align: right;
-  }
   .text {
 	  font-size: 20px;
 	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   }
-  
   .boxrideView {
 	  text-align: center;
   }
@@ -85,6 +81,8 @@
 	text-align: right;
 	background-color: #fff;
 	border-radius: 10px;
+	overflow-y: auto;
+	height: 550px;
 	border: 1px solid #ccc;
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 	padding: 5px;

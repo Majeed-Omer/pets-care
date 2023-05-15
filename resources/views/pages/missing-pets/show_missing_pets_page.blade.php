@@ -4,7 +4,7 @@
 			<div class="content">
 				<div class="container">
 				<div class="card">
-	<div class="card-body">
+	<div class="missings-card-body">
 		<form class="formADDEdit" enctype="multipart/form-data">
 			
 

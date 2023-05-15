@@ -6,7 +6,7 @@
   user-select: none;
 }
 .bodySupplies {
-  background-image: url('/myImages/circle.svg');   
+  background-color: beige;
   /* padding: 25px; */
 }
 .navList{

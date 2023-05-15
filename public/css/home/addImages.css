@@ -12,6 +12,8 @@
   }
   .card-body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+	overflow-y: auto;
+	height: 560px;
   }
   .boxImages {
 	  text-align: center;

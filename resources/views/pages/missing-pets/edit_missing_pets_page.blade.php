@@ -4,7 +4,7 @@
 			<div class="content">
 				<div class="container">
 				<div class="card">
-	<div class="card-body">
+	<div class="missings-card-body">
 		<form class="formADDEdit" method="post" action="{{ route('stolen_missing.update', $row->id) }}" enctype="multipart/form-data">
 			@csrf
 			@method('PUT')	

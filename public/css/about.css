@@ -15,7 +15,7 @@
 /* generic styles for the page */
 
 .bg {
-    background-image: url('/myImages/bg-ab3.svg');   
+    background-color: beige;
 }
 .cen {
     display: grid;
@@ -28,16 +28,16 @@
 }
 
 .link {
-    color: var(--magenta);
+    color: cyan;
     font-weight: 400;
     text-decoration: none;
-    border-bottom: var(--hotmag) 0.1rem solid;
+    border-bottom: cyan 0.1rem solid;
     padding-bottom: 0.1rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 
 .link:hover {
-    color: var(--hotmag);
+    color: cyan;
     text-decoration: none;
 }
 

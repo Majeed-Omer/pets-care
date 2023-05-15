@@ -1,3 +1,9 @@
+.animal-cases {
+  background-image: url('/myImages/lost.jpg');
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
 .animal-cases, .box, .size {
   width: 100%;
   height: 100vh;

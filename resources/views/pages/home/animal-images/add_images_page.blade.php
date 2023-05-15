@@ -61,3 +61,6 @@
 		</div>
 	</div>
 </div>
+<script>
+	//  $('#divAddAnimal').removeAttr('class').addClass(buttonId).find('.wrapperImages').height($(window).outerHeight(true));
+</script>
