@@ -170,14 +170,14 @@ button {
 .buttonBack {
 	border: 1px solid white;
 	background: #0171d3;
-	width: 120px;
+	width: 130px;
 	padding: 15px;
 	border-radius: 3px;
 	color: white;
 	transition: background 0.5s ease;
 	cursor: pointer;
 	border-radius: 10px;
-	margin-left: 10px;
+	margin-left: 12px;
   }
   
   .buttonBack:hover {
@@ -189,3 +189,25 @@ button {
   .buttonBack:hover i {
 	color: white;
   }
+
+  .arrow1 {
+	animation: slide1 1s ease-in-out infinite;
+	font-size: 1.2em;
+	margin-right: 5px;
+  }
+
+  .textboMalua{
+	font-size: 16px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+	margin-left: 5px;
+  }
+  @keyframes slide1 {
+	0%,
+	100% {
+	  transform: translate(0, 0);
+	}
+  
+	50% {
+	  transform: translate(10px, 0);
+	}
+  } 

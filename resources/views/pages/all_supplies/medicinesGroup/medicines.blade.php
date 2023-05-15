@@ -54,3 +54,22 @@
 @endif 
 </div>
 </div>
+
+<div id="medicine-poultry" class="section">
+<div class="grid-container">
+@if(count($medicine) > 0)  	
+@foreach($medicine as $row) 
+
+@if($row->animal_id == 4)
+
+@include('pages.all_supplies.medicinesGroup.poultryMedicines')
+
+@endif    
+@endforeach	
+@else
+	<tr>
+        <p class="nosuff">هیچ دەرمانەک نییە</p>
+	</tr>
+@endif 
+</div>
+</div>

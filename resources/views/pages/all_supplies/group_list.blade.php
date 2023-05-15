@@ -37,5 +37,16 @@
                   <li><a class="link-list" href="#" onclick="showSection('product-bird')">پێداویستی تری باڵندە</a></li>
                </ul>
             </li>
+            <li>
+               <label for="btn-4" class="three labelDrop">پەلەوەر
+               <span class="fas fa-caret-down spanNavList"></span>
+               </label>
+               <input type="checkbox" id="btn-4">
+               <ul>
+                  <li ><a class="link-list" href="#" onclick="showSection('medicine-poultry')">دەرمانی پەلەوەر</a></li>
+                  <li ><a class="link-list" href="#" onclick="showSection('food-poultry')">خواردنی پەلەوەر</a></li>
+                  <li><a class="link-list" href="#" onclick="showSection('product-poultry')">پێداویستی تری پەلەوەر</a></li>
+               </ul>
+            </li>
          </ul>
       </nav>
