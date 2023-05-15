@@ -31,7 +31,7 @@
                     <div class="checkbox-text">
                         <div class="checkbox-content">
                             <input type="checkbox" id="logCheck">
-                            <label for="logCheck">reminde me</label>
+                            <label for="logCheck">بیرم بخەرەوە</label>
                         </div>
                         
                         <a href="#" class="text">لەبیرچوونی وشەی نهێنی؟</a>
