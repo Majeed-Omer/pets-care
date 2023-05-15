@@ -47,7 +47,7 @@
 
                     <div class="checkbox-text">
                         <div class="checkbox-content">
-                            <input type="checkbox" id="termCon">
+                            <input type="checkbox" id="termCon"  required>
                             <label for="termCon" class="text">هەموو مەرجەکانم قبووڵە</label>
                         </div>
                     </div>
@@ -69,3 +69,4 @@
                     </span>
                 </div>
             </div>
+            

@@ -224,13 +224,29 @@
 }
 
 
+
 .product-card {
   opacity: 0;
-  transform: translateY(100px);
-  transition: opacity 0.5s, transform 0.5s;
+  transform: translateY(50px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  transition-delay: 0.1s; /* Add a delay of 0.2 seconds */
 }
 
-.product-card.show {
+.product-card:nth-child(2) {
+  transition-delay: 0.6s; /* Add a delay of 0.4 seconds for the second product */
+}
+
+.product-card:nth-child(3) {
+  transition-delay: 0.8s; /* Add a delay of 0.6 seconds for the third product */
+}
+
+.product-card:nth-child(4) {
+  transition-delay: 1s; /* Add a delay of 0.6 seconds for the third product */
+}
+
+
+.product-card.visible {
   opacity: 1;
   transform: translateY(0);
 }
+

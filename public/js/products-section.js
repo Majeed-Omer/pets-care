@@ -1,20 +1,16 @@
-function animateCards() {
-    const cards = document.querySelectorAll('.product-card');
-    cards.forEach((card, index) => {
-      setTimeout(() => {
-        card.classList.add('show');
-      }, 200 * index);
+$(document).ready(function() {
+  var $columns = $('.product-card');
+
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        $(entry.target).addClass('visible');
+        observer.unobserve(entry.target);
+      }
     });
-  }
-  
-  window.addEventListener('scroll', () => {
-    const scrollPosition = window.scrollY;
-    const windowHeight = window.innerHeight;
-    const cardsPosition = document.querySelector('.products').getBoundingClientRect().top;
-  
-    if (cardsPosition - windowHeight <= 0) {
-      animateCards();
-      window.removeEventListener('scroll', animateCards);
-    }
+  }, { threshold: 0.5 });
+
+  $columns.each(function() {
+    observer.observe(this);
   });
-  
+});

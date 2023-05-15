@@ -96,7 +96,7 @@
   opacity: 0;
   transform: translateY(50px);
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-  transition-delay: 0.2s; /* Add a delay of 0.2 seconds */
+  transition-delay: 0.1s; /* Add a delay of 0.2 seconds */
 }
 
 .columnAdvice:nth-child(2) {
