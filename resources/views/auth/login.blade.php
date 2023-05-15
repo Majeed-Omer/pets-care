@@ -4,7 +4,7 @@
     <title>یارمەتی دانی ئاژەڵان</title>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/login_signup.css">
 </head>
 <body>
   
@@ -31,7 +31,7 @@
                     <div class="checkbox-text">
                         <div class="checkbox-content">
                             <input type="checkbox" id="logCheck">
-                            <label for="logCheck" class="text">بیرم بخەرەوە</label>
+                            <label for="logCheck">بیرم بخەرەوە</label>
                         </div>
                         
                         <a href="#" class="text">لەبیرچوونی وشەی نهێنی؟</a>
@@ -61,6 +61,6 @@
         </div>
     </div>     
 </body>
-<script src="js/form.js"></script>
+<script src="js/login_signup.js"></script>
 
 </html>

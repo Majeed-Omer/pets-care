@@ -42,8 +42,8 @@
 			<div class="back"></div> 
 		</div>
 		</section>
-		<img src="/myImages/b_dog_clinic.png" alt="dog" width=20% heigth=30% class="imgDogCartDoctor">
-        <img src="/myImages/b_cat_clinic.png" alt="cat" width=30% heigth=30% class="imgCatDoctor">
+		<img src="/myImages/b_dog_clinic-rs.png" alt="dog" width=20% heigth=30% class="imgDogCartDoctor">
+        <img src="/myImages/b_cat_clinic-rs.png" alt="cat" width=30% heigth=30% class="imgCatDoctor">
 			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 	 @endforeach		
 
