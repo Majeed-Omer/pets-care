@@ -44,7 +44,6 @@ Route::post('post-registration', [AuthController::class, 'postRegistration'])->n
 Route::get('home', [AuthController::class, 'home']); 
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
-Route::resource('animal', AnimalController::class);
 Route::resource('species', SpeciesController::class);
 Route::resource('stolen_missing', Stolen_missingController::class);
 Route::resource('pet_clinic', Pet_clinicController::class);

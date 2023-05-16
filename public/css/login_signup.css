@@ -12,7 +12,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(203deg, rgba(0,242,121,1) 37%, rgba(135,233,235,1) 66%);
+    /* background: linear-gradient(203deg, rgba(0,242,121,1) 37%, rgba(135,233,235,1) 66%); */
+    background-color: beige;
 }
 .container{
     position: relative;
