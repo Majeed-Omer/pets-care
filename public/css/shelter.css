@@ -341,8 +341,9 @@
 	--slant: 0.7em;   /* control the slanted corners */
 	--color: #4362eb; /* the color */
 	
-	font-size: 20px;
-	padding: 0.2em 0.5em;
+	font-size: 35px;
+	padding: 0.5em 1.9em;
+	margin-left: 20px;
 	border: none;
 	cursor: pointer;
 	font-weight: bold;
@@ -381,7 +382,8 @@
   .aButtonsMissing{
 	text-decoration: none;
 	text-align: center;
-	padding: 0.2em 0.7em;
+	padding: 0.5em 1.9em;
+	margin-right: 20px;
   } 
 
   .formMissing {
