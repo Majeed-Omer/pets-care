@@ -34,6 +34,13 @@ class SpeciesController extends Controller
                 'images'         =>  'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=2000,max_height=2000',
                 'notes'         =>  'required'
             ]);
+
+            $species_count = Species::where('user_id', Auth::id())->count();
+
+            if ($species_count >= 3  && Auth::id() !== 1) {
+                // If the user has already added 3 species, redirect with an error message
+                return redirect()->back()->withErrors(['You cannot add more than 3 species.']);
+            }
     
             $file_name = time() . '.' . request()->images->getClientOriginalExtension();
     

@@ -42,6 +42,14 @@ class Stolen_missingController extends Controller
             'picture'         =>  'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=2000,max_height=2000'
         ]);
 
+        
+        $stolen_missing_count = Stolen_missing::where('user_id', Auth::id())->count();
+
+        if ($stolen_missing_count >= 3  && Auth::id() !== 1) {
+            // If the user has already added 3 species, redirect with an error message
+            return redirect()->back()->withErrors(['You cannot add more than 3 stolen_missing_count.']);
+        }
+
         $file_name = time() . '.' . request()->picture->getClientOriginalExtension();
 
         request()->picture->move(public_path('picture'), $file_name);
