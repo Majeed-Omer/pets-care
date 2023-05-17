@@ -1,7 +1,7 @@
 @auth
   @if(auth()->user()->id == 1)
 <div class="boxImages">
-	<a class="buttonAddClinic" href="#divAddPet_clinic" id="addImageButton">ئاژەڵەکەت زیادبکە</a>
+	<a class="buttonAddClinic" href="#divAddPet_clinic" id="addImageButton">نۆرینگە زیادبکە</a>
 </div>
 @endif
 @endauth

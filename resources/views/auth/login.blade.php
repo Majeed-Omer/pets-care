@@ -27,11 +27,11 @@
                         <i class="uil uil-lock icon"></i>
                         <i class="uil uil-eye-slash showHidePw"></i>
                     </div>
-
+                    
                     <div class="checkbox-text">
                         <div class="checkbox-content">
-                            <input type="checkbox" id="logCheck">
-                            <label for="logCheck">بیرم بخەرەوە</label>
+                            <input type="checkbox" name="remember" id="remember"  {{ old('remember') ? 'checked' : '' }}>
+                            <label for="remember">بیرم بخەرەوە</label>
                         </div>
                         
                         <a href="#" class="text">لەبیرچوونی وشەی نهێنی؟</a>

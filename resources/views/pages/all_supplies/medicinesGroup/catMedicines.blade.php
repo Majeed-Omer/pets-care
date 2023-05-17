@@ -14,7 +14,6 @@
           <div class="done"><i class="material-icons">location_on</i></div>
           <div class="detailsSupplies">
             <a class="pPlaceSupplies" href="{{ $row->clinic_location }}"><p class="pNamePlaces">{{ $row->clinic_name }}</p></a>
-            <!-- <p>Added to your cart</p> -->
           </div>
           <div class="remove"><i class="material-icons">clear</i></div>
         </div>
