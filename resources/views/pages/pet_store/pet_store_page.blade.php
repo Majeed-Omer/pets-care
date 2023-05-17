@@ -11,7 +11,9 @@
 
 </head>
 <body class="bodyCardS">
-<br><br><br>
+<br><br>
+@include('pages.pet_store.add_pet_store') 
+<br>
  @if(count($data) > 0)
 
 @foreach($data as $row) 
@@ -67,10 +69,29 @@
             </div>
         </div>
     </div>
+    
+
     <img src="/myImages/b_store_cat.png" alt="cat" width=30% heigth=30% class="imgCatCart">
     <img src="/myImages/b_dog_store.png" alt="dog" width=30% heigth=30% class="imgDogCart">
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+    
+    <div style="text-align: center;" class="pet_store_buttons">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+  @auth
+  @if(auth()->user()->id == 1)
+		<form class="formMissing" action="{{ route('pet_store.destroy',$row->id) }}" method="POST">
+	@csrf
+	@method('DELETE')
+	<a class="buttonEDS edit-btn aButtonsAnimals" href="#divEdit/{{$row->id}}" id="EditPet_clinicButton/{{$row->id}}">گۆڕین</a>
+  <button type="submit" class="del buttonEDS" style="--color:#f3738a">سڕینەوە</button>
+    
+	</form>
+    
+	@endif
+@endauth
+@include('pages.pet_store.edit_pet_store')
+</div>	
 	 @endforeach		
 
 @else
