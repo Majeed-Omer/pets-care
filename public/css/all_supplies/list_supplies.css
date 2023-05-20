@@ -110,7 +110,7 @@
 .navList ul li .spanNavList.rotate{
   transform: rotate(-180deg);
 }
-input{
+.inputList {
   display: none;
 }
 
@@ -302,6 +302,7 @@ input{
 	  --slant: 0.7em;   /* control the slanted corners */
 	  --color: #4362eb; /* the color */
 	  font-size: 20px;
+    margin-left: 5px;
 	  padding: 0.2em 1.6em;
 	  border: none;
 	  cursor: pointer;
@@ -342,14 +343,21 @@ input{
 	  text-decoration: none;
 	  text-align: center;
 	  font-size: 20px;
-	  padding: 0.4em 1.8em;
+	  padding: 0.3em 1.8em;
+    margin-right: 5px;
 	}
 
-    .pet_store_buttons{
-        margin-bottom: 100px;
-    }
-
-
-
-
-  
+	.inputSubmitForm {
+		font-size: 1.2em;
+		padding: 10px 35px;
+		color: #fff;
+		text-decoration: none;
+		cursor: pointer;
+		transition: all 0.3s ease-out;
+		background: #0171d3;
+		border-radius: 50px;
+		border: none;
+		text-transform: uppercase;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+		width: 100%;
+	}

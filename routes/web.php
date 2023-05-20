@@ -51,6 +51,8 @@ Route::resource('pet_store', Pet_storeController::class);
 Route::resource('home', SpeciesController::class);
 Route::resource('/', SpeciesController::class);
 Route::get('all_supply', [AllSupplyController::class, 'index']);
+Route::post('all_supply', [AllSupplyController::class, 'storeMedicines'])->name('all_supply.storeMedicines');
+
 Route::resource('shelter', ShelterController::class);
 
 Route::get('admin', [AdminController::class, 'index'])->middleware('admin');
