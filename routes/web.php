@@ -10,6 +10,7 @@ use App\Http\Controllers\Pet_storeController;
 use App\Http\Controllers\AllSupplyController;
 use App\Http\Controllers\ShelterController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\GoogleAuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -61,3 +62,7 @@ Route::post('/reject/{id}', [SpeciesController::class, 'reject'])->middleware('a
 
 Route::post('/approve1/{id}', [Stolen_missingController::class, 'approve1'])->middleware('admin')->name('approve1');
 Route::post('/reject1/{id}', [Stolen_missingController::class, 'reject1'])->middleware('admin')->name('reject1');
+
+
+Route::get('auth/google', [GoogleAuthController::class, 'redirect'])->name('google-auth');
+Route::get('auth/google/call-back', [GoogleAuthController::class, 'callbackGoogle']);

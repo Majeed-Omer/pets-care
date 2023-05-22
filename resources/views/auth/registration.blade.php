@@ -57,7 +57,7 @@
                     </div>
                     <div class="social-icons">
             <a href="#"><i class="uil uil-facebook-f"></i></a>
-            <a href="#"><i class="uil uil-google"></i></a>
+            <a href="{{ route('google-auth') }}"><i class="uil uil-google"></i></a>
             <a href="#"><i class="uil uil-instagram"></i></a>
             <a href="#"><i class="uil uil-linkedin"></i></a>
             </div>
