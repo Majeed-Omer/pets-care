@@ -66,20 +66,17 @@
             </p>
 		</div>
 		<div class="card" id="4">
-			<h1>D. Sed do eiusmod</h1>
+			<h1>٤- ڕاهێنانپێکردنی</h1>
 			<p>
-				Sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrcaecat cupidatat nonv proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				ڕاهێنانپێکردنی ئاژەڵەکەت یەکەکێکە لەشتە گرینگەکان بۆ جیاکردنەوەی ڕاست و هەڵە لەیەکتری،
+				ڕاهێنانپێکردنی لەسەر ناسینەوەی شوێنەکانی و کەسەکانی، ئەو شوێنانە بناسێتەوە کە تایبەتن بە ئەو٠
 			</p>
 		</div>
 		<div class="card" id="5">
-			<h1>E. Ut enim ad minim veniam</h1>
+			<h1>٥- هەبوونی هاوڕێ</h1>
 			<p>
-				Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in vo cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				ئاژەڵەکان پێویستیان بە هاوڕێ هەیە وەکو مرۆڤ چونکە هەبوونی هاوڕێ بۆ ئاژەڵەکان دەبێتە هۆی تەمەن درێژی
+				ئاژەڵەکان و تەندروست باشییان، بۆیە پێویستە یان ئێمە بەردەوام لەگەڵ ئەو ئاژەڵانەمان بین یان جووتەکی بۆ پەیدابکەین
 			</p>
 		</div>
 		<div class="card" id="6">
