@@ -12,6 +12,7 @@ return array(
     'App\\Http\\Controllers\\AllSupplyController' => $baseDir . '/app/Http/Controllers/AllSupplyController.php',
     'App\\Http\\Controllers\\Auth\\AuthController' => $baseDir . '/app/Http/Controllers/Auth/AuthController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Controllers\\GoogleAuthController' => $baseDir . '/app/Http/Controllers/GoogleAuthController.php',
     'App\\Http\\Controllers\\Pet_clinicController' => $baseDir . '/app/Http/Controllers/Pet_clinicController.php',
     'App\\Http\\Controllers\\Pet_storeController' => $baseDir . '/app/Http/Controllers/Pet_storeController.php',
     'App\\Http\\Controllers\\ShelterController' => $baseDir . '/app/Http/Controllers/ShelterController.php',

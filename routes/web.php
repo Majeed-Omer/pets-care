@@ -39,6 +39,10 @@ Route::get('/all_supply', function () {
     return view('pages.all_supply');
 });
 
+Route::get('/advices', function () {
+    return view('pages.advices_page');
+});
+
 Route::get('login', [AuthController::class, 'index'])->name('login');
 Route::post('post-login', [AuthController::class, 'postLogin'])->name('login.post'); 
 Route::post('post-registration', [AuthController::class, 'postRegistration'])->name('register.post'); 

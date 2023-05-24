@@ -521,6 +521,7 @@ class ComposerStaticInit8030a59cf33e5dc7166f21998199d5ee
         'App\\Http\\Controllers\\AllSupplyController' => __DIR__ . '/../..' . '/app/Http/Controllers/AllSupplyController.php',
         'App\\Http\\Controllers\\Auth\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/AuthController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
+        'App\\Http\\Controllers\\GoogleAuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/GoogleAuthController.php',
         'App\\Http\\Controllers\\Pet_clinicController' => __DIR__ . '/../..' . '/app/Http/Controllers/Pet_clinicController.php',
         'App\\Http\\Controllers\\Pet_storeController' => __DIR__ . '/../..' . '/app/Http/Controllers/Pet_storeController.php',
         'App\\Http\\Controllers\\ShelterController' => __DIR__ . '/../..' . '/app/Http/Controllers/ShelterController.php',
