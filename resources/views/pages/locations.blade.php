@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>نەخشە</title>
     @include('header')
-    
+    <style>
+      .bodyLoc {
+        direction: rtl;
+      }
+    </style>
 </head>
-<body>
+<body class="bodyLoc">
 
   <iframe 
      src="https://www.google.com/maps/d/u/0/embed?mid=1f6EK4sXZI60jjMuDrJCDwueKbhdQIyU&ehbc=2E312F"

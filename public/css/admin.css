@@ -3,34 +3,42 @@ body {
 	padding: 0;
 	font-family: Arial, sans-serif;
 	background-color: #f2f2f2;
+	direction: rtl;
 }
 
 h1 {
 	text-align: center;
 	margin-top: 10px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 
 .item {
 	background-color: #fff;
 	border: 1px solid #ccc;
-	padding: 25px;
+	width: 100%;
+	padding: 0 0 25px;
 	margin: 30px auto;
 	max-width: 600px;
 	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 	text-align: center;
+	border-radius: 25px;
 }
 
 .item img {
-	width: 300px;
-	height: 200px;
+	width: 100%;
+	max-height: 350px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
   }
   
 
 h2 {
 	margin-top: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 
 p {
+	padding-right: 2rem;
 	margin-bottom: 20px;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 	text-align: right;
@@ -43,6 +51,7 @@ button {
 	border-radius: 5px;
 	cursor: pointer;
 	font-size: 16px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 
 .accept {
@@ -149,6 +158,7 @@ button {
   width: 100%;
   padding: 12px 55px 15px 15px;
   font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   color: black;
 }
 .custom-select:after {
@@ -177,7 +187,7 @@ button {
 	transition: background 0.5s ease;
 	cursor: pointer;
 	border-radius: 10px;
-	margin-left: 10px;
+	margin-right: 10px;
   }
   
   .buttonBack:hover {

@@ -16,6 +16,7 @@
   font-family: 'Raleway', sans-serif;
   z-index: 9;
   background-color: beige;
+  direction: rtl;
 }
 
 .aBusinessCard {
@@ -29,7 +30,9 @@
 .aBusinessCard:hover {
   color: #4070f4;
 }
-
+.ion-location {
+  margin-right: .3rem;
+}
 .bussinesscard {
   height: 320px;
   width: 428px;
@@ -43,7 +46,7 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, 10%);
   margin-top: 10px;
-  
+  direction: rtl;
 }
 .bussinesscard .flip {
   -moz-transition: all 0.5s ease;
@@ -101,7 +104,7 @@
   -ms-transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  left: 50%;
+  left: -20%;
   margin-top: .2em;
   font-size: 4em;
 }
@@ -146,7 +149,7 @@
 }
 .bussinesscard .front .contact {
   color: #2a2b39;
-  margin-left: 1.7em;
+  margin-right: 1.7em;
   font-weight: 300;
   font-size: 1.6em;
   -moz-transform: translateY(400%);
@@ -194,7 +197,7 @@
   margin-top: .28em;
   font-size: 1.3em;
   border: 3px solid #fff;
-  margin-left: .15em;
+  margin-right: .15em;
   -moz-transform: translateX(0);
   -ms-transform: translateX(0);
   -webkit-transform: translateX(0);

@@ -1,6 +1,7 @@
 .navbar {
     padding: auto 2rem;
-    background-color: #87CEEB;
+    background-color: #87CEE7;
+    direction: rtl;
 }
 .nav-left {
     width: fit-content;
@@ -26,7 +27,7 @@
 }
 .iLogin{
     font-size: 1.2em;
-    margin-right: 7px;
+    margin-left: 7px;
 }
 .login {
     border: solid 2px black;
