@@ -27,11 +27,11 @@
                         <i class="uil uil-lock icon"></i>
                         <i class="uil uil-eye-slash showHidePw"></i>
                     </div>
-
+                    
                     <div class="checkbox-text">
                         <div class="checkbox-content">
-                            <input type="checkbox" id="logCheck">
-                            <label for="logCheck">بیرم بخەرەوە</label>
+                            <input type="checkbox" name="remember" id="remember"  {{ old('remember') ? 'checked' : '' }}>
+                            <label for="remember">بیرم بخەرەوە</label>
                         </div>
                         
                         <a href="#" class="text">لەبیرچوونی وشەی نهێنی؟</a>
@@ -43,7 +43,7 @@
 
             <div class="social-icons">
             <a href="#"><i class="uil uil-facebook-f"></i></a>
-            <a href="#"><i class="uil uil-google"></i></a>
+            <a href="{{ route('google-auth') }}"><i class="uil uil-google"></i></a>
             <a href="#"><i class="uil uil-instagram"></i></a>
             <a href="#"><i class="uil uil-linkedin"></i></a>
             </div>

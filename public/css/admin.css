@@ -129,10 +129,10 @@ button {
 	--s: #0005;
 	transition: none;
   }
-  
+/*   
   #missing_stolen{
 	display: none;
-  }
+  } */
 
 
 .custom-select {
@@ -160,6 +160,8 @@ button {
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   color: black;
+  cursor: pointer;
+
 }
 .custom-select:after {
   position: absolute;
@@ -174,13 +176,15 @@ button {
   font-size: 24px;
   border-left: 1px solid #3C1C78;
   z-index: -1;
+  cursor: pointer;
+
 }
 
 
 .buttonBack {
 	border: 1px solid white;
 	background: #0171d3;
-	width: 120px;
+	width: 130px;
 	padding: 15px;
 	border-radius: 3px;
 	color: white;
@@ -199,3 +203,25 @@ button {
   .buttonBack:hover i {
 	color: white;
   }
+
+  .arrow1 {
+	animation: slide1 1s ease-in-out infinite;
+	font-size: 1.2em;
+	margin-right: 5px;
+  }
+
+  .textboMalua{
+	font-size: 16px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+	margin-left: 5px;
+  }
+  @keyframes slide1 {
+	0%,
+	100% {
+	  transform: translate(0, 0);
+	}
+  
+	50% {
+	  transform: translate(10px, 0);
+	}
+  } 

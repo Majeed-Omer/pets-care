@@ -47,7 +47,7 @@
 
                     <div class="checkbox-text">
                         <div class="checkbox-content">
-                            <input type="checkbox" id="termCon">
+                            <input type="checkbox" id="termCon"  required>
                             <label for="termCon" class="text">هەموو مەرجەکانم قبووڵە</label>
                         </div>
                     </div>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="social-icons">
             <a href="#"><i class="uil uil-facebook-f"></i></a>
-            <a href="#"><i class="uil uil-google"></i></a>
+            <a href="{{ route('google-auth') }}"><i class="uil uil-google"></i></a>
             <a href="#"><i class="uil uil-instagram"></i></a>
             <a href="#"><i class="uil uil-linkedin"></i></a>
             </div>
@@ -69,3 +69,4 @@
                     </span>
                 </div>
             </div>
+            

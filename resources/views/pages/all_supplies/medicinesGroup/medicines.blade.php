@@ -1,4 +1,5 @@
 <div id="medicine-cat" class="section">
+@include('pages.all_supplies.medicinesGroup.add_medicines')
 <div class="grid-container">
 @if(count($medicine) > 0)  
 @foreach($medicine as $row) 
@@ -18,6 +19,7 @@
 </div>
 
 <div id="medicine-dog" class="section">
+@include('pages.all_supplies.medicinesGroup.add_medicines')
 <div class="grid-container">
 @if(count($medicine) > 0)  
 @foreach($medicine as $row) 
@@ -37,6 +39,7 @@
 </div>
 
 <div id="medicine-bird" class="section">
+@include('pages.all_supplies.medicinesGroup.add_medicines')
 <div class="grid-container">
 @if(count($medicine) > 0)  	
 @foreach($medicine as $row) 
@@ -44,6 +47,26 @@
 @if($row->animal_id == 3)
 
 @include('pages.all_supplies.medicinesGroup.birdMedicines')
+
+@endif    
+@endforeach	
+@else
+	<tr>
+        <p class="nosuff">هیچ دەرمانەک نییە</p>
+	</tr>
+@endif 
+</div>
+</div>
+
+<div id="medicine-poultry" class="section">
+@include('pages.all_supplies.medicinesGroup.add_medicines')
+<div class="grid-container">
+@if(count($medicine) > 0)  	
+@foreach($medicine as $row) 
+
+@if($row->animal_id == 4)
+
+@include('pages.all_supplies.medicinesGroup.poultryMedicines')
 
 @endif    
 @endforeach	

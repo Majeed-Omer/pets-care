@@ -29,7 +29,7 @@
     <div class="product-content">
       <h2 class="title">خواردنی پەلەوەر</h2>
       <p class="copy">کلیک لەسەر ئەم لینکەی خوارەوە بکە بۆ بینینی خواردنەکانی پەلەوەرەکان</p>
-      <a class="bton">بەم زووانە</a>
+      <a class="bton" href="/all_supply">کلیک لێرە بکە</a>
     </div>
   </div>
     </div>
@@ -40,4 +40,5 @@
 <!-- <main class="page-content">
   
 </main> -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="js/products-section.js"></script>

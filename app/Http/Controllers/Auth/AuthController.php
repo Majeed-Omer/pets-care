@@ -38,6 +38,10 @@ class AuthController extends Controller
             return redirect()->intended('home')
                         ->withSuccess('You have Successfully loggedin');
         }
+        if (Auth::attempt($credentials, $request->has('remember'))) {
+            return redirect()->intended('home');
+        }
+    
   
         return redirect("login")->withSuccess('Oppes! You have entered invalid credentials');
     }

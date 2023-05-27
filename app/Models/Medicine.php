@@ -15,5 +15,7 @@ class Medicine extends Model
         'animal_id',
         'medicine_price',
         'medicine_image',
+        'clinic_name',
+        'clinic_location',
     ];
 }
