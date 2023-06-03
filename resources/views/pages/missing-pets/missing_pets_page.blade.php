@@ -12,7 +12,7 @@
 
 <div class="item">
 
-<button class="buttonBack" onclick="location.href='/'"><i class="fa fa-long-arrow-left arrow1" aria-hidden="true"></i> 
+<button class="buttonBack" onclick="location.href='/'"><i class="fa fa-long-arrow-right arrow1" aria-hidden="true"></i> 
 <span class="textboMalua">بۆ ماڵەوە</span>   
 </button>
 
