@@ -14,8 +14,8 @@
               یەکێک لەهۆکارە زۆر باوەکانی نەخۆشکەوتی ئاژەڵەکان خواردنی ناتەندروست و خراپی جۆرەکەیتی
               بۆیە پێویستە ئەو خواردنانە لەژێر چاودێری پزیشکی پسپۆڕبێت</p>
               <br>
-            <div class="boxImages">
-	           <a class="buttonAddImages" href="/advices">زیاتر بخوێنەوە</a>
+            <div class="boxAdvices">
+	           <a class="buttonGoToAdvices" href="/advices">زیاتر بخوێنەوە</a>
           </div>
           </div>
         </div>
@@ -32,7 +32,7 @@
             </p>
             <br>
             <div class="boxImages">
-	         <a class="buttonAddImages" href="/advices">زیاتر بخوێنەوە</a>
+	         <a class="buttonGoToAdvices" href="/advices">زیاتر بخوێنەوە</a>
            </div>
           </div>
         </div>
@@ -49,7 +49,7 @@
             </p>
             <br>
             <div class="boxImages">
-	         <a class="buttonAddImages" href="/advices">زیاتر بخوێنەوە</a>
+	         <a class="buttonGoToAdvices" href="/advices">زیاتر بخوێنەوە</a>
            </div>
           </div>
         </div>

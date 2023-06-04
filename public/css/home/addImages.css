@@ -28,8 +28,8 @@
 	  cursor: pointer;
 	  transition: all 0.3s ease-out;
 	  background: #0171d3;
-	  border-radius: 50px;
-	  
+	  /* border-radius: 50px; */
+	  border-radius: 1rem;
   }
   .buttonAddImages:hover {
 	  background-color: black;
@@ -116,7 +116,8 @@
 	  cursor: pointer;
 	  transition: all 0.3s ease-out;
 	  background: #0171d3;
-	  border-radius: 50px;
+	  /* border-radius: 50px; */
+	  border-radius: 1rem;
 	  border: none;
 	  text-transform: uppercase;
 	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;

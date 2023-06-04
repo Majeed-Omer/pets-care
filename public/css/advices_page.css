@@ -147,7 +147,7 @@ p{
 	background: #0171d3;
 	width: 130px;
 	padding: 15px;
-	border-radius: 3px;
+  border-radius: 1rem;
 	color: white;
 	transition: background 0.5s ease;
 	cursor: pointer;

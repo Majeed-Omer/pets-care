@@ -157,7 +157,8 @@
   cursor: pointer;
   margin-top: 1.5rem;
   padding: 0.75rem 1.5rem;
-  border-radius: 30px;
+  /* border-radius: 30px; */
+  border-radius: 1rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   font-size: 1.1rem;
   font-weight: bold;

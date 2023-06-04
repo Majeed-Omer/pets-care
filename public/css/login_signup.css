@@ -26,6 +26,9 @@ body{
     margin: 0 20px;
     border: 2px solid #0171d3;
 }
+.container:hover {
+    border-color: black;
+  }
 .container .forms{
     display: flex;
     align-items: center;
