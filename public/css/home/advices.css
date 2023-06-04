@@ -8,6 +8,28 @@
   display: flex;
   flex-wrap: wrap;
 }
+.boxAdvices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonGoToAdvices {
+	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+	  font-weight: 500;
+	  font-size: 1.2em;
+	  padding: 15px 35px;
+	  color: #fff;
+	  text-decoration: none;
+	  cursor: pointer;
+	  transition: all 0.3s ease-out;
+	  background: #0171d3;
+	  /* border-radius: 50px; */
+	  border-radius: 1rem;
+  }
+  .buttonGoToAdvices:hover {
+	  background-color: black;
+	  color: white;
+  }
 .rowAdvice h2 {
   width: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;

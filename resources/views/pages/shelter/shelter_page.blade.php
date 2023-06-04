@@ -39,7 +39,7 @@
 		<form class="formMissing" action="{{ route('shelter.destroy',$row->id) }}" method="POST">
 	@csrf
 	@method('DELETE')
-	<a class="buttonEDS edit-btn aButtonsMissing" href="#divEdit/{{$row->id}}" id="EditMSButton/{{$row->id}}">گۆڕین</a>
+	<a class="buttonEDS edit-btn aButtonShelter" href="#divEdit/{{$row->id}}" id="EditMSButton/{{$row->id}}">گۆڕین</a>
   <button type="submit" class="del buttonEDS" style="--color:#f3738a">سڕینەوە</button>
     
 	</form> 
