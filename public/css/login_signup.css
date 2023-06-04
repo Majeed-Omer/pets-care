@@ -24,6 +24,7 @@ body{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     margin: 0 20px;
+    border: 2px solid #0171d3;
 }
 .container .forms{
     display: flex;
@@ -156,7 +157,8 @@ body{
     transition: all 0.3s ease;
 }
 .button input:hover{
-    background-color: #265df2;
+    /* background-color: #265df2; */
+    background-color: black;
 }
 
 .form .login-signup{

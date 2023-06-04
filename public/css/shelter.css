@@ -127,27 +127,9 @@
     }
 }
 
-
-
-
-
-
-
-
 /* ----------------------------------------------------------- */
 
-  
-  .missing-p {
-	  color: #fff;
-	  text-align: center;
-	  font-weight: 500;
-	  font-size: 1.7rem;
-	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
-  }
-  .extra {
-	font-weight: 500;
-	font-size: 0.9rem;
-  }
+ 
   .shelter-header {
 	margin: -1rem;
 	text-align: center;
@@ -255,19 +237,7 @@
 	  text-align: right;
 	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   }
-  .state {
-	text-align: center;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
-	font-weight: 500;
-	font-size: 1rem;
-  }
-  .missing-reason {
-	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
-	  font-weight: 500;
-	  font-size: 1rem;
-	  text-align: center;
-	  padding: 0.35rem;
-  }
+  
   .phone {
 	  padding: 0.35rem;
 	  border: 1px solid #ccc;
@@ -275,13 +245,7 @@
 	  box-sizing: border-box;
 	  resize: vertical;
   }
-  .calender {
-	  padding: 0.35rem;
-	  border: 1px solid #ccc;
-	  border-radius: 4px;
-	  box-sizing: border-box;
-	  resize: vertical;
-  }
+
   .picture {
 	margin-top: 0.3rem;
 	border: 1px solid #ccc;
@@ -341,8 +305,8 @@
 	--slant: 0.7em;   /* control the slanted corners */
 	--color: #4362eb; /* the color */
 	
-	font-size: 35px;
-	padding: 0.5em 1.9em;
+	font-size: 30px;
+	padding: 0.3em 1.4em;
 	margin-left: 20px;
 	border: none;
 	cursor: pointer;
@@ -379,10 +343,10 @@
 	transition: none;
   }
   
-  .aButtonsMissing{
+  .aButtonShelter{
 	text-decoration: none;
 	text-align: center;
-	padding: 0.5em 1.9em;
+	padding: 0.3em 1.5em;
 	margin-right: 20px;
   } 
 
