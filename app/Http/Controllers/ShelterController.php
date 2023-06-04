@@ -24,9 +24,9 @@ class ShelterController extends Controller
 
             $request->validate([
                 'name'         =>  'required',
-                'address'         =>  'required',
-                'location'         =>  'required',
-                'information'         =>  'required',
+                'address'        =>  'required',
+                'location'       =>   'required',
+                'information'      =>  'required',
                 'video'         =>  'required|mimes:mp4|max:50000',
                 'contact'         =>  'required',
             ]);

@@ -31,7 +31,7 @@
               چونکە ئاژەڵان ناتوانن لەهەموو جۆرە کەشێک بەردەوامی بدەن بە ژیان 
             </p>
             <br>
-            <div class="boxImages">
+            <div class="boxAdvices">
 	         <a class="buttonGoToAdvices" href="/advices">زیاتر بخوێنەوە</a>
            </div>
           </div>
@@ -48,7 +48,7 @@
               پێویستە بەلایەنی کەم لە ساڵێک جارەک یاخود دوو جار بیانبەن بۆلای پزیشکی ئاژەڵی
             </p>
             <br>
-            <div class="boxImages">
+            <div class="boxAdvices">
 	         <a class="buttonGoToAdvices" href="/advices">زیاتر بخوێنەوە</a>
            </div>
           </div>
