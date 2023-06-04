@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('address');
             $table->string('location');
             $table->string('veterinarian');
-            $table->integer('medicine_id');
+            $table->integer('medicine_id')->nullable();
             $table->timestamps();
         });
     }

@@ -139,7 +139,8 @@
 .title {
   color: #000;
   background-color: white;
-  border-radius: 50px;
+  /* border-radius: 50px; */
+  border-radius: 1rem;
   padding: 1rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   font-size: 1.5rem;

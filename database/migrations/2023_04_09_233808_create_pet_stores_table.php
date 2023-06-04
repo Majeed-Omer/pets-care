@@ -21,8 +21,8 @@ return new class extends Migration
             $table->string('phone_number');
             $table->string('address');
             $table->string('location');
-            $table->integer('equipment_id');
-            $table->integer('species_id');
+            $table->integer('equipment_id')->nullable();
+            $table->integer('species_id')->nullable();
             $table->timestamps();
         });
     }
