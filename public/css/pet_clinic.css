@@ -92,6 +92,24 @@
   z-index: 10;
   background: inherit;
 }
+/* .bussinesscard .front .top .logo {
+  display: inline-block;
+  background: #4070f4;
+  color: #fff;
+  z-index: 11;
+  padding: .16em;
+  border: 8px solid #fff;
+  position: relative;
+  pointer-events: none;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: -20%;
+  margin-top: .2em;
+  font-size: 4em;
+  border-radius: 10px;
+} */
 .bussinesscard .front .top .logo {
   display: inline-block;
   background: #4070f4;
@@ -108,7 +126,21 @@
   left: -20%;
   margin-top: .2em;
   font-size: 4em;
+  border-radius: 12px; /* Make the logo circular */
+  overflow: hidden; /* Hide any overflow */
 }
+
+.bussinesscard .front .top .logo::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  border: 8px solid #fff;
+  border-radius: 14px; /* Match the border radius of the logo */
+}
+
 .bussinesscard .front .top .logo .fat {
   font-weight: 800;
 }
