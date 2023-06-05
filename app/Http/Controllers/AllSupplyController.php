@@ -25,22 +25,22 @@ class AllSupplyController extends Controller
     {
 
             $request->validate([
-                'product_name'         =>  'required',
+                'name'         =>  'required',
                 'animal_id'         =>  'required',
-                'product_contents'   =>  'required',
-                'product_price'        =>  'required',
-                'product_image'        =>  'required',
+                'contents'   =>  'required',
+                'price'        =>  'required',
+                'image'        =>  'required',
                 'store_name'    =>   'required',
                 'store_location'    =>   'required'
             ]);
     
             $product = new Product;
     
-            $product->product_name = $request->product_name;
+            $product->name = $request->name;
             $product->animal_id = $request->animal_id;
-            $product->product_contents = $request->product_contents;
-            $product->product_price = $request->product_price;
-            $product->product_image = $request->product_image;
+            $product->contents = $request->contents;
+            $product->price = $request->price;
+            $product->image = $request->image;
             $product->store_name = $request->store_name;
             $product->store_location = $request->store_location;
             
@@ -56,26 +56,26 @@ class AllSupplyController extends Controller
     {
 
         $request->validate([
-            'medicine_name'         =>  'required',
-            'medicine_contents'   =>  'required',
+            'name'         =>  'required',
+            'contents'   =>  'required',
             'animal_id'         =>  'required',
-            'medicine_price'        =>  'required',
+            'price'        =>  'required',
             'clinic_name'    =>   'required',
-            'medicine_image'        =>  'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=2000,max_height=2000',
+            'image'        =>  'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=2000,max_height=2000',
             'clinic_location'    =>   'required'
         ]);
 
-        $file_name = time() . '.' . request()->medicine_image->getClientOriginalExtension();
+        $file_name = time() . '.' . request()->image->getClientOriginalExtension();
 
-        request()->medicine_image->move(public_path('medicine_image'), $file_name);
+        request()->image->move(public_path('image'), $file_name);
 
         $medicine = new Medicine;
 
-        $medicine->medicine_name = $request->medicine_name;
-        $medicine->medicine_contents = $request->medicine_contents;
+        $medicine->name = $request->name;
+        $medicine->contents = $request->contents;
         $medicine->animal_id = $request->animal_id;
-        $medicine->medicine_price = $request->medicine_price;
-        $medicine->medicine_image = $file_name;
+        $medicine->price = $request->price;
+        $medicine->image = $file_name;
         $medicine->clinic_name = $request->clinic_name;
         $medicine->clinic_location = $request->clinic_location;
         
@@ -116,11 +116,11 @@ class AllSupplyController extends Controller
     {
 
         $product = Product::find($request->hidden_id);
-        $product->product_name = $request->product_name;
+        $product->name = $request->name;
         $product->animal_id = $request->animal_id;
-        $product->product_contents = $request->product_contents;
-        $product->product_price = $request->product_price;
-        $product->product_image = $request->product_image;
+        $product->contents = $request->contents;
+        $product->price = $request->price;
+        $product->image = $request->image;
         $product->store_name = $request->store_name;
         $product->store_location = $request->store_location;
         $product->save();
@@ -136,14 +136,14 @@ class AllSupplyController extends Controller
     {
 
         $medicine = Medicine::find($request->hidden_id);
-        $medicine->medicine_name = $request->medicine_name;
-        $medicine->medicine_contents = $request->medicine_contents;
+        $medicine->name = $request->name;
+        $medicine->contents = $request->contents;
         $medicine->animal_id = $request->animal_id;
-        $medicine->medicine_price = $request->medicine_price;
-        $medicine->medicine_image = $request->medicine_image;
+        $medicine->price = $request->price;
+        $medicine->image = $request->image;
         $medicine->clinic_name = $request->clinic_name;
         $medicine->clinic_location = $request->clinic_location;
-        $product->save();
+        $medicine->save();
 
         return redirect()->route('index')->with('success', 'Medicine Data has been updated successfully');
     }
