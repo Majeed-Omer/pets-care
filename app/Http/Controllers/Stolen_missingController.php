@@ -39,7 +39,7 @@ class Stolen_missingController extends Controller
             'phone_number'     =>  'required',
             'stolen_lost_date'    =>  'required',
             'description'         =>  'required',
-            'picture'         =>  'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=2000,max_height=2000'
+            'stolen_missing_image'         =>  'required|image|mimes:jpg,png,jpeg,gif,svg|max:2048|dimensions:min_width=100,min_height=100,max_width=2000,max_height=2000'
         ]);
 
         
@@ -50,9 +50,9 @@ class Stolen_missingController extends Controller
             return redirect()->back()->withErrors(['You cannot add more than 3 stolen_missing_count.']);
         }
 
-        $file_name = time() . '.' . request()->picture->getClientOriginalExtension();
+        $file_name = time() . '.' . request()->stolen_missing_image->getClientOriginalExtension();
 
-        request()->picture->move(public_path('picture'), $file_name);
+        request()->stolen_missing_image->move(public_path('stolen_missing_image'), $file_name);
 
         $stolen_missing = new Stolen_missing;
 
@@ -62,7 +62,7 @@ class Stolen_missingController extends Controller
         $stolen_missing->stolen_lost_date = $request->stolen_lost_date;
         $stolen_missing->pet_case = $request->pet_case;
         $stolen_missing->description = $request->description;
-        $stolen_missing->picture = $file_name;
+        $stolen_missing->stolen_missing_image = $file_name;
         $stolen_missing->user_id = Auth::id();
 
         $stolen_missing->save();
@@ -94,13 +94,13 @@ class Stolen_missingController extends Controller
     public function update(Request $request, Stolen_missing $stolen_missing)
     {
         
-        $picture = $request->hidden_picture;
+        $stolen_missing_image = $request->hidden_stolen_missing_image;
 
-        if($request->picture != '')
+        if($request->stolen_missing_image != '')
         {
-            $picture = time() . '.' . request()->picture->getClientOriginalExtension();
+            $stolen_missing_image = time() . '.' . request()->stolen_missing_image->getClientOriginalExtension();
 
-            request()->picture->move(public_path('picture'), $picture);
+            request()->stolen_missing_image->move(public_path('stolen_missing_image'), $stolen_missing_image);
         }
 
         $stolen_missing = Stolen_missing::find($request->hidden_id);
@@ -117,7 +117,7 @@ class Stolen_missingController extends Controller
 
         $stolen_missing->description = $request->description;
 
-        $stolen_missing->picture = $picture;
+        $stolen_missing->stolen_missing_image = $stolen_missing_image;
         
         $stolen_missing->save();
         return redirect()->route('stolen_missing.index')->with('success', 'Animal Data has been updated successfully');

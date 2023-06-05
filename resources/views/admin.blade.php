@@ -51,7 +51,7 @@
 <div class="grid-containerAdmin">    
 @foreach($stolen_missings as $stolen_missing)
     <div class="item">
-        <img src="{{ asset('picture/' . $stolen_missing->picture) }}" class="img-responsive">
+        <img src="{{ asset('stolen_missing_image/' . $stolen_missing->stolen_missing_image) }}" class="img-responsive">
         <p style="text-align: right"><span> خەڵات :</span> {{ $stolen_missing->reward }}</p>
 		<p style="text-align: right">{{ $stolen_missing->email }} <span> : ئیمەیڵ</span></p>
       	<p style="text-align: right"><span> ژمارەی مۆبایل :</span> {{ $stolen_missing->phone_number }}</p>

@@ -47,7 +47,7 @@
 @if($row->approval	=== 1)
   <div class="cardMissing" style="display: none;">
         <div class="imgBx">
-            <img src="{{ asset('picture/' . $row->picture) }}" class="imgMissing">
+            <img src="{{ asset('stolen_missing_image/' . $row->stolen_missing_image) }}" class="imgMissing">
         </div>
         <div class="details">
   @if($row->user_id == auth()->id()  || auth()->id() === 1)

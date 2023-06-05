@@ -52,10 +52,10 @@
 			<div class="mb-4">
 				<label>وێنەی</label>
 				<div class="image-edit">
-					<input type="file" class="picture pic-edit" name="picture"/>
+					<input type="file" class="stolen_missing_image pic-edit" name="stolen_missing_image"/>
 					<p class="edit-p">: وێنەی پێشوو</p>
-					<img src="{{ asset('picture/' . $row->picture) }}" width="100" class="img-thumbnail" />
-					<input type="hidden" name="hidden_picture" value="{{ $row->picture }}"/>
+					<img src="{{ asset('stolen_missing_image/' . $row->stolen_missing_image) }}" width="100" class="img-thumbnail" />
+					<input type="hidden" name="hidden_stolen_missing_image" value="{{ $row->stolen_missing_image }}"/>
 				</div>
 			</div>
 			
