@@ -14,8 +14,8 @@
               یەکێک لەهۆکارە زۆر باوەکانی نەخۆشکەوتی ئاژەڵەکان خواردنی ناتەندروست و خراپی جۆرەکەیتی
               بۆیە پێویستە ئەو خواردنانە لەژێر چاودێری پزیشکی پسپۆڕبێت</p>
               <br>
-            <div class="boxImages">
-	           <a class="buttonAddImages" href="/advices">زیاتر بخوێنەوە</a>
+            <div class="boxAdvices">
+	           <a class="buttonGoToAdvices" href="/advices">زیاتر بخوێنەوە</a>
           </div>
           </div>
         </div>
@@ -31,8 +31,8 @@
               چونکە ئاژەڵان ناتوانن لەهەموو جۆرە کەشێک بەردەوامی بدەن بە ژیان 
             </p>
             <br>
-            <div class="boxImages">
-	         <a class="buttonAddImages" href="/advices">زیاتر بخوێنەوە</a>
+            <div class="boxAdvices">
+	         <a class="buttonGoToAdvices" href="/advices">زیاتر بخوێنەوە</a>
            </div>
           </div>
         </div>
@@ -48,8 +48,8 @@
               پێویستە بەلایەنی کەم لە ساڵێک جارەک یاخود دوو جار بیانبەن بۆلای پزیشکی ئاژەڵی
             </p>
             <br>
-            <div class="boxImages">
-	         <a class="buttonAddImages" href="/advices">زیاتر بخوێنەوە</a>
+            <div class="boxAdvices">
+	         <a class="buttonGoToAdvices" href="/advices">زیاتر بخوێنەوە</a>
            </div>
           </div>
         </div>

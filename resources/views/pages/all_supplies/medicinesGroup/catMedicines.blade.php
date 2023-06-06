@@ -1,12 +1,12 @@
 <div class="wrapperAnimalSupplies">
     <div class="containerSupplies">
       <div class="top parent-containerImageSupplies">
-      <img class="imgSupplies" src="{{ $row->medicine_image }}" alt="cat medicine"></div>
+      <img class="imgSupplies" src="{{ $row->image }}" alt="cat medicine"></div>
       <div class="bottom">
         <div class="left">
           <div class="detailsSupplies">
-            <p class="pNameSupplies">{{ $row->medicine_name }}</p>
-            <p class="pSupplies">{{ $row->medicine_price }}</p>
+            <p class="pNameSupplies">{{ $row->name }}</p>
+            <p class="pSupplies">{{ $row->price }}</p>
           </div>
           <div class="findSupplies"><i class="material-icons">location_on</i></div>
         </div>
@@ -22,7 +22,7 @@
     <div class="inside">
       <div class="icon"><i class="material-icons">info_outline</i></div>
       <div class="contents">
-      <p class="contents">{{ $row->medicine_contents }}</p>
+      <p class="contents">{{ $row->contents }}</p>
       </div>
     </div>
   </div>

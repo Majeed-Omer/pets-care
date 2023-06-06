@@ -7,7 +7,7 @@
 <body>
     
 	<h1>لاپەڕەی ئەدمین</h1>
-    <button class="buttonBack" onclick="location.href='/'"><i class="fa fa-long-arrow-left arrow1" aria-hidden="true"></i> 
+    <button class="buttonBack" onclick="location.href='/'"><i class="fa fa-long-arrow-right arrow1" aria-hidden="true"></i> 
      <span class="textboMalua">بۆ ماڵەوە</span>   
     </button>
     <label class="custom-select" for="styledSelect1"><select id="styledSelect1" name="options">
@@ -51,7 +51,7 @@
 <div class="grid-containerAdmin">    
 @foreach($stolen_missings as $stolen_missing)
     <div class="item">
-        <img src="{{ asset('picture/' . $stolen_missing->picture) }}" class="img-responsive">
+        <img src="{{ asset('stolen_missing_image/' . $stolen_missing->stolen_missing_image) }}" class="img-responsive">
         <p style="text-align: right"><span> خەڵات :</span> {{ $stolen_missing->reward }}</p>
 		<p style="text-align: right">{{ $stolen_missing->email }} <span> : ئیمەیڵ</span></p>
       	<p style="text-align: right"><span> ژمارەی مۆبایل :</span> {{ $stolen_missing->phone_number }}</p>

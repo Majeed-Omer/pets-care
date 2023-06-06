@@ -159,22 +159,6 @@
     }
 }
 
-/* .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-} */
-
-/* .imgCatCart{
-    float: right;
-    margin-top: 20px;
-}
-
-.imgDogCart{
-    float: left;
-    margin-top: 50px;
-} */
-
 .imgDogCart {
     position: absolute;
     left: 0;
@@ -209,9 +193,9 @@
 	  cursor: pointer;
 	  transition: all 0.3s ease-out;
 	  background: #0171d3;
-	  border-radius: 50px;
-	  
+	  border-radius: 1rem;
   }
+  
   .buttonAddClinic:hover {
 	  background-color: black;
 	  color: white;
@@ -292,7 +276,7 @@
 	  cursor: pointer;
 	  transition: all 0.3s ease-out;
 	  background: #0171d3;
-	  border-radius: 50px;
+	  border-radius: 1rem;
 	  border: none;
 	  text-transform: uppercase;
 	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
@@ -334,6 +318,7 @@
 				  100% 100%, var(--slant) 100%,0 calc(100% - var(--slant))
 				 );
 	  transition: color var(--t,0.3s), background-size 0.3s;
+      margin-left: 10px;
 	}
 	.buttonEDS:focus-visible {
 	  outline-offset: calc(-1*var(--border));
@@ -356,7 +341,8 @@
 	  text-decoration: none;
 	  text-align: center;
 	  font-size: 20px;
-	  padding: 0.4em 1.8em;
+	  padding: 0.2em 1.8em;
+      margin-right: 10px;
 	}
 
     .pet_store_buttons{

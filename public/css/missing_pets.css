@@ -46,7 +46,7 @@
 	  cursor: pointer;
 	  transition: all 0.3s ease-out;
 	  background: azure;
-	  border-radius: 50px;
+	  border-radius: 1rem;
 	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
   }
   .buttonAddMissing:hover {
@@ -154,7 +154,7 @@
 	  box-sizing: border-box;
 	  resize: vertical;
   }
-  .picture {
+  .stolen_missing_image {
 	margin-top: 0.3rem;
 	border: 1px solid #ccc;
 	border-radius: 4px;
@@ -178,7 +178,7 @@
 	  cursor: pointer;
 	  transition: all 0.3s ease-out;
 	  background: #0171d3;
-	  border-radius: 50px;
+	  border-radius: 1rem;
 	  border: none;
 	  text-transform: uppercase;
 	  margin-top: 10px;
@@ -459,7 +459,7 @@
 		background: #0171d3;
 		width: 120%;
 		padding: 15px;
-		border-radius: 3px;
+		border-radius: 1rem;
 		color: white;
 		transition: background 0.5s ease;
 		cursor: pointer;

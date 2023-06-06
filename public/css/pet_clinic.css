@@ -47,6 +47,7 @@
   transform: translate(-50%, 10%);
   margin-top: 10px;
   direction: rtl;
+  border-radius: 10px;
 }
 .bussinesscard .flip {
   -moz-transition: all 0.5s ease;
@@ -91,6 +92,24 @@
   z-index: 10;
   background: inherit;
 }
+/* .bussinesscard .front .top .logo {
+  display: inline-block;
+  background: #4070f4;
+  color: #fff;
+  z-index: 11;
+  padding: .16em;
+  border: 8px solid #fff;
+  position: relative;
+  pointer-events: none;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: -20%;
+  margin-top: .2em;
+  font-size: 4em;
+  border-radius: 10px;
+} */
 .bussinesscard .front .top .logo {
   display: inline-block;
   background: #4070f4;
@@ -107,13 +126,28 @@
   left: -20%;
   margin-top: .2em;
   font-size: 4em;
+  border-radius: 12px; /* Make the logo circular */
+  overflow: hidden; /* Hide any overflow */
 }
+
+.bussinesscard .front .top .logo::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  right: -8px;
+  bottom: -8px;
+  border: 8px solid #fff;
+  border-radius: 14px; /* Match the border radius of the logo */
+}
+
 .bussinesscard .front .top .logo .fat {
   font-weight: 800;
 }
 .bussinesscard .front .top .logo .skinny {
   font-weight: 100;
 }
+
 .bussinesscard .front .nametroduction {
   margin-top: 1.8em;
   -moz-transform: translateY(0);
@@ -234,14 +268,6 @@
   width: 600px;
 }
 
-/* .imgCatDoctor{
-  float: left;
-}
-
-.imgDogCartDoctor{
-  float: right;
-  margin-right: 50px;
-} */
 
 .imgCatDoctor{
   position: absolute;
@@ -276,9 +302,9 @@
 	  cursor: pointer;
 	  transition: all 0.3s ease-out;
 	  background: #0171d3;
-	  border-radius: 50px;
-	  
+    border-radius: 1rem;
   }
+
   .buttonAddClinic:hover {
 	  background-color: black;
 	  color: white;
@@ -359,7 +385,7 @@
 	  cursor: pointer;
 	  transition: all 0.3s ease-out;
 	  background: #0171d3;
-	  border-radius: 50px;
+	  border-radius: 1rem;
 	  border: none;
 	  text-transform: uppercase;
 	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
@@ -385,6 +411,7 @@
 	  font-size: 20px;
     margin-left: 5px;
 	  padding: 0.2em 1.6em;
+    margin-left: 10px;
 	  border: none;
 	  cursor: pointer;
 	  font-weight: bold;
@@ -424,6 +451,6 @@
 	  text-decoration: none;
 	  text-align: center;
 	  font-size: 20px;
-	  padding: 0.3em 1.8em;
-    margin-right: 5px;
+	  padding: 0.2em 1.8em;
+    margin-right: 15px;
 	}

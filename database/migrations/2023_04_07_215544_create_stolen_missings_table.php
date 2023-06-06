@@ -21,7 +21,7 @@ return new class extends Migration
             $table->date('stolen_lost_date');
             $table->enum('pet_case', ['دزراو', 'ونبووە']);
             $table->string('description');
-            $table->string('picture');
+            $table->string('stolen_missing_image');
             $table->integer('user_id');
             $table->integer('approval')->default(0);
             $table->timestamps();

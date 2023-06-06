@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('information');
             $table->string('video');
             $table->string('contact');
-            $table->integer('species_id');
+            $table->integer('species_id')->nullable();
             $table->timestamps();
         });
     }

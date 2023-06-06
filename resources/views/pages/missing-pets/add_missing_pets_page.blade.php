@@ -52,7 +52,7 @@
 			<div class="row">
 				<label class="col-sm-2 col-label-form">وێنەی ئاژەڵەکە</label>
 				<div class="col-sm-10">
-					<input type="file" name="picture" class="picture" required/>
+					<input type="file" name="stolen_missing_image" class="stolen_missing_image" required/>
 				</div>
 			</div>
 			<div class="text-center">
