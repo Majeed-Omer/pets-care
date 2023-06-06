@@ -67,7 +67,7 @@ class AllSupplyController extends Controller
 
         $file_name = time() . '.' . request()->image->getClientOriginalExtension();
 
-        request()->image->move(public_path('image'), $file_name);
+        request()->image->move(public_path('SuppliesImages'), $file_name);
 
         $medicine = new Medicine;
 
