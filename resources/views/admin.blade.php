@@ -3,13 +3,12 @@
 <head>
 	<title>لاپەڕەی ئەدمین</title>
 	<link rel="stylesheet" href="css/admin.css">
+    @include('header')
 </head>
 <body>
-    
+    <br>
 	<h1>لاپەڕەی ئەدمین</h1>
-    <button class="buttonBack" onclick="location.href='/'"><i class="fa fa-long-arrow-right arrow1" aria-hidden="true"></i> 
-     <span class="textboMalua">بۆ ماڵەوە</span>   
-    </button>
+    <br>
     <label class="custom-select" for="styledSelect1"><select id="styledSelect1" name="options">
     <option class="options" value="species">
       وێنەی ئاژەڵان
@@ -73,6 +72,7 @@
 </div>
 </div>
 </body>
+@include('footer') 
 <script src="https://kit.fontawesome.com/217328fb47.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="js/admin.js"></script>
