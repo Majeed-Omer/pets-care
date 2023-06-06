@@ -1,4 +1,4 @@
-<nav class="navList">
+<!-- <nav class="navList">
          <label for="btn" class="buttonNavList labelDrop">گرووپەکان
          <span class="fas fa-caret-down spanNavList"></span>
          </label>
@@ -49,4 +49,30 @@
                </ul>
             </li>
          </ul>
-      </nav>
+      </nav> -->
+
+<div class="container">
+  <div class="floating-stack">
+    <dl>
+      <dt>پشیلە</dt>
+      <dd><a class="link-list" href="#" onclick="showSection('medicine-cat')">دەرمانی پشیلە</a></dd>
+      <dd><a class="link-list" href="#" onclick="showSection('food-cat')">خواردنی پشیلە</a></dd>
+      <dd><a class="link-list" href="#" onclick="showSection('product-cat')">پێداویستی تری پشیلە</a></dd>
+
+      <dt>سەگ</dt>
+      <dd><a class="link-list" href="#" onclick="showSection('medicine-dog')">دەرمانی سەگ</a></dd>
+      <dd><a class="link-list" href="#" onclick="showSection('food-dog')">خواردنی سەگ</a></dd>
+      <dd><a class="link-list" href="#" onclick="showSection('product-dog')">پێداویستی تری سەگ</a></dd>
+
+      <dt>باڵندە</dt>
+      <dd><a class="link-list" href="#" onclick="showSection('medicine-bird')">دەرمانی باڵندە</a></dd>
+      <dd><a class="link-list" href="#" onclick="showSection('food-bird')">خواردنی باڵندە</a></dd>
+      <dd><a class="link-list" href="#" onclick="showSection('product-bird')">پێداویستی تری باڵندە</a></dd>
+
+      <dt>پەلەوەر</dt>
+      <dd><a class="link-list" href="#" onclick="showSection('medicine-poultry')">دەرمانی پەلەوەر</a></dd>
+      <dd><a class="link-list" href="#" onclick="showSection('food-poultry')">خواردنی پەلەوەر</a></dd>
+      <dd><a class="link-list" href="#" onclick="showSection('product-poultry')">پێداویستی تری پەلەوەر</a></dd>
+    </dl>
+  </div>
+</div>
