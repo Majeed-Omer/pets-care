@@ -12,43 +12,43 @@
 				<div class="container">
 					<div class="card">
 	<div class="shelter-card-body">
-		<form class="formADDEdit" method="post" action="{{ route('shelter.store') }}" enctype="multipart/form-data">
+		<form class="formADDShelter" method="post" action="{{ route('shelter.store') }}" enctype="multipart/form-data">
 			@csrf
 			<div class="row">
-				<label class="col-sm-3 col-label-form">ناو</label>
-				<div class="col-sm-10">
-					<input type="text" name="name" class="form-control" required/>
+				<label class="col-label-form">ناو</label>
+				<div class="shelter-input-field">
+					<input type="text" name="name" class="form-control input" required/>
 				</div>
 			</div>
 			<div class="row">
-				<label class="col-sm-4 col-label-form">ناونیشان</label>
-				<div class="col-sm-10">
-					<input type="text" name="address" class="form-control" required/>
+				<label class="col-label-form">ناونیشان</label>
+				<div class="shelter-input-field">
+					<input type="text" name="address" class="form-control input" required/>
 				</div>
 			</div>
 			<div class="row">
-				<label class="col-sm-4 col-label-form">لۆکەیشن</label>
-				<div class="col-sm-10">
-				<input type="text" name="location" class="form-control" required/>
+				<label class="col-label-form">لۆکەیشن</label>
+				<div class="shelter-input-field">
+				<input type="text" name="location" class="form-control input" required/>
 				</div>
 			</div>
 			<div class="row">
-				<label class="col-sm-3 col-label-form">زانیاری</label>
-				<div class="col-sm-10">
-				<textarea name="information" id="information" cols="30" rows="10" class="form-control"></textarea>	
+				<label class="col-label-form">زانیاری</label>
+				<div class="shelter-input-field">
+				<textarea name="information" id="information" cols="30" rows="10" class="form-control input"></textarea>	
 				</div>
 			</div>
 			<div class="row">
 				<label class="col-sm-5 col-label-form">ڤیدیۆی پەناگە</label>
-				<div class="col-sm-10">
+				<div class="shelter-input-field">
 					<input type="file" name="video" class="video" required/>
 				</div>
 			</div>
 			
 			<div class="row">
 				<label class="col-sm-6 col-label-form">ژمارەی مۆبایل</label>
-				<div class="col-sm-10">
-				<input type="tel" name="contact" class="phone form-control" required/>
+				<div class="shelter-input-field">
+				<input type="tel" name="contact" class="phone form-control input" required/>
 				</div>
 			</div>
 			<div class="text-center">

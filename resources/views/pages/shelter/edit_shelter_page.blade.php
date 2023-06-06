@@ -5,7 +5,7 @@
 				<div class="container">
 				<div class="card">
 	<div class="shelter-card-body">
-		<form class="formADDEdit" method="post" action="{{ route('shelter.update', $row->id) }}" enctype="multipart/form-data">
+		<form class="formADDShelter" method="post" action="{{ route('shelter.update', $row->id) }}" enctype="multipart/form-data">
 			@csrf
 			@method('PUT')	
 			<div class="mb-3">

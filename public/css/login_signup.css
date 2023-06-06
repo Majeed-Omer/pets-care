@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 body{
     height: 100vh;
@@ -24,7 +24,7 @@ body{
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     margin: 0 20px;
-    border: 2px solid #0171d3;
+    border: 2px solid #2e8b57;
 }
 .container:hover {
     border-color: black;
@@ -62,6 +62,8 @@ body{
     position: relative;
     font-size: 27px;
     font-weight: 600;
+    padding-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 .form .title::before{
     content: '';
@@ -70,7 +72,7 @@ body{
     bottom: 0;
     height: 3px;
     width: 30px;
-    background-color: #0171d3;
+    background-color: #2e8b57;
     border-radius: 25px;
 }
 .form .input-field{
@@ -87,12 +89,13 @@ body{
     border: none;
     outline: none;
     font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
     border-bottom: 2px solid #ccc;
     border-top: 2px solid transparent;
     transition: all 0.2s ease;
 }
 .input-field input:is(:focus, :valid){
-    border-bottom-color: #0171d3;
+    border-bottom-color: #2e8b57;
 }
 .input-field i{
     position: absolute;
@@ -100,10 +103,11 @@ body{
     transform: translateY(-50%);
     color: #999;
     font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
     transition: all 0.2s ease;
 }
 .input-field input:is(:focus, :valid) ~ i{
-    color: #0171d3;
+    color: #2e8b57;
 }
 .input-field i.icon{
     left: 0;
@@ -126,20 +130,22 @@ body{
 }
 .checkbox-content input{
     margin-right: 10px;
-    accent-color: #0171d3;
+    accent-color: #2e8b57;
     cursor: pointer;
 }
 .checkbox-content label {
     color: #333;
     font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
     cursor: pointer;
 }
 .form .text{
     color: #333;
     font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
 }
 .form a.text{
-    color: #0171d3;
+    color: #2e8b57;
     text-decoration: none;
 }
 .form a:hover{
@@ -153,9 +159,10 @@ body{
     color: #fff;
     font-size: 18px;
     font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 1px;
     border-radius: 6px;
-    background-color: #0171d3;
+    background-color: #2e8b57;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -183,9 +190,10 @@ input[type="password"]::-webkit-reveal {
     display: inline-block;
     margin: 0 10px;
     font-size: 33px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
     color: black;
 }
 
 .social-icons a:hover {
-    color: #265df2; /* change color on hover */
+    color: #2e8b57; /* change color on hover */
 }

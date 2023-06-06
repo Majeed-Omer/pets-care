@@ -15,7 +15,7 @@
 .bodyCard {
   font-family: 'Raleway', sans-serif;
   z-index: 9;
-  background-color: beige;
+  background-color: #fae7d6;
   direction: rtl;
 }
 
@@ -28,7 +28,7 @@
   transition: all 0.2s ease-in-out;
 }
 .aBusinessCard:hover {
-  color: #4070f4;
+  color: #2e8b57;
 }
 .ion-location {
   margin-right: .3rem;
@@ -112,7 +112,7 @@
 } */
 .bussinesscard .front .top .logo {
   display: inline-block;
-  background: #4070f4;
+  background-color: #2e8b57;
   color: #fff;
   z-index: 11;
   padding: .16em;
@@ -216,7 +216,7 @@
   color: #fff;
   font-weight: 300;
   padding: .4em;
-  background: #4070f4;
+  background-color: #2e8b57;
 }
 
 /* HOVER ANIMATIONS */
@@ -301,7 +301,7 @@
 	  text-decoration: none;
 	  cursor: pointer;
 	  transition: all 0.3s ease-out;
-	  background: #0171d3;
+    background-color: #2e8b57;
     border-radius: 1rem;
   }
 
@@ -349,7 +349,7 @@
 	  color: #333;
   }
   .wrapperImages .close:hover {
-	  color: #0171d3;
+	  color: #2e8b57;
   }
   .wrapperImages .content {
 	  max-height: 30%;
@@ -384,7 +384,8 @@
 	  text-decoration: none;
 	  cursor: pointer;
 	  transition: all 0.3s ease-out;
-	  background: #0171d3;
+	  background-color: #2e8b57;
+    margin-top: 2rem;
 	  border-radius: 1rem;
 	  border: none;
 	  text-transform: uppercase;
@@ -403,31 +404,26 @@
 	text-align: center;
 	padding-bottom: 0.3rem;
   }
-
+  .edit-header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+  }
   .buttonEDS {
 	  --border: 2px;    /* the border width */
 	  --slant: 0.7em;   /* control the slanted corners */
 	  --color: #4362eb; /* the color */
 	  font-size: 20px;
     margin-left: 5px;
-	  padding: 0.2em 1.6em;
+	  padding: 0.138em 1.5em;
     margin-left: 10px;
-	  border: none;
+	  border: 3px solid var(--color);
+    border-radius: .5em;
 	  cursor: pointer;
 	  font-weight: bold;
 	  color: var(--color);
 	  background: 
-		 linear-gradient(to bottom left,var(--color)  50%,#0000 50.1%) top right,
-		 linear-gradient(to top   right,var(--color)  50%,#0000 50.1%) bottom left;
-	  background-size: calc(var(--slant) + 1.3*var(--border)) calc(var(--slant) + 1.3*var(--border));
+	   linear-gradient(to right,var(--color)  100%,#0000 100%) left;
+	  background-size: calc(0%) calc(100%);
 	  background-repeat: no-repeat;
-	  box-shadow:
-		0 0 0 200px inset var(--s,#0000),
-		0 0 0 var(--border) inset var(--color);
-	  clip-path: 
-		  polygon(0 0, calc(100% - var(--slant)) 0, 100% var(--slant),
-				  100% 100%, var(--slant) 100%,0 calc(100% - var(--slant))
-				 );
 	  transition: color var(--t,0.3s), background-size 0.3s;
 	}
 	.buttonEDS:focus-visible {

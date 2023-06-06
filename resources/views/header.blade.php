@@ -3,7 +3,7 @@
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
 	<div class="container-fluid nav-left">
-	  <a class="navbar-brand" href="#"><img src="myImages/logo2-removebg.png" alt="Logo of pet care" width="80px" height="80px"></a>
+	  <a href="#"><img class="navbar-brand" src="myImages/logo2.jpg" alt="Logo of pet care" width="80px" height="80px"></a>
 	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
 	    </button>

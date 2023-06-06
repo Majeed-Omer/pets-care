@@ -6,7 +6,7 @@
   user-select: none;
 }
 .bodySupplies {
-  background-color: beige;
+  background-color: #fae7d6;
   /* padding: 25px; */
 }
 .navList{
@@ -14,7 +14,7 @@
   top: 25%;
   left: 50%;
   transform: translate(50%, -50%);
-  background: #1b1b1b;
+  background: #001829; 
   width: 400px;
   line-height: 40px;
   padding: 8px 25px;
@@ -43,7 +43,7 @@
 }
 .navList ul{
   position: absolute;
-  background: #1b1b1b;
+    background: #001829; 
   list-style: none;
   top: 75px;
   left: 0;
@@ -60,7 +60,7 @@
   content: '';
   height: 20px;
   width: 20px;
-  background: #1b1b1b;
+    background: #001829; 
   right: 20px;
   top: -10px;
   transform: rotate(45deg);

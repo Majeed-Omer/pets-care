@@ -1,10 +1,13 @@
 .navbar {
     padding: auto 2rem;
-    background-color: #87CEE7;
+    background-color: #2e8b57;
     direction: rtl;
 }
 .nav-left {
     width: fit-content;
+}
+.navbar-brand {
+    border-radius: 50px;
 }
 .nav-item {
     margin: auto 20px;
@@ -12,7 +15,7 @@
 }
 .nav-item:hover {
     transition: all 0.2s;
-    border-bottom: solid 3px black;
+    border-bottom: solid 3px white;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -21,22 +24,34 @@
 }
 .text-style {
     font-weight: bolder;
-    color: black;
+    color: white;
     font-size: 1.3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
+.dropdown-menu {
+    background-color: #2e8b57;
+}
+.dropdown-item {
+    border: none;
+}
+.dropdown-item:hover {
+    background: #001829; 
+    color: white;
 }
 .iLogin{
     font-size: 1.2em;
     margin-left: 7px;
 }
 .login {
-    border: solid 2px black;
-    /* border-radius: 30px; */
+    border: solid 2px white;
     border-radius: 1rem;
     transition: all 0.5s ease-out;
 }
 .login:hover {
-    background: black;
+    background: #001829; 
+    color: white;
+}
+.text-style:hover {
     color: white;
 }
 @media screen and (max-width: 991px) {

@@ -11,12 +11,12 @@
      <span class="textboMalua">بۆ ماڵەوە</span>   
     </button>
     <label class="custom-select" for="styledSelect1"><select id="styledSelect1" name="options">
-    <option value="species">
+    <option class="options" value="species">
       وێنەی ئاژەڵان
     </option>
 
 
-    <option value="missing_stolen">
+    <option class="options" value="missing_stolen">
       وێنەی ئاژەڵی بزربوو
     </option>
   </select></label>
