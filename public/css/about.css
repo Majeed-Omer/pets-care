@@ -15,7 +15,7 @@
 /* generic styles for the page */
 
 .bg {
-    background-color: beige;
+    background-color: #f5f5dc;
 }
 .cen {
     display: grid;
@@ -48,7 +48,7 @@
 /* projects section */
 
 .members {
-    background-image: url('/myImages/poly.svg');       
+    background: #001829;      
     box-shadow: 0px 0px 5rem 1rem rgba(0, 0, 0, 0.6);
     border-radius: 50px;
     padding: 4rem 3rem;

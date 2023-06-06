@@ -18,7 +18,7 @@
   @endif
 @endauth
 		<li class="nav-item">
-		  <a class="nav-link text-style active" aria-current="page" href="/home">ماڵەوە</a>
+		  <a class="nav-link text-style" aria-current="page" href="/home">ماڵەوە</a>
 		</li>
 		<li class="nav-item">
 		  <a class="nav-link text-style" href="/map">نەخشە</a>
