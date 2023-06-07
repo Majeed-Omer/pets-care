@@ -25,7 +25,7 @@
                 </div>
                 <div class="rightStoreCard">
                     <div class="personStore right-contentStore">
-                        <i class="fas fa-user-alt iCardStore"></i>
+                        <i class="fas fa-user-alt iCardStore iperson"></i>
                         <div>
                             <h4>{{ $row->owner }}</h4>
                         </div>

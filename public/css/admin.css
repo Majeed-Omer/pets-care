@@ -16,10 +16,9 @@ h1 {
 .item {
 	background-color: white;
 	border: 1px solid #ccc;
-	width: 100%;
+	width: 450px;
 	padding: 0 0 25px;
 	margin: 30px auto;
-	max-width: 600px;
 	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 	text-align: center;
 	border-radius: 0.5em;
@@ -30,6 +29,7 @@ h1 {
 	max-height: 350px;
 	border-top-left-radius: .5em;
 	border-top-right-radius: .5em;
+	margin-bottom: 1rem;
   }
   
 
@@ -45,7 +45,9 @@ p {
 	text-align: right;
 	font-size: 20px;
 }
-
+.sp {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
 button {
 	padding: 10px;
 	border: none;
@@ -69,14 +71,16 @@ button {
 .img-responsive {
 	max-width: 100%;
   }
-  
+
 
 .formAccept{
 	display: inline-block;
+	margin-top: 1rem;
 } 
 
 .formReject{
 	display: inline-block; margin-left: 10px;
+	margin-top: 1rem;
 }  
 
 .grid-containerAdmin {

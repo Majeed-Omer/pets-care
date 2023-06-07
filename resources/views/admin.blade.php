@@ -24,11 +24,11 @@
     @foreach($species as $specie)
     <div class="item">
         <img src="{{ asset('images/' . $specie->images) }}" class="img-responsive">
-        <p><span>ناو: </span> {{ $specie->pet_name }}</p>
-		<p> <span>جۆری: </span>{{ $specie->species_name }}</p>
-      	<p><span>بەرواری لەدایکبوونی: </span> {{ $specie->birth_date }}</p>
-		  <p><span>بارودۆخی: </span> {{ $specie->state }}</p>
-		<p><span> وردەکاری زیاتر: </span>{{ $specie->notes }}</p>
+        <p><span class="sp">ناو: </span> {{ $specie->pet_name }}</p>
+		<p> <span class="sp">جۆری: </span>{{ $specie->species_name }}</p>
+      	<p><span class="sp">بەرواری لەدایکبوونی: </span> {{ $specie->birth_date }}</p>
+		  <p><span class="sp">بارودۆخی: </span> {{ $specie->state }}</p>
+		<p><span class="sp"> وردەکاری زیاتر: </span>{{ $specie->notes }}</p>
         <form method="POST" action="{{ route('approve', $specie->id) }}" class="formAccept">
             @csrf
             <input type="hidden" name="species_id" value="{{ $specie->id }}">

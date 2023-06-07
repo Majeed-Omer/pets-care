@@ -171,7 +171,7 @@
 	margin-top: 2rem;
 	background-color: #001829;
 	color: #fff;
-	height: 400px;
+	height: 600px;
 	width: 320px;
 	border-radius: .5em;
 	overflow-y: auto;
@@ -225,7 +225,7 @@
 	font-weight: 500;
   }
   dd a:hover {
-	color: rgb(212, 205, 205);
+	color: #2e8b57;
   }
   
   .floating-stack > dl:first-of-type > dd:first-of-type {

@@ -21,7 +21,7 @@
 									</div>
 								</div>
 							   <div class="rowaddImages mb-2" required>
-								   <label class="label">ژەمارەی مۆبایل</label>
+								   <label class="label">ژمارەی مۆبایل</label>
 								   <div>
 								   <input type="tel" name="phone_number" class="form-control" value="{{ $row->phone_number }}" required/>
 								   </div>

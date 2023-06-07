@@ -6,7 +6,7 @@
         <div class="left">
           <div class="detailsSupplies">
           <p class="pNameSupplies">{{ $row->name }}</p>
-            <p class="pSupplies">{{ $row->price }}</p>
+            <p class="pSupplies">{{ $row->price }}$</p>
           </div>
           <div class="findSupplies"><i class="material-icons">location_on</i></div>
         </div>

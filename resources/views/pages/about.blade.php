@@ -11,7 +11,7 @@
 <body class="bg">
 <section class="cen my-5">
     <section class="mx-3 members">
-        <h2 class="h2">ئەندامانی تیمەکەمان</h2>
+        <h2 class="h2">دەربارەی ئێمە</h2>
         <article class="about">
             <div class="text">
                 <h4 class="h4">م.ڕینە زارۆ</h4>
