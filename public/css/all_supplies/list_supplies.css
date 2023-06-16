@@ -122,7 +122,9 @@
 	height: 100%;
 } */
 
-
+.bodySupplies {
+	background-color: #fae7d6;
+  }
 /* NAVIGATION END */
 .rowStuff {
   display: flex; /* Set the display property to flex */
